@@ -75,7 +75,7 @@ export const login = asyncHandler(async (req: Request, res: Response) => {
       },
       process.env.ACCESS_TOKEN_SECRET as string, // Ensure ENV is properly set
       {
-        expiresIn: "15m",
+        expiresIn: "30d",
       }
     );
 
