@@ -15,9 +15,9 @@ interface CustomRequest extends Request {
 
 // ✅ Register User
 export const RegisterUser = asyncHandler(async (req: Request, res: Response) => {
-  const { name, email, password, city, address } = req.body;
+  const { name, email, password, city, address,role } = req.body;
 
-  if (!name || !email || !password || !city || !address) {
+  if (!name || !email || !password || !city || !address || !role) {
     res.status(400);
     throw new Error("All fields are mandatory");
   }
@@ -39,6 +39,7 @@ export const RegisterUser = asyncHandler(async (req: Request, res: Response) => 
     email,
     password: hashedPassword,
     city,
+    role,
     address,
   });
 
