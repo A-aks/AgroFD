@@ -28,7 +28,7 @@ export const RegisterUser = asyncHandler(async (req: Request, res: Response) => 
     res.status(400);
     throw new Error("All fields except altPhone are mandatory");
   }
-  
+
   // Check if user exists
   const checkUser = await AuthUser.findOne({ email });
   if (checkUser) {
@@ -83,6 +83,8 @@ export const login = asyncHandler(async (req: Request, res: Response) => {
           address: userInfo.address,
           city: userInfo.city,
           phone: userInfo.phone,
+          role:userInfo.role,
+          avtar:userInfo.avatar,
           altPhone: userInfo.altPhone, // It can be an empty string
           id: userInfo.id,
         },
