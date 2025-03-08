@@ -10,6 +10,7 @@ interface CustomRequest extends Request {
     name: string;
     email: string;
     address:string;
+    role:string
     phone?:string;
     avtar?:string;
     id: string;
@@ -74,6 +75,7 @@ export const login = asyncHandler(async (req: Request, res: Response) => {
         userInfo: {
           name: userInfo.name,
           email: userInfo.email,
+          address:userInfo.address,
           id: userInfo.id,
         },
       },
