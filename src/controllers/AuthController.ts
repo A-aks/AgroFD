@@ -13,6 +13,7 @@ interface CustomRequest extends Request {
     role:string,
     city:string,
     phone?:string;
+    altPhone?:string;
     avtar?:string;
     id: string;
   };
@@ -20,9 +21,9 @@ interface CustomRequest extends Request {
 
 // ✅ Register User
 export const RegisterUser = asyncHandler(async (req: Request, res: Response) => {
-  const { name, email, password, city, address,role } = req.body;
+  const { name, email, password, city, address,role, phone } = req.body;
 
-  if (!name || !email || !password || !city || !address || !role ) {
+  if (!name || !email || !password || !city || !address || !role || !phone ) {
     res.status(400);
     throw new Error("All fields are mandatory");
   }
@@ -46,6 +47,7 @@ export const RegisterUser = asyncHandler(async (req: Request, res: Response) => 
     city,
     role,
     address,
+    phone,
   });
 
   if (newUser) {
@@ -79,6 +81,7 @@ export const login = asyncHandler(async (req: Request, res: Response) => {
           address:userInfo.address,
           city:userInfo.city,
           phone:userInfo.phone,
+          altPhone:userInfo.altPhone,
           id: userInfo.id,
         },
       },

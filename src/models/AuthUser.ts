@@ -16,7 +16,8 @@ interface IUser extends Document {
   password: string;
   role: UserRole;
   avatar?: string; // User avatar/image URL
-  phone?: string; // New field for phone number
+  phone: string; // New field for phone number
+  altPhone?:string;
   address?: string;
   city?: string;
   createdAt?: Date;
@@ -51,6 +52,11 @@ const UserSchema: Schema<IUser> = new Schema(
     phone: {
       type: String,
       required: [true, "Please add phone number"],
+      unique: true,
+    },
+    altPhone: {
+      type: String,
+      required: [true, "Please add alternative phone number"],
       unique: true,
     },
     address: {
