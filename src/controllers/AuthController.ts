@@ -9,25 +9,26 @@ interface CustomRequest extends Request {
   userInfo?: {
     name: string;
     email: string;
-    address:string;
-    role:string,
-    city:string,
-    phone?:string;
-    altPhone?:string;
-    avtar?:string;
+    address: string;
+    role: string;
+    city: string;
+    phone: string;
+    altPhone?: string; // Now optional, but stored as "" if empty
+    avatar?: string;
     id: string;
   };
 }
 
 // ✅ Register User
 export const RegisterUser = asyncHandler(async (req: Request, res: Response) => {
-  const { name, email, password, city, address,role, phone } = req.body;
+  const { name, email, password, city, address, role, phone, altPhone } = req.body;
 
-  if (!name || !email || !password || !city || !address || !role || !phone ) {
+  // Validate required fields
+  if (!name || !email || !password || !city || !address || !role || !phone) {
     res.status(400);
-    throw new Error("All fields are mandatory");
+    throw new Error("All fields except altPhone are mandatory");
   }
-
+  
   // Check if user exists
   const checkUser = await AuthUser.findOne({ email });
   if (checkUser) {
@@ -39,7 +40,7 @@ export const RegisterUser = asyncHandler(async (req: Request, res: Response) => 
   const hashedPassword = await bcrypt.hash(password, 10);
   console.log("Hashed Password:", hashedPassword);
 
-  // Insert user
+  // Ensure altPhone is stored as an empty string if not provided
   const newUser = await AuthUser.create({
     name,
     email,
@@ -48,6 +49,7 @@ export const RegisterUser = asyncHandler(async (req: Request, res: Response) => 
     role,
     address,
     phone,
+    altPhone: altPhone ?? "", // If altPhone is undefined or null, store ""
   });
 
   if (newUser) {
@@ -78,14 +80,14 @@ export const login = asyncHandler(async (req: Request, res: Response) => {
         userInfo: {
           name: userInfo.name,
           email: userInfo.email,
-          address:userInfo.address,
-          city:userInfo.city,
-          phone:userInfo.phone,
-          altPhone:userInfo.altPhone,
+          address: userInfo.address,
+          city: userInfo.city,
+          phone: userInfo.phone,
+          altPhone: userInfo.altPhone, // It can be an empty string
           id: userInfo.id,
         },
       },
-      process.env.ACCESS_TOKEN_SECRET as string, // Ensure ENV is properly set
+      process.env.ACCESS_TOKEN_SECRET as string,
       {
         expiresIn: "30d",
       }
