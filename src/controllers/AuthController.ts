@@ -10,7 +10,8 @@ interface CustomRequest extends Request {
     name: string;
     email: string;
     address:string;
-    role:string
+    role:string,
+    city:string,
     phone?:string;
     avtar?:string;
     id: string;
@@ -21,7 +22,7 @@ interface CustomRequest extends Request {
 export const RegisterUser = asyncHandler(async (req: Request, res: Response) => {
   const { name, email, password, city, address,role } = req.body;
 
-  if (!name || !email || !password || !city || !address || !role) {
+  if (!name || !email || !password || !city || !address || !role ) {
     res.status(400);
     throw new Error("All fields are mandatory");
   }
@@ -76,6 +77,8 @@ export const login = asyncHandler(async (req: Request, res: Response) => {
           name: userInfo.name,
           email: userInfo.email,
           address:userInfo.address,
+          city:userInfo.city,
+          phone:userInfo.phone,
           id: userInfo.id,
         },
       },
