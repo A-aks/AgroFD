@@ -107,3 +107,49 @@ export const GetCurrentInfo = asyncHandler(async (req: Request, res: Response) =
   const customReq = req as CustomRequest;
   res.status(200).json({ status: "ok", message: customReq.userInfo });
 });
+
+// ✅ Update User Info (email and role are NOT updateable)
+export const UpdateUserInfo = asyncHandler(async (req: Request, res: Response) => {
+  const customReq = req as CustomRequest;
+  const userId = customReq.userInfo?.id;
+
+  if (!userId) {
+    res.status(401);
+    throw new Error("Unauthorized");
+  }
+
+  const { name, address, city, phone, altPhone, avatar } = req.body;
+
+  const user = await AuthUser.findById(userId);
+
+  if (!user) {
+    res.status(404);
+    throw new Error("User not found");
+  }
+
+  // Prevent updates to email and role
+  user.name = name ?? user.name;
+  user.address = address ?? user.address;
+  user.city = city ?? user.city;
+  user.phone = phone ?? user.phone;
+  user.altPhone = altPhone ?? user.altPhone;
+  user.avatar = avatar ?? user.avatar;
+
+  const updatedUser = await user.save();
+
+  res.status(200).json({
+    status: "success",
+    message: "User information updated successfully",
+    user: {
+      id: updatedUser.id,
+      name: updatedUser.name,
+      email: updatedUser.email, // Unchanged
+      address: updatedUser.address,
+      role: updatedUser.role,   // Unchanged
+      city: updatedUser.city,
+      phone: updatedUser.phone,
+      altPhone: updatedUser.altPhone,
+      avatar: updatedUser.avatar,
+    },
+  });
+});
