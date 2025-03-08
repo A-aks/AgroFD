@@ -9,6 +9,9 @@ interface CustomRequest extends Request {
   userInfo?: {
     name: string;
     email: string;
+    address:string;
+    phone?:string;
+    avtar?:string;
     id: string;
   };
 }
