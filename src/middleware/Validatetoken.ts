@@ -17,6 +17,7 @@ const validateToken = asyncHandler(async (req: Request, res: Response, next: Nex
     res.status(401);
     throw new Error("Unauthorized: Missing or invalid token");
   }
+console.log(req.headers.Authorization);
 
   const token = (typeof authHeader === "string" ? authHeader : authHeader[0]).split(" ")[1];
 

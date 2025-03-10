@@ -112,7 +112,8 @@ export const GetCurrentInfo = asyncHandler(async (req: Request, res: Response) =
 export const UpdateUserInfo = asyncHandler(async (req: Request, res: Response) => {
   const customReq = req as CustomRequest;
   const userId = customReq.userInfo?.id;
-
+  console.log(userId);
+  
   if (!userId) {
     res.status(401);
     throw new Error("Unauthorized");
