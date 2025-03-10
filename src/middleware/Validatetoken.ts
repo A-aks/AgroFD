@@ -25,6 +25,7 @@ const validateToken = asyncHandler(async (req: Request, res: Response, next: Nex
     const decoded = jwt.verify(token, process.env.ACCESS_TOKEN_SECRET as string) as JwtPayload;
     authReq.userInfo = decoded; // Attach decoded user info to request object
     console.log(decoded);
+    authReq.userInfo = decoded as JwtPayload; // Attach `decoded` to `userInfo`
     next();
   } catch (error) {
     res.status(403);

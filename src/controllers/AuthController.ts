@@ -1,8 +1,9 @@
 import asyncHandler from "express-async-handler";
 import bcrypt from "bcrypt";
-import jwt from "jsonwebtoken";
+import jwt,{JwtPayload} from "jsonwebtoken";
 import { Request, Response } from "express";
 import AuthUser from "../models/AuthUser";
+
 
 // Extend Request interface to include userInfo
 interface CustomRequest extends Request {
@@ -111,9 +112,9 @@ export const GetCurrentInfo = asyncHandler(async (req: Request, res: Response) =
 // ✅ Update User Info (email and role are NOT updateable)
 export const UpdateUserInfo = asyncHandler(async (req: Request, res: Response) => {
   const customReq = req as CustomRequest;
-  const userId = customReq.userInfo?.id;
-  console.log(userId);
-  
+  const userId = (customReq.userInfo as JwtPayload)?.id; // Ensure correct type handling
+  console.log("Extracted UserID:", userId); // Debug Log
+
   if (!userId) {
     res.status(401);
     throw new Error("Unauthorized");
