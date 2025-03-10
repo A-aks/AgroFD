@@ -17,13 +17,14 @@ const validateToken = asyncHandler(async (req: Request, res: Response, next: Nex
     res.status(401);
     throw new Error("Unauthorized: Missing or invalid token");
   }
-console.log(req.headers.authorization);
+
 
   const token = (typeof authHeader === "string" ? authHeader : authHeader[0]).split(" ")[1];
 
   try {
     const decoded = jwt.verify(token, process.env.ACCESS_TOKEN_SECRET as string) as JwtPayload;
     authReq.userInfo = decoded; // Attach decoded user info to request object
+    console.log(decoded);
     next();
   } catch (error) {
     res.status(403);
