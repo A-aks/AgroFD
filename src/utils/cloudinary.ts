@@ -18,7 +18,7 @@ const storage = new CloudinaryStorage({
   params: async (req, file) => {
     return {
       folder: "avatars", // Cloudinary folder
-      format: ["png","jpg"], // Convert all uploads to PNG format
+      format: "png", // Convert all uploads to PNG format
       public_id: file.originalname.split(".")[0], // Use original filename (without extension)
       transformation: [{ width: 500, height: 500, crop: "limit" }], // Image optimization
     };
