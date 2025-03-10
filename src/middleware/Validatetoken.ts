@@ -1,41 +1,32 @@
 import asyncHandler from "express-async-handler";
 import jwt, { JwtPayload } from "jsonwebtoken";
 import { Request, Response, NextFunction } from "express";
+import dotenv from "dotenv";
+
+dotenv.config(); // Load environment variables
 
 interface AuthRequest extends Request {
-  userInfo?: JwtPayload | string;
-  headers: {
-    authorization?: string;
-    Authorization?: string;
-  };
-} 
+  userInfo?: JwtPayload;
+}
 
 const validateToken = asyncHandler(async (req: Request, res: Response, next: NextFunction) => {
   const authReq = req as AuthRequest;
-  const authHeader: string | undefined = authReq.headers.authorization || authReq.headers.Authorization as string;
-  let token: string | undefined;
+  const authHeader = req.headers.authorization || req.headers.Authorization;
 
-  if (authHeader && authHeader.startsWith("Bearer")) {
-    token = authHeader.split(" ")[1];
-
-    if (!token) {
-      res.status(401);
-      throw new Error("User not authorized or token is missing");
-    }
-
-    jwt.verify(token, process.env.ACCESS_TOKEN_SECRET as string, (err, decoded) => {
-      if (err) {
-        res.status(401);
-        throw new Error("User not Authorized!");
-      }
-
-      authReq.userInfo = decoded; // Attach decoded user info to request object
-      (req as AuthRequest).userInfo = decoded; // Attach decoded user info to request object
-      next();
-    });
-  } else {
+  if (!authHeader || (typeof authHeader === "string" && !authHeader.startsWith("Bearer "))) {
     res.status(401);
-    throw new Error("Authorization header missing or invalid");
+    throw new Error("Unauthorized: Missing or invalid token");
+  }
+
+  const token = (typeof authHeader === "string" ? authHeader : authHeader[0]).split(" ")[1];
+
+  try {
+    const decoded = jwt.verify(token, process.env.ACCESS_TOKEN_SECRET as string) as JwtPayload;
+    authReq.userInfo = decoded; // Attach decoded user info to request object
+    next();
+  } catch (error) {
+    res.status(403);
+    throw new Error("Forbidden: Invalid or expired token");
   }
 });
 
