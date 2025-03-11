@@ -3,7 +3,7 @@ import bcrypt from "bcrypt";
 import jwt, { JwtPayload } from "jsonwebtoken";
 import { Request, Response } from "express";
 import AuthUser from "../models/AuthUser";
-import {AuthenticatedRequest} from '../middleware/Validatetoken';
+import { AuthenticatedRequest } from '../middleware/Validatetoken';
 
 // ✅ Register User
 export const RegisterUser = asyncHandler(async (req: Request, res: Response) => {
@@ -91,10 +91,11 @@ export const login = asyncHandler(async (req: Request, res: Response) => {
 // ✅ Get Current User Info
 export const GetCurrentInfo = asyncHandler(async (req: AuthenticatedRequest, res: Response) => {
   const customReq = req as AuthenticatedRequest;
-  
+  console.log(customReq.userData);
+
   if (!customReq.userData) {
     res.status(401);
-    throw new Error("Unauthorized: User data not found");
+    throw new Error("Unauthorized: Sorry User data not found");
   }
 
   const { name, email, address, city, phone, role, altPhone, avatar, id } = customReq.userData;
@@ -153,15 +154,17 @@ export const UpdateUserInfo = asyncHandler(async (req: AuthenticatedRequest, res
   // ✅ Generate new JWT token with updated info
   const newAccessToken = jwt.sign(
     {
-      id: updatedUser.id,
-      name: updatedUser.name,
-      email: updatedUser.email, // Email remains unchanged
-      address: updatedUser.address,
-      city: updatedUser.city,
-      phone: updatedUser.phone,
-      altPhone: updatedUser.altPhone,
-      avatar: updatedUser.avatar,
-      role: updatedUser.role, // Role remains unchanged
+      userInfo: {
+        id: updatedUser.id,
+        name: updatedUser.name,
+        email: updatedUser.email, // Email remains unchanged
+        address: updatedUser.address,
+        city: updatedUser.city,
+        phone: updatedUser.phone,
+        altPhone: updatedUser.altPhone,
+        avatar: updatedUser.avatar,
+        role: updatedUser.role, // Role remains unchanged
+      }
     },
     process.env.ACCESS_TOKEN_SECRET as string,
     { expiresIn: "7d" } // Short expiry for security

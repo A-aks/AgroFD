@@ -20,6 +20,7 @@ interface AuthenticatedRequest extends Request {
 const validateToken = (req: AuthenticatedRequest, res: Response, next: NextFunction): void => {
   try {
     const authHeader = req.headers.authorization;
+    
     if (!authHeader || !authHeader.startsWith("Bearer ")) {
       res.status(401).json({ message: "Unauthorized - No token provided" });
       return;
