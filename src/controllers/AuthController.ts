@@ -77,7 +77,7 @@ export const login = asyncHandler(async (req: Request, res: Response) => {
       },
       process.env.ACCESS_TOKEN_SECRET as string,
       {
-        expiresIn: "30d",
+        expiresIn: "7d",
       }
     );
 
@@ -90,12 +90,14 @@ export const login = asyncHandler(async (req: Request, res: Response) => {
 
 // ✅ Get Current User Info
 export const GetCurrentInfo = asyncHandler(async (req: AuthenticatedRequest, res: Response) => {
-  if (!req.userData) {
+  const customReq = req as AuthenticatedRequest;
+  
+  if (!customReq.userData) {
     res.status(401);
     throw new Error("Unauthorized: User data not found");
   }
 
-  const { name, email, address, city, phone, role, altPhone, avatar, id } = req.userData;
+  const { name, email, address, city, phone, role, altPhone, avatar, id } = customReq.userData;
 
   res.status(200).json({
     status: "ok",
