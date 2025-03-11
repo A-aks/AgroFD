@@ -161,7 +161,7 @@ export const UpdateUserInfo = asyncHandler(async (req: AuthenticatedRequest, res
       avatar: updatedUser.avatar,
       role: updatedUser.role, // Role remains unchanged
     },
-    process.env.JWT_SECRET!,
+    process.env.ACCESS_TOKEN_SECRET as string,
     { expiresIn: "7d" } // Short expiry for security
   );
 
