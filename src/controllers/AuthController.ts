@@ -114,14 +114,14 @@ export const GetCurrentInfo = asyncHandler(async (req: AuthenticatedRequest, res
 });
 
 
-// ✅ Update User Info (email and role are NOT updateable)
+// ✅ Update User Info & Return New Token
 export const UpdateUserInfo = asyncHandler(async (req: AuthenticatedRequest, res: Response) => {
   const customReq = req as AuthenticatedRequest;
-  const userId= customReq.userData?.id
+  const userId = customReq.userData?.id;
 
   if (!userId) {
     res.status(401);
-    throw new Error("user Unauthorized");
+    throw new Error("User Unauthorized");
   }
   if (!req.file) {
     res.status(400);
@@ -131,7 +131,6 @@ export const UpdateUserInfo = asyncHandler(async (req: AuthenticatedRequest, res
   const uploadedImage = req.file.path; // ✅ Extract Cloudinary URL from file object
 
   const { name, address, city, phone, altPhone, avatar } = req.body;
-
   const user = await AuthUser.findById(userId);
 
   if (!user) {
@@ -139,8 +138,7 @@ export const UpdateUserInfo = asyncHandler(async (req: AuthenticatedRequest, res
     throw new Error("User not found");
   }
 
-
-  // Prevent updates to email and role
+  // ✅ Update user fields
   user.name = name ?? user.name;
   user.address = address ?? user.address;
   user.city = city ?? user.city;
@@ -150,19 +148,37 @@ export const UpdateUserInfo = asyncHandler(async (req: AuthenticatedRequest, res
 
   const updatedUser = await user.save();
 
-  res.status(200).json({
-    status: "success",
-    message: "User information updated successfully",
-    user: {
+  // ✅ Generate new JWT token with updated info
+  const newAccessToken = jwt.sign(
+    {
       id: updatedUser.id,
       name: updatedUser.name,
-      email: updatedUser.email, // Unchanged
+      email: updatedUser.email, // Email remains unchanged
       address: updatedUser.address,
-      role: updatedUser.role,   // Unchanged
       city: updatedUser.city,
       phone: updatedUser.phone,
       altPhone: updatedUser.altPhone,
       avatar: updatedUser.avatar,
+      role: updatedUser.role, // Role remains unchanged
+    },
+    process.env.JWT_SECRET!,
+    { expiresIn: "7d" } // Short expiry for security
+  );
+
+  res.status(200).json({
+    status: "success",
+    message: "User information updated successfully",
+    token: newAccessToken, // ✅ Send new token
+    user: {
+      id: updatedUser.id,
+      name: updatedUser.name,
+      email: updatedUser.email,
+      address: updatedUser.address,
+      city: updatedUser.city,
+      phone: updatedUser.phone,
+      altPhone: updatedUser.altPhone,
+      avatar: updatedUser.avatar,
+      role: updatedUser.role,
     },
   });
 });
