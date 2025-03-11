@@ -5,21 +5,6 @@ import { Request, Response } from "express";
 import AuthUser from "../models/AuthUser";
 import {AuthenticatedRequest} from '../middleware/Validatetoken';
 
-// Extend Request interface to include userInfo
-interface CustomRequest extends Request {
-  userInfo?: {
-    name: string;
-    email: string;
-    address: string;
-    role: string;
-    city: string;
-    phone: string;
-    altPhone?: string; // Now optional, but stored as "" if empty
-    avatar?: string;
-    id: string;
-  };
-}
-
 // ✅ Register User
 export const RegisterUser = asyncHandler(async (req: Request, res: Response) => {
   const { name, email, password, city, address, role, phone, altPhone } = req.body;
@@ -85,7 +70,7 @@ export const login = asyncHandler(async (req: Request, res: Response) => {
           city: userInfo.city,
           phone: userInfo.phone,
           role: userInfo.role,
-          avtar: userInfo.avatar,
+          avatar: userInfo.avatar,
           altPhone: userInfo.altPhone, // It can be an empty string
           id: userInfo.id,
         },
