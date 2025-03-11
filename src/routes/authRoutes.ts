@@ -2,6 +2,7 @@ import express, { Router } from "express";
 import { RegisterUser, login, GetCurrentInfo,UpdateUserInfo } from "../controllers/AuthController";
 import validateToken from "../middleware/Validatetoken"; // Ensure this file is also in TypeScript
 import { upload } from "../utils/cloudinary";
+import { userInfo } from "os";
 
 const router: Router = express.Router();
 

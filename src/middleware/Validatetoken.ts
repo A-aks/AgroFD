@@ -1,36 +1,42 @@
-import asyncHandler from "express-async-handler";
-import jwt, { JwtPayload } from "jsonwebtoken";
 import { Request, Response, NextFunction } from "express";
-import dotenv from "dotenv";
+import jwt from "jsonwebtoken";
 
-dotenv.config(); // Load environment variables
-
-interface AuthRequest extends Request {
-  userInfo?: JwtPayload;
+// Extend Request interface to include userInfo
+// Extend Request interface to include user information
+interface AuthenticatedRequest extends Request {
+  userData?: {
+    id: string;
+    name: string;
+    email: string;
+    address: string;
+    role: string;
+    city: string;
+    phone: string;
+    altPhone?: string;
+    avatar?: string;
+  };
 }
 
-const validateToken = asyncHandler(async (req: Request, res: Response, next: NextFunction) => {
-  const authReq = req as AuthRequest;
-  const authHeader = req.headers.authorization || req.headers.Authorization;
-
-  if (!authHeader || (typeof authHeader === "string" && !authHeader.startsWith("Bearer "))) {
-    res.status(401);
-    throw new Error("Unauthorized: Missing or invalid token");
-  }
-
-
-  const token = (typeof authHeader === "string" ? authHeader : authHeader[0]).split(" ")[1];
-
+const validateToken = (req: AuthenticatedRequest, res: Response, next: NextFunction): void => {
   try {
-    const decoded = jwt.verify(token, process.env.ACCESS_TOKEN_SECRET as string) as JwtPayload;
-    authReq.userInfo = decoded; // Attach decoded user info to request object
-    console.log(decoded);
-    authReq.userInfo = decoded as JwtPayload; // Attach `decoded` to `userInfo`
-    next();
+    const authHeader = req.headers.authorization;
+    if (!authHeader || !authHeader.startsWith("Bearer ")) {
+      res.status(401).json({ message: "Unauthorized - No token provided" });
+      return;
+    }
+
+    const token = authHeader.split(" ")[1];
+    const decoded = jwt.verify(token, process.env.ACCESS_TOKEN_SECRET as string) as { userInfo: any };
+
+    req.userData = decoded.userInfo; // ✅ Attach user info to request
+
+    console.log("User Info Extracted:", req.userData);
+
+    next(); // ✅ Pass control to next middleware
   } catch (error) {
-    res.status(403);
-    throw new Error("Forbidden: Invalid or expired token");
+    res.status(403).json({ message: "Forbidden - Invalid token" });
   }
-});
+};
 
 export default validateToken;
+export { AuthenticatedRequest }; // ✅ Export the CustomRequest type for reuse
