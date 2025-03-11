@@ -102,7 +102,7 @@ export const GetCurrentInfo = asyncHandler(async (req: AuthenticatedRequest, res
 
   res.status(200).json({
     status: "ok",
-    message: {
+    user: {
       id,
       name,
       email,
