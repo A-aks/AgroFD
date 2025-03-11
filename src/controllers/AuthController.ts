@@ -14,7 +14,6 @@ interface CustomRequest extends Request {
     role: string;
     city: string;
     phone: string;
-
     altPhone?: string; // Now optional, but stored as "" if empty
     avatar?: string;
     id: string;
@@ -105,37 +104,36 @@ export const login = asyncHandler(async (req: Request, res: Response) => {
 });
 
 // ✅ Get Current User Info
-export const GetCurrentInfo = asyncHandler(async (req: Request, res: Response) => {
-  const customReq = req as CustomRequest;
-  res.status(200).json({ status: "ok", message: customReq.userInfo });
+export const GetCurrentInfo = asyncHandler(async (req: AuthenticatedRequest, res: Response) => {
+  if (!req.userData) {
+    res.status(401);
+    throw new Error("Unauthorized: User data not found");
+  }
+
+  const { name, email, address, city, phone, role, altPhone, avatar, id } = req.userData;
+
+  res.status(200).json({
+    status: "ok",
+    message: {
+      id,
+      name,
+      email,
+      address,
+      city,
+      phone,
+      role,
+      altPhone: altPhone || "",
+      avatar,
+    },
+  });
 });
+
 
 // ✅ Update User Info (email and role are NOT updateable)
 export const UpdateUserInfo = asyncHandler(async (req: AuthenticatedRequest, res: Response) => {
   const customReq = req as AuthenticatedRequest;
   const userId= customReq.userData?.id
-//   let userId;
-  
-//   const authHeader = req.headers.authorization || req.headers.Authorization;
 
-//   if (!authHeader || (typeof authHeader === "string" && !authHeader.startsWith("Bearer "))) {
-//     res.status(401);
-//     throw new Error("Unauthorized: Missing or invalid token");
-//   }
-//  // console.log(authHeader);
-
-
-//   const token = (typeof authHeader === "string" ? authHeader : authHeader[0]).split(" ")[1];
-
-//   try {
-//     const decoded = jwt.verify(token, process.env.ACCESS_TOKEN_SECRET as string) as JwtPayload;
-//     console.log("decoded data", decoded);
-//      userId=decoded.userInfo.id;
-//   } catch (error) {
-//     res.status(403);
-//     throw new Error("Forbidden: Invalid or expired token");
-//   }
-//   console.log("Extracted UserID:",userId);
   if (!userId) {
     res.status(401);
     throw new Error("user Unauthorized");
