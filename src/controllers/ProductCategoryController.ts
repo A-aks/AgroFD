@@ -1,93 +1,127 @@
 import asyncHandler from "express-async-handler";
 import { Request, Response } from "express";
-import {Category, Product, ProductCategory} from "../models/ProductsCategories";
+import { Category, Product } from "../models/ProductsCategories";
+import {IMedia} from '../types/IMedia'
+import {ICategory} from '../types/ICategory'
+import {IProduct} from '../types/IProduct'
 
 
-// Extend Request interface to include user info
-interface CustomRequest extends Request {
-  userInfo?: {
-    id: string;
-    name: string;
-    email: string;
-    role: string;
-  };
+
+//Extend Request to include user info
+interface CustomRequest<T = {}> extends Request {
+  userInfo?: { id: string }; // Include user ID
+  body: T;
+  file?: Express.Multer.File; // Handle uploaded files
 }
 
-// ✅ Create a new category
-export const createCategory = asyncHandler(async (req: CustomRequest, res: Response) => {
-  const { name, description } = req.body;
+// Utility function to find a category by ID
+const findCategoryById = async (id: string) => {
+  const category = await Category.findById(id);
+  if (!category) {
+    throw new Error("Category not found");
+  }
+  return category;
+};
 
-  if (!name) {
+// Utility function to find a product by ID
+const findProductById = async (id: string) => {
+  const product = await Product.findById(id);
+  if (!product) {
+    throw new Error("Product not found");
+  }
+  return product;
+};
+
+// ✅ Create a new category
+export const createCategory = asyncHandler(async (req: CustomRequest<ICategory>, res: Response) => {
+  console.log("Request Body:", req.body);
+  console.log("Uploaded File:", req.file);
+
+  const { name, description } = req.body;
+  const category_img = req.file?.path || ""; // Ensure we get the correct image path
+
+
+  if (!name || !description || !category_img) {
     res.status(400);
-    throw new Error("Category name is required");
+    throw new Error("Category requires name, description, and category_img.");
   }
 
-  // Check if category already exists
   const existingCategory = await Category.findOne({ name });
   if (existingCategory) {
     res.status(400);
-    throw new Error("Category already exists");
+    throw new Error("Category already exists.");
   }
 
-  const newCategory = await Category.create({ name, description });
-
-  res.status(201).json({
-    message: "Category created successfully",
-    category: newCategory,
-  });
+  const newCategory = await Category.create({ name, description, category_img });
+  res.status(201).json({ message: "Category created successfully", category: newCategory });
 });
 
-// ✅ Update a category
-export const updateCategory = asyncHandler(async (req: CustomRequest, res: Response) => {
-  const { id } = req.params;
-  const { name, description } = req.body;
 
-  const category = await Category.findById(id);
-  if (!category) {
-    res.status(404);
-    throw new Error("Category not found");
-  }
+// ✅ Update a category
+export const updateCategory = asyncHandler(async (req: CustomRequest<ICategory>, res: Response) => {
+  const { id } = req.params as { id: string }; // Ensure `id` is typed
+  const { name, description } = req.body;
+  const category_img = req.file?.path || req.body.category_img; // Update image if new file is uploaded
+
+  const category = await findCategoryById(id);
 
   category.name = name || category.name;
   category.description = description || category.description;
+  category.category_img = category_img || category.category_img;
 
   await category.save();
-
-  res.status(200).json({
-    message: "Category updated successfully",
-    category,
-  });
+  res.status(200).json({ message: "Category updated successfully", category });
 });
 
 // ✅ Delete a category
 export const deleteCategory = asyncHandler(async (req: CustomRequest, res: Response) => {
-  const { id } = req.params;
-
-  const category = await Category.findById(id);
-  if (!category) {
-    res.status(404);
-    throw new Error("Category not found");
-  }
+  const { id } = req.params as { id: string };
+  const category = await findCategoryById(id);
 
   await category.deleteOne();
-
   res.status(200).json({ message: "Category deleted successfully" });
 });
 
+// ✅ Get all categories
+export const getCategories = asyncHandler(async (req: Request, res: Response) => {
+  const categories = await Category.find({}); // Fetch all categories from DB
+
+  if (!categories || categories.length === 0) {
+    res.status(404);
+    throw new Error("No categories found");
+  }
+
+  res.status(200).json({
+    success: true,
+    count: categories.length,
+    categories,
+  });
+});
+
 // ✅ Create a new product
-export const createProduct = asyncHandler(async (req: CustomRequest, res: Response) => {
-  const { name, category, price, unit, stock, description, image } = req.body;
+export const createProduct = asyncHandler(async (req: CustomRequest<IProduct>, res: Response) => {
+  const { name, category, price, unit, stock, description, media } = req.body;
 
   if (!name || !category || !price || !unit || stock === undefined) {
     res.status(400);
     throw new Error("All product fields are required");
   }
 
-  // Check if category exists
-  const categoryExists = await Category.findOne({ name: category });
+  const categoryExists = await Category.findById(category);
   if (!categoryExists) {
     res.status(400);
     throw new Error("Invalid category");
+  }
+  // Ensure media is an array of IMedia
+  let formattedMedia: IMedia[] | undefined = undefined;
+  if (media && Array.isArray(media)) {
+    formattedMedia = media.map((item) => {
+      if (typeof item === "string") {
+        return { url: item, type: "image" }; // Default to "image"
+      } else {
+        return { url: item.url, type: item.type as "image" | "video" };
+      }
+    });
   }
 
   const newProduct = await Product.create({
@@ -97,25 +131,29 @@ export const createProduct = asyncHandler(async (req: CustomRequest, res: Respon
     unit,
     stock,
     description,
-    image,
+    media:formattedMedia, // Ensure media is always a string[]
     addedBy: req.userInfo?.id,
   });
 
-  res.status(201).json({
-    message: "Product created successfully",
-    product: newProduct,
-  });
+  res.status(201).json({ message: "Product created successfully", product: newProduct });
 });
 
 // ✅ Update a product
-export const updateProduct = asyncHandler(async (req: CustomRequest, res: Response) => {
-  const { id } = req.params;
-  const { name, category, price, unit, stock, description, image } = req.body;
+export const updateProduct = asyncHandler(async (req: CustomRequest<IProduct>, res: Response) => {
+  const { id } = req.params as { id: string };
+  const { name, category, price, unit, stock, description, media } = req.body;
 
-  const product = await Product.findById(id);
-  if (!product) {
-    res.status(404);
-    throw new Error("Product not found");
+  const product = await findProductById(id);
+
+  let formattedMedia: IMedia[] | undefined = product.media;
+  if (media && Array.isArray(media)) {
+    formattedMedia = media.map((item) => {
+      if (typeof item === "string") {
+        return { url: item, type: "image" }; // Default to "image"
+      } else {
+        return { url: item.url, type: item.type as "image" | "video" };
+      }
+    });
   }
 
   product.name = name || product.name;
@@ -124,25 +162,15 @@ export const updateProduct = asyncHandler(async (req: CustomRequest, res: Respon
   product.unit = unit || product.unit;
   product.stock = stock !== undefined ? stock : product.stock;
   product.description = description || product.description;
-  product.image = image || product.image;
+  product.media = formattedMedia;
 
   await product.save();
-
-  res.status(200).json({
-    message: "Product updated successfully",
-    product,
-  });
+  res.status(200).json({ message: "Product updated successfully", product });
 });
-
 // ✅ Delete a product
 export const deleteProduct = asyncHandler(async (req: CustomRequest, res: Response) => {
-  const { id } = req.params;
-
-  const product = await Product.findById(id);
-  if (!product) {
-    res.status(404);
-    throw new Error("Product not found");
-  }
+  const { id } = req.params as { id: string };
+  const product = await findProductById(id);
 
   await product.deleteOne();
   res.status(200).json({ message: "Product deleted successfully" });

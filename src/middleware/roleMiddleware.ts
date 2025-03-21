@@ -1,21 +1,25 @@
-import { Request, Response, NextFunction } from "express";
+import { Response, NextFunction, RequestHandler } from "express";
+import { CustomRequest } from "../types/CustomRequest";
 
-// Extend Request type to include user
-interface CustomRequest extends Request {
-  user?: {
-    id: string;
-    role: string;
-  };
-}
+const checkRole = (allowedRoles: string[]): RequestHandler => {
+  return (req, res, next) => {
+    const customReq = req as CustomRequest; // Explicitly cast `req`
+    //console.log("Checking role for user:", customReq.user); // Debugging log
+    const userRole = customReq.user?.userInfo?.role; // ✅ Safely access role
 
-// Middleware function to check role permissions
-const checkRole = (allowedRoles: string[]) => {
-  return (req: CustomRequest, res: Response, next: NextFunction): void => {
-    if (!req.user || !allowedRoles.includes(req.user.role)) {
-      res.status(403).json({ message: "Access Denied: Unauthorized Role" });
-      return; // Ensure function execution stops
+    console.log("User Role:", userRole); // ✅ Log the actual role
+    if (!customReq.user) {
+      res.status(401).json({ message: "Unauthorized: No user found" });
+      return;
     }
-    next();
+
+
+    if (!allowedRoles.includes(customReq.user.userInfo.role)) {
+      res.status(403).json({ message: `Access Denied: Role '${customReq.user.userInfo.role}' not allowed` });
+      return;
+    }
+
+    return next();
   };
 };
 

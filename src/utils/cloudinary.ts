@@ -13,17 +13,30 @@ cloudinary.config({
 });
 
 // Fix: Use a function for params instead of an object
+// Dynamic folder storage
 const storage = new CloudinaryStorage({
   cloudinary,
   params: async (req, file) => {
+    let folder = "uploads"; // Default folder
+
+    // Determine folder based on request path
+    if (req.baseUrl.includes("/avatars")) {
+      folder = "avatars";
+    } else if (req.baseUrl.includes("/products")) {
+      folder = "products";
+    } else if (req.baseUrl.includes("/categories")) {
+      folder = "categories";
+    }
+
     return {
-      folder: "avatars", // Cloudinary folder
-      format: "png", // Convert all uploads to PNG format
-      public_id: file.originalname.split(".")[0], // Use original filename (without extension)
-      transformation: [{ width: 500, height: 500, crop: "limit" }], // Image optimization
+      folder, // ✅ Set folder dynamically
+      format: "png", // Convert to PNG
+      public_id: `${Date.now()}-${file.originalname.split(".")[0]}`, // Unique filename
+      transformation: [{ width: 500, height: 500, crop: "limit" }],
     };
   },
 });
+
 const upload = multer({ storage });
 
 export { upload, cloudinary };

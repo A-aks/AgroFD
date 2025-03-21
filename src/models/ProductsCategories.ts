@@ -1,4 +1,6 @@
 import mongoose, { Document, Schema, Model } from "mongoose";
+import {ICategory} from '../types/ICategory'
+import {IProduct} from '../types/IProduct'
 
 // Define product categories as an Enum
 enum ProductCategory {
@@ -6,7 +8,7 @@ enum ProductCategory {
   FRUITS = "fruits",
   MILK = "milk",
   MILK_PRODUCTS = "milk-products",
-  ANAAJ = "anaaj",
+  GRAINS = "grains", // anaaj in English grains
   SEEDS = "seeds",
   FERTILIZERS_ORGANIC = "fertilizers-organic",
   FERTILIZERS_CHEMICAL = "fertilizers-chemical",
@@ -15,81 +17,77 @@ enum ProductCategory {
 
 // Define available units for pricing and stock
 const validUnits = ["kg", "liter", "packet", "piece", "dozen", "quintal", "ton"]; 
-// Quintal (100kg), Ton (Tan) = 1000kg
+// Quintal (100kg), Ton (1000kg)
 
-// Interface for Category
-interface ICategory extends Document {
-  name: string;
-  description?: string;
-  createdAt?: Date;
-  updatedAt?: Date;
+// Interface for Media (image or video)
+interface IMedia {
+  type: "image" | "video";
+  url: string;
 }
-
 // Category Schema
 const CategorySchema: Schema<ICategory> = new Schema(
   {
     name: {
-      type: String,
+      type: Schema.Types.String,
       enum: Object.values(ProductCategory),
       required: true,
       unique: true,
     },
     description: {
-      type: String,
+      type: Schema.Types.String,
+    },
+    category_img: {
+      type: Schema.Types.String,
+      default: "", // Default image URL if not provided
     },
   },
   { timestamps: true }
 );
 
-// Interface for Product
-interface IProduct extends Document {
-  name: string;
-  category: ProductCategory;
-  price: number;
-  unit: string; // kg, liter, packet, etc.
-  stock: number; // Available stock quantity
-  description?: string;
-  image?: string; // Image URL
-  addedBy: mongoose.Types.ObjectId; // User who added the product
-  createdAt?: Date;
-  updatedAt?: Date;
-}
-
 // Product Schema
 const ProductSchema: Schema<IProduct> = new Schema(
   {
     name: {
-      type: String,
+      type: Schema.Types.String,
       required: [true, "Please provide product name"],
     },
     category: {
-      type: String,
+      type: Schema.Types.String,
       enum: Object.values(ProductCategory),
       required: [true, "Product category is required"],
     },
     price: {
-      type: Number,
+      type: Schema.Types.Number,
       required: [true, "Please provide price"],
     },
     unit: {
-      type: String,
+      type: Schema.Types.String,
       enum: validUnits,
       required: [true, "Unit is required"],
     },
     stock: {
-      type: Number,
+      type: Schema.Types.Number,
       required: [true, "Stock quantity is required"],
       default: 0,
     },
     description: {
-      type: String,
+      type: Schema.Types.String,
     },
-    image: {
-      type: String,
-      default: "",
-    },
+    media: [
+      {
+        type: {
+          type: Schema.Types.String,
+          enum: ["image", "video"],
+          required: true,
+        },
+        url: {
+          type: Schema.Types.String,
+          required: true,
+        },
+      },
+    ],
     addedBy: {
-      type: mongoose.Schema.Types.ObjectId,
+      type: Schema.Types.ObjectId,
       ref: "User",
       required: true,
     },

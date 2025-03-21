@@ -6,6 +6,7 @@ import dotenv from "dotenv";
 // Use `import` instead of `require` for routes in TypeScript
 import userRoutes from "./routes/userroutes";
 import authRoutes from "./routes/authRoutes";
+import product_category from './routes/productCategoryRoutes'
 
 dotenv.config();
 
@@ -20,6 +21,7 @@ app.use(express.json());
 
 app.use("/user", userRoutes);
 app.use("/api/auth", authRoutes);
+app.use("/product",product_category);
 app.use(errorHandler);
 
 app.listen(port, () => {
