@@ -21,7 +21,7 @@ app.use(express.json());
 
 app.use("/user", userRoutes);
 app.use("/api/auth", authRoutes);
-app.use("/product",product_category);
+app.use("/api/product",product_category);
 app.use(errorHandler);
 
 app.listen(port, () => {
