@@ -21,7 +21,7 @@ router.post(
   checkRole(["admin"]),
   upload.single("category_img"),
   createCategory);
-router.put("/categories/:id", authMiddleware, checkRole(["admin"]), updateCategory);
+router.put("/categories/:id", authMiddleware, checkRole(["admin"]),upload.single("category_img"), updateCategory);
 router.delete("/categories/:id", authMiddleware, checkRole(["admin"]), deleteCategory);
 
 // 🔹 Product Routes (Admin & Seller can manage products)
