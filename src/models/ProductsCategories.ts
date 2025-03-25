@@ -9,8 +9,9 @@ enum ProductCategory {
   MILK = "milk",
   MILK_PRODUCTS = "milk-products",
   GRAINS = "grains", // anaaj in English grains
-  SEEDS = "seed-fertilizer",
+  SEEDS = "seed",
   NURSERY_TREES = "nursery-plants",
+  FERTILIZER="fertilizer",
   DRY_FRUITS="dry-fruits"
 }
 
