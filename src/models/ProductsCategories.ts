@@ -9,10 +9,9 @@ enum ProductCategory {
   MILK = "milk",
   MILK_PRODUCTS = "milk-products",
   GRAINS = "grains", // anaaj in English grains
-  SEEDS = "seeds",
-  FERTILIZERS_ORGANIC = "fertilizers-organic",
-  FERTILIZERS_CHEMICAL = "fertilizers-chemical",
-  NURSERY_TREES = "nursery-trees",
+  SEEDS = "seed-fertilizer",
+  NURSERY_TREES = "nursery-plants",
+  DRY_FRUITS="dry-fruits"
 }
 
 // Define available units for pricing and stock
