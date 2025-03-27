@@ -1,0 +1,25 @@
+[
+    {
+      "_id": "home",
+      "en": {
+        "title": "Welcome",
+        "description": "This is a multi-language app."
+      },
+      "hi": {
+        "title": "स्वागत है",
+        "description": "यह एक बहु-भाषा ऐप है।"
+      }
+    },
+    {
+      "_id": "login",
+      "en": {
+        "title": "Login",
+        "description": "Please enter your credentials."
+      },
+      "hi": {
+        "title": "लॉग इन करें",
+        "description": "कृपया अपनी साख दर्ज करें।"
+      }
+    }
+  ]
+  
