@@ -38,15 +38,15 @@ export const createCategory = asyncHandler(async (req: CustomRequest<ICategory>,
   console.log("Uploaded File:", req.file);
 
   const { name, description } = req.body;
-  const category_img = req.file?.path || ""; // Ensure we get the correct image path
+  const category_img = req.file?.path || ""; // Ensure correct image path
 
-
-  if (!name || !description || !category_img) {
+  if (!name || !description) {
     res.status(400);
-    throw new Error("Category requires name, description, and category_img.");
+    throw new Error("Category requires name and description.");
   }
 
-  const existingCategory = await Category.findOne({ name });
+  // Check if category with the same English name exists
+  const existingCategory = await Category.findOne({ "name.en": name.en });
   if (existingCategory) {
     res.status(400);
     throw new Error("Category already exists.");
@@ -56,24 +56,21 @@ export const createCategory = asyncHandler(async (req: CustomRequest<ICategory>,
   res.status(201).json({ message: "Category created successfully", category: newCategory });
 });
 
-
-// ✅ Update a category
 export const updateCategory = asyncHandler(async (req: CustomRequest<ICategory>, res: Response) => {
-  const { id } = req.params as { id: string }; // Ensure `id` is typed
+  const { id } = req.params as { id: string };
   const { name, description } = req.body;
-  const category_img = req.file?.path || req.body.category_img; // Update image if new file is uploaded
+  const category_img = req.file?.path || req.body.category_img;
 
   const category = await findCategoryById(id);
 
-  category.name = name || category.name;
-  category.description = description || category.description;
+  category.name = { ...category.name, ...name };
+  category.description = { ...category.description, ...description };
   category.category_img = category_img || category.category_img;
 
   await category.save();
   res.status(200).json({ message: "Category updated successfully", category });
 });
 
-// ✅ Delete a category
 export const deleteCategory = asyncHandler(async (req: CustomRequest, res: Response) => {
   const { id } = req.params as { id: string };
   const category = await findCategoryById(id);
@@ -82,15 +79,8 @@ export const deleteCategory = asyncHandler(async (req: CustomRequest, res: Respo
   res.status(200).json({ message: "Category deleted successfully" });
 });
 
-// ✅ Get all categories
 export const getCategories = asyncHandler(async (req: Request, res: Response) => {
-  const categories = await Category.find({}); // Fetch all categories from DB
-
-  if (!categories || categories.length === 0) {
-    res.status(404);
-    throw new Error("No categories found");
-  }
-
+  const categories = await Category.find({});
   res.status(200).json({
     success: true,
     count: categories.length,

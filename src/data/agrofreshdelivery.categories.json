@@ -1,0 +1,135 @@
+[{
+  "_id": {
+    "$oid": "67dd36387ed1fa004b462778"
+  },
+  "name": "vegetables",
+  "description": "It's all type of Vegetables list here",
+  "category_img": "https://res.cloudinary.com/dvurobnaz/image/upload/v1742833587/uploads/1742833587372-9d4deac0-66f4-4097-86ba-230b9ef47275_1742833583955.png",
+  "createdAt": {
+    "$date": "2025-03-21T09:49:44.394Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-24T16:26:29.371Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67dd395e62813f98dec81d3d"
+  },
+  "name": "fruits",
+  "description": "It's all type of fruits list here",
+  "category_img": "https://res.cloudinary.com/dvurobnaz/image/upload/v1742551389/uploads/1742551387290-fruits.png",
+  "createdAt": {
+    "$date": "2025-03-21T10:03:10.611Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-21T10:03:10.611Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e02396469b31bf4f5286fa"
+  },
+  "name": "grains",
+  "description": "It's all type of cereals ",
+  "category_img": "https://res.cloudinary.com/dvurobnaz/image/upload/v1742887876/uploads/1742887875917-83b0a49c-ff5b-4626-b560-1ea8fa08427e_1742887873217.png",
+  "createdAt": {
+    "$date": "2025-03-23T15:07:02.126Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-25T07:31:17.498Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e03bfab126032462d9256c"
+  },
+  "name": "milk",
+  "description": "This is milks ",
+  "category_img": "https://res.cloudinary.com/dvurobnaz/image/upload/v1742748664/uploads/1742748664206-ce661224-d21e-4c23-a562-a27f88c30704_1742748661836.png",
+  "createdAt": {
+    "$date": "2025-03-23T16:51:06.142Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-23T16:51:06.142Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e042715824ff59a9ec907f"
+  },
+  "name": "milk-products",
+  "description": "It's all type of milk products and so much ",
+  "category_img": "https://res.cloudinary.com/dvurobnaz/image/upload/v1742833001/uploads/1742833001718-f603c73c-fd7d-4cd4-8fed-3b4ff0494669_1742832998965.png",
+  "createdAt": {
+    "$date": "2025-03-23T17:18:41.875Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-24T16:16:43.617Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e2604273dd2a4e61ba0572"
+  },
+  "name": "dry-fruits",
+  "description": "It's all type of nuts ",
+  "category_img": "https://res.cloudinary.com/dvurobnaz/image/upload/v1742889025/uploads/1742889025261-64304838-79c4-4198-bdc8-c13d5d99c755_1742889023298.png",
+  "createdAt": {
+    "$date": "2025-03-25T07:50:26.798Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-25T07:50:26.798Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e2be631fd6eacfa4738992"
+  },
+  "name": "seed",
+  "description": "It's all type of seeds",
+  "category_img": "https://res.cloudinary.com/dvurobnaz/image/upload/v1742913121/uploads/1742913121432-0548d694-9bcd-4363-a307-477af563067b_1742913120219.png",
+  "createdAt": {
+    "$date": "2025-03-25T14:32:03.692Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-25T14:32:03.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e2bf63fb81e6962391148e"
+  },
+  "name": "fertilizer",
+  "description": "It's all type of fertilizer ",
+  "category_img": "https://res.cloudinary.com/dvurobnaz/image/upload/v1742913378/uploads/1742913378834-8758173c-c61b-4807-aed5-3d77aedf9c51_1742913377990.png",
+  "createdAt": {
+    "$date": "2025-03-25T14:36:19.874Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-25T14:36:19.874Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67e2bfb7fb81e69623911492"
+  },
+  "name": "nursery-plants",
+  "description": "It's all type of nursery-plants ",
+  "category_img": "https://res.cloudinary.com/dvurobnaz/image/upload/v1742913462/uploads/1742913462346-afee3a08-0c08-412b-a08a-433c068f9f1c_1742913461051.png",
+  "createdAt": {
+    "$date": "2025-03-25T14:37:43.528Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-25T14:37:43.528Z"
+  },
+  "__v": 0
+}]

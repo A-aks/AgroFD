@@ -27,18 +27,23 @@ interface IMedia {
 // Category Schema
 const CategorySchema: Schema<ICategory> = new Schema(
   {
-    name: {
+    key: {
       type: Schema.Types.String,
-      enum: Object.values(ProductCategory),
+      enum: Object.values(ProductCategory), // Enforce allowed category keys
       required: true,
       unique: true,
     },
+    name: {
+      type: Schema.Types.Mixed, // Multilingual names { en: "", hi: "" }
+      required: true,
+    },
     description: {
-      type: Schema.Types.String,
+      type: Schema.Types.Mixed, // Multilingual descriptions { en: "", hi: "" }
+      required: true,
     },
     category_img: {
       type: Schema.Types.String,
-      default: "", // Default image URL if not provided
+      default: "",
     },
   },
   { timestamps: true }
