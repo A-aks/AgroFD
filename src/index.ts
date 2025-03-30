@@ -8,6 +8,7 @@ import authRoutes from "./routes/authRoutes";
 import product_category from "./routes/productCategoryRoutes";
 import translationRoutes from "./routes/translationRoutes";
 
+
 dotenv.config();
 
 const app: Application = express();
@@ -16,7 +17,7 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-app.use("/user", userRoutes);
+app.use("/api/users", userRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/product", product_category);
 app.use("/api/translations", translationRoutes);

@@ -2,7 +2,7 @@ import asyncHandler from "express-async-handler";
 import bcrypt from "bcrypt";
 import jwt, { JwtPayload } from "jsonwebtoken";
 import { Request, Response } from "express";
-import AuthUser from "../models/AuthUser";
+import {User} from "../models/User_Model";
 import { AuthenticatedRequest } from '../middleware/Validatetoken';
 
 // ✅ Register User
@@ -16,7 +16,7 @@ export const RegisterUser = asyncHandler(async (req: Request, res: Response) => 
   }
 
   // Check if user exists
-  const checkUser = await AuthUser.findOne({ email });
+  const checkUser = await User.findOne({ email });
   if (checkUser) {
     res.status(400);
     throw new Error("This email already exists");
@@ -27,7 +27,7 @@ export const RegisterUser = asyncHandler(async (req: Request, res: Response) => 
   console.log("Hashed Password:", hashedPassword);
 
   // Ensure altPhone is stored as an empty string if not provided
-  const newUser = await AuthUser.create({
+  const newUser = await User.create({
     name,
     email,
     password: hashedPassword,
@@ -58,7 +58,7 @@ export const login = asyncHandler(async (req: Request, res: Response) => {
     throw new Error("All fields are mandatory");
   }
 
-  const userInfo = await AuthUser.findOne({ email });
+  const userInfo = await User.findOne({ email });
 
   if (userInfo && (await bcrypt.compare(password, userInfo.password))) {
     const accessToken = jwt.sign(
@@ -134,7 +134,7 @@ export const UpdateUserInfo = asyncHandler(async (req: AuthenticatedRequest, res
   const uploadedImage = req.file.path; // ✅ Extract Cloudinary URL from file object
 
   const { name, address, city, phone, altPhone, avatar } = req.body;
-  const user = await AuthUser.findById(userId);
+  const user = await User.findById(userId);
 
   if (!user) {
     res.status(404);

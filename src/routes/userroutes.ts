@@ -1,22 +1,38 @@
 import express from "express";
 import {
-  getUsers,
-  getSingleUser,
+  getAllUsers,
+  getUserById,
   createUser,
   updateUser,
   deleteUser,
+  disableUser,
+  updateKYC,
+  updateBankAccount,
+  updateBusinessDetails,
 } from "../controllers/userController";
-import validateToken from "../middleware/Validatetoken";
-
+import authMiddleware from "../middleware/authMiddleware";
+import checkRole from '../middleware/roleMiddleware'
 const router = express.Router();
 
-// Apply middleware if needed
-// router.use(validateToken);
+// Middleware to check admin role
+const isAdmin = (req: any, res: any, next: any) => {
+  if (req.user?.role !== "admin") {
+    return res.status(403).json({ message: "Access denied: Admins only" });
+  }
+  next();
+};
 
-router.route("/").get(getUsers);
-router.route("/:_id").get(getSingleUser);
-router.route("/").post(createUser);
-router.route("/:_id").put(updateUser);
-router.route("/:_id").delete(deleteUser);
+// 🔹 Admin Routes (Protected)
+router.get("/", authMiddleware, checkRole(['admin']), getAllUsers);
+router.delete("/:id", authMiddleware, isAdmin, deleteUser);
+router.put("/disable/:id", authMiddleware, isAdmin, disableUser);
+router.post("/", authMiddleware, isAdmin, createUser);
+
+// 🔹 Authenticated User Routes (For Individual Users)
+router.get("/:id", authMiddleware, getUserById);
+router.put("/:id", authMiddleware, updateUser);
+router.put("/:id/kyc", authMiddleware, updateKYC);
+router.put("/:id/bank", authMiddleware, updateBankAccount);
+router.put("/:id/business", authMiddleware, updateBusinessDetails);
 
 export default router;
