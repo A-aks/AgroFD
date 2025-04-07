@@ -26,7 +26,7 @@ const isAdmin = (req: any, res: any, next: any) => {
 router.get("/", authMiddleware, checkRole(['admin']), getAllUsers);
 router.delete("/:id", authMiddleware, isAdmin, deleteUser);
 router.put("/disable/:id", authMiddleware, isAdmin, disableUser);
-router.post("/", authMiddleware, isAdmin, createUser);
+router.post("/", authMiddleware, checkRole(['admin']), createUser);
 
 // 🔹 Authenticated User Routes (For Individual Users)
 router.get("/:id", authMiddleware, getUserById);

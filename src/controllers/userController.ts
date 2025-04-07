@@ -25,10 +25,10 @@ export const getAllUsers = async (req: AuthenticatedRequest, res: Response): Pro
 // ✅ Get user by ID (Only for Authenticated Users)
 export const getUserById = async (req: AuthenticatedRequest, res: Response): Promise<void> => {
   try {
-    if (!req.user || (req.user.id !== req.params.id && req.user.role !== "admin")) {
-      res.status(403).json({ message: "Unauthorized access" });
-      return;
-    }
+    // if (!req.user || (req.user.id !== req.params.id && req.user.role !== "admin")) {
+    //   res.status(403).json({ message: "Unauthorized access" });
+    //   return;
+    // }
     const user = await User.findById(req.params.id).select("-password");
     if (!user) {
       res.status(404).json({ message: "User not found" });
@@ -43,10 +43,6 @@ export const getUserById = async (req: AuthenticatedRequest, res: Response): Pro
 // ✅ Create a new user (Admin Only)
 export const createUser = async (req: AuthenticatedRequest, res: Response): Promise<void> => {
   try {
-    if (req.user?.role !== "admin") {
-      res.status(403).json({ message: "Unauthorized access" });
-      return;
-    }
     const { name, email, password, role } = req.body;
     if (!name || !email || !password || !role) {
       res.status(400).json({ message: "All fields are required" });
