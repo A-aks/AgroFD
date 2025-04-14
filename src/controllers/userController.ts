@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { User } from "../models/User_Model";
+import { User,IFarmingDetails } from "../models/User_Model";
 
 interface AuthenticatedRequest extends Request {
   user?: {
@@ -25,18 +25,66 @@ export const getAllUsers = async (req: AuthenticatedRequest, res: Response): Pro
 // ✅ Get user by ID (Only for Authenticated Users)
 export const getUserById = async (req: AuthenticatedRequest, res: Response): Promise<void> => {
   try {
-    // if (!req.user || (req.user.id !== req.params.id && req.user.role !== "admin")) {
-    //   res.status(403).json({ message: "Unauthorized access" });
-    //   return;
-    // }
-    const user = await User.findById(req.params.id).select("-password");
+    // Get user without password
+    const user = await User.findById(req.params.id).select("-password -__v").lean();
+    
     if (!user) {
       res.status(404).json({ message: "User not found" });
       return;
     }
-    res.status(200).json(user);
+    // Type assertion for user with farming details
+    const userWithFarming = user as typeof user & {
+      farmingDetails?: IFarmingDetails;
+    };
+
+    // Create base response object
+    const response: any = {
+      _id: user._id,
+      name: user.name,
+      email: user.email,
+      role: user.role,
+      address: user.address,
+      city: user.city,
+      isDisabled: user.isDisabled,
+      createdAt: user.createdAt,
+      updatedAt: user.updatedAt,
+      avatar: user.avatar,
+      phone: user.phone,
+      altPhone: user.altPhone,
+      kyc: user.kyc || { isVerified: false }
+    };
+
+    // Only include farmingDetails if user is a farmer and has data
+    if (user.role === 'farmer' && user.farmingDetails) {
+      response.farmingDetails = {
+        certifications: user.farmingDetails.certifications || [],
+        crops: user.farmingDetails.crops || [],
+        machinery: user.farmingDetails.machinery || [],
+        landSize: user.farmingDetails.landSize,
+        experienceYears: user.farmingDetails.experienceYears,
+        irrigationType: user.farmingDetails.irrigationType,
+        soilType: user.farmingDetails.soilType,
+        organicPractices: user.farmingDetails.organicPractices
+      };
+    }
+
+    // Only include businessDetails if user is a business and has data
+    if (user.role === 'business' && user.businessDetails) {
+      response.businessDetails = {
+        businessType: user.businessDetails.businessType,
+        businessName: user.businessDetails.businessName,
+        gstNumber: user.businessDetails.gstNumber,
+        businessRegistrationNumber: user.businessDetails.businessRegistrationNumber,
+        businessAddress: user.businessDetails.businessAddress
+      };
+    }
+
+    res.status(200).json(response);
   } catch (error) {
-    res.status(500).json({ message: "Error fetching user", error });
+    res.status(500).json({ 
+      message: "Error fetching user",
+      error: process.env.NODE_ENV === 'development' ? error : undefined
+    });
   }
 };
 

@@ -11,7 +11,9 @@ import {
   updateBusinessDetails,
 } from "../controllers/userController";
 import authMiddleware from "../middleware/authMiddleware";
-import checkRole from '../middleware/roleMiddleware'
+import checkRole from '../middleware/roleMiddleware';
+import {uploadMiddleware} from "../utils/cloudinary"
+
 const router = express.Router();
 
 // Middleware to check admin role
@@ -26,7 +28,7 @@ const isAdmin = (req: any, res: any, next: any) => {
 router.get("/", authMiddleware, checkRole(['admin']), getAllUsers);
 router.delete("/:id", authMiddleware, isAdmin, deleteUser);
 router.put("/disable/:id", authMiddleware, isAdmin, disableUser);
-router.post("/", authMiddleware, checkRole(['admin']), createUser);
+router.post("/", authMiddleware, checkRole(['admin']),uploadMiddleware.mixedUpload, createUser);
 
 // 🔹 Authenticated User Routes (For Individual Users)
 router.get("/:id", authMiddleware, getUserById);

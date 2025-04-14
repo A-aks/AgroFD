@@ -48,15 +48,22 @@ interface IBusinessDetails {
   businessAddress?: string;
 }
 
-// Define Farming details interface (only for Farmers)
-interface IFarmingDetails {
-  crops: {
+// In your types file (e.g., types/user.ts)
+export interface IFarmingDetails {
+  certifications?: string[];
+  crops?: Array<{
     cropType: string;
     productionSize: string;
-  }[];
-  landSize: string;
-  experienceYears: number;
-  certifications?: string[];
+  }>;
+  machinery?: Array<{
+    name: string;
+    quantity: number;
+  }>;
+  landSize?: string;
+  experienceYears?: number;
+  irrigationType?: 'rainfed' | 'irrigated' | 'mixed';
+  soilType?: string;
+  organicPractices?: boolean;
 }
 
 // Define Delivery Agent details interface
@@ -87,6 +94,7 @@ export interface IUser extends Document {
   updatedBy?: Types.ObjectId;
   createdAt?: Date;
   updatedAt?: Date;
+  
 }
 
 // Define the User Schema
