@@ -1,18 +1,8 @@
+// src/utils/cloudinary.ts
 import { v2 as cloudinary } from "cloudinary";
 import { CloudinaryStorage } from "multer-storage-cloudinary";
 import multer, { Multer } from "multer";
-import express, { Request } from "express";
-
-// Extended types for FormData with files
-declare global {
-  namespace Express {
-    interface Request {
-      files?: {
-        [fieldname: string]: Express.Multer.File[];
-      } | Express.Multer.File[];
-    }
-  }
-}
+import { Request } from "express";
 
 // Cloudinary configuration
 cloudinary.config({
@@ -27,7 +17,7 @@ const storage = new CloudinaryStorage({
   params: (req: Request, file: Express.Multer.File) => {
     return {
       folder: "uploads",
-      format: "webp", // Modern format
+      format: "webp", // Still convert to webp for better performance
       public_id: `${Date.now()}-${file.originalname.split('.')[0]}`,
       transformation: [{ width: 1200, height: 1200, crop: "limit" }]
     };
@@ -42,22 +32,29 @@ const upload: Multer = multer({
     files: 5 // Max files
   },
   fileFilter: (req, file, cb) => {
-    const allowedMimes = ['image/jpeg', 'image/png', 'image/webp'];
+    // Accepted image MIME types
+    const allowedMimes = [
+      'image/jpeg',  // JPG
+      'image/jpg',   // JPG alternative
+      'image/png',   // PNG
+      'image/webp'   // WebP (optional)
+    ];
+    
     if (allowedMimes.includes(file.mimetype)) {
       cb(null, true);
     } else {
-      cb(new Error('Invalid file type'));
+      cb(new Error('Only JPG, PNG, and WebP images are allowed'));
     }
   }
 });
 
 // Typed upload middlewares
 export const uploadMiddleware = {
-  singleImage: upload.single('image'), // For single image
-  multipleImages: upload.array('images', 5), // For multiple images
-  mixedUpload: upload.fields([ // For forms with different file types
+  singleImage: upload.single('image'),
+  multipleImages: upload.array('images', 5),
+  mixedUpload: upload.fields([
     { name: 'avatar', maxCount: 1 },
-    { name: 'documentPictureFile', maxCount: 1 }
+    { name: 'documentImage', maxCount: 1 }
   ])
 };
 

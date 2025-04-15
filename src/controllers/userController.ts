@@ -1,5 +1,7 @@
 import { Request, Response } from "express";
-import { User,IFarmingDetails } from "../models/User_Model";
+import { User,IFarmingDetails,UserRole } from "../models/User_Model";
+import streamifier from 'streamifier';
+import { cloudinary } from "../utils/cloudinary";
 
 interface AuthenticatedRequest extends Request {
   user?: {
@@ -91,22 +93,143 @@ export const getUserById = async (req: AuthenticatedRequest, res: Response): Pro
 // ✅ Create a new user (Admin Only)
 export const createUser = async (req: AuthenticatedRequest, res: Response): Promise<void> => {
   try {
-    const { name, email, password, role } = req.body;
-    if (!name || !email || !password || !role) {
-      res.status(400).json({ message: "All fields are required" });
+    // Extract basic fields
+    const {
+      name,
+      email,
+      password,
+      role,
+      phone,
+      altPhone,
+      address,
+      city,
+      kyc,
+      businessDetails,
+      farmingDetails,
+      deliveryDetails
+    } = req.body;
+
+    // Required fields validation
+    if (!name || !email || !password || !role || !phone) {
+      res.status(400).json({ message: "Name, email, password, role and phone are required" });
       return;
     }
-    const existingUser = await User.findOne({ email });
+
+    // Check if email or phone already exists
+    const existingUser = await User.findOne({ $or: [{ email }, { phone }] });
     if (existingUser) {
-      res.status(400).json({ message: "Email already exists" });
+      res.status(400).json({ 
+        message: existingUser.email === email 
+          ? "Email already exists" 
+          : "Phone number already exists" 
+      });
       return;
     }
-    const newUser = new User({ name, email, password, role });
+
+    // Prepare the base user object
+    const userData: any = {
+      name,
+      email,
+      password,
+      role,
+      phone,
+      altPhone,
+      address,
+      city,
+      createdBy: req.user?.id // Track who created this user
+    };
+
+    // Handle file uploads if files exist in request
+    if (req.files) {
+      const files = req.files as { [fieldname: string]: Express.Multer.File[] };
+
+      // Handle avatar upload
+      if (files.avatar?.[0]) {
+        const avatar = files.avatar[0];
+        const uploadResult = await uploadToCloudinary(avatar.buffer, 'avatars');
+        userData.avatar = uploadResult.secure_url;
+      }
+
+      // Handle KYC document upload
+      if (files.documentImage?.[0]) {
+        const document = files.documentImage[0];
+        const uploadResult = await uploadToCloudinary(document.buffer, 'kyc-documents');
+        
+        // Prepare KYC data if provided
+        if (kyc) {
+          userData.kyc = {
+            documentType: kyc.documentType,
+            documentNumber: kyc.documentNumber,
+            documentImage: uploadResult.secure_url,
+            isVerified: false // Default to false, admin can verify later
+          };
+        }
+      }
+    }
+
+    // Validate and add role-specific data
+    switch (role) {
+      case UserRole.BUSINESS:
+        if (!businessDetails) {
+          res.status(400).json({ message: "Business details are required for business users" });
+          return;
+        }
+        userData.businessDetails = businessDetails;
+        break;
+        
+      case UserRole.FARMER:
+        if (!farmingDetails) {
+          res.status(400).json({ message: "Farming details are required for farmer users" });
+          return;
+        }
+        userData.farmingDetails = farmingDetails;
+        break;
+        
+      case UserRole.DELIVERY_AGENT:
+        if (!deliveryDetails) {
+          res.status(400).json({ message: "Delivery details are required for delivery agents" });
+          return;
+        }
+        userData.deliveryDetails = deliveryDetails;
+        break;
+    }
+
+    // Create new user with all provided data
+    const newUser = new User(userData);
     await newUser.save();
-    res.status(201).json(newUser);
+    
+    // Return the user without the password
+    const userToReturn = newUser.toObject();
+    res.status(201).json(userToReturn);
   } catch (error) {
-    res.status(500).json({ message: "Error creating user", error });
+    console.error("Error creating user:", error);
+    res.status(500).json({ 
+      message: "Error creating user", 
+      error: process.env.NODE_ENV === 'development' ? error : undefined 
+    });
   }
+};
+
+// Helper function to upload files to Cloudinary
+const uploadToCloudinary = (buffer: Buffer, folder: string): Promise<any> => {
+  return new Promise((resolve, reject) => {
+    const uploadStream = cloudinary.uploader.upload_stream(
+      {
+        folder: `uploads/${folder}`,
+        format: 'webp',
+        transformation: [{ width: 1200, height: 1200, crop: 'limit' }]
+      },
+      (error: any, result: { secure_url: string } | undefined) => {
+        if (result) {
+          resolve(result);
+        } else {
+          reject(error);
+        }
+      }
+    );
+    
+    streamifier.createReadStream(buffer).pipe(uploadStream);
+  });
 };
 
 // ✅ Update user details (Authenticated Users Only)
