@@ -1,15 +1,18 @@
 import multer, { FileFilterCallback } from "multer";
 import path from "path";
 import fs from "fs";
+import os from "os";
 import { Request } from "express";
 
+// ✅ Use OS temporary directory (safe for Vercel)
+const tempDir = path.join(os.tmpdir(), "uploads");
+
 // Ensure temp directory exists
-const tempDir = "./public/temp";
 if (!fs.existsSync(tempDir)) {
   fs.mkdirSync(tempDir, { recursive: true });
 }
 
-// Disk storage config
+// ✅ Disk storage config using /tmp/uploads
 const storage = multer.diskStorage({
   destination: (req: Request, file: Express.Multer.File, cb) => {
     cb(null, tempDir);
@@ -21,7 +24,7 @@ const storage = multer.diskStorage({
   }
 });
 
-// Filter for allowed file types and sizes
+// ✅ File type filtering
 const fileFilter = (
   req: Request,
   file: Express.Multer.File,
@@ -34,21 +37,17 @@ const fileFilter = (
     return cb(new Error("Only images (JPEG, PNG, WebP) and videos (MP4, MKV) are allowed"));
   }
 
-  const maxImageSize = 10 * 1024 * 1024; // 10MB
-  const maxVideoSize = 30 * 1024 * 1024; // 30MB
-
-  // Note: file.size is only available AFTER multer processes it.
-  // So we use a workaround via `limits` instead.
-  cb(null, true);
+  cb(null, true); // Accept the file
 };
 
-// Define multer with file size limit (whichever is highest: video)
+// ✅ Multer setup with max file size limit (30MB)
 const upload = multer({
   storage,
-  limits: { fileSize: 30 * 1024 * 1024 }, // allow max 30MB per file
+  limits: { fileSize: 30 * 1024 * 1024 }, // 30 MB
   fileFilter
 });
 
+// ✅ Export middleware variants
 export const uploadMiddleware = {
   singleImage: (fieldName: string) => upload.single(fieldName),
   multipleMedia: upload.array('media', 10),
