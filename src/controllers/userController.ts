@@ -107,7 +107,7 @@ export const createUser = async (req: CustomRequest, res: Response) => {
     const readAndUpload = async (file: Express.Multer.File | undefined, folder: string) => {
       if (!file) return null;
       try {
-        console.log("try section",folder);
+       // console.log("try section",folder);
         const buffer = await fs.readFile(file.path);
         const result = await uploadToCloudinary(buffer, folder);
         await fs.unlink(file.path);
@@ -185,7 +185,7 @@ export const createUser = async (req: CustomRequest, res: Response) => {
     }
 
     const [newUser] = await User.create([userData], { session });
-    console.log(req.user?.userInfo?.id);
+   // console.log(req.user?.userInfo?.id);
     
     if (!req.user?.userInfo?.id) {
       throw new Error("Authentication required for audit");

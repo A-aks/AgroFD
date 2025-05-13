@@ -1,12 +1,7 @@
 import { Request, Response, NextFunction } from "express";
 import jwt from "jsonwebtoken";
 import { CustomRequest } from "../types/CustomRequest";
-// interface AuthenticatedRequest extends Request {
-//   user?: {
-//     id: string;
-//     role: string;
-//   };
-// }
+
 
 // Middleware to verify JWT token
 const authMiddleware = (req: CustomRequest, res: Response, next: NextFunction): void => {
