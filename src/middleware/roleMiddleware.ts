@@ -12,8 +12,8 @@ const checkRole = (allowedRoles: string[]): RequestHandler => {
       res.status(401).json({ message: "Unauthorized: No user found" });
       return;
     }
-    if (!allowedRoles.includes(customReq.user.userInfo.role)) {
-      res.status(403).json({ message: `Access Denied: Role '${customReq.user.userInfo.role}' not allowed` });
+    if (!customReq.user.userInfo || !allowedRoles.includes(customReq.user.userInfo.role)) {
+      res.status(403).json({ message: `Access Denied: Role '${customReq.user.userInfo?.role || "undefined"}' not allowed` });
       return;
     }
 

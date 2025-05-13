@@ -12,7 +12,7 @@ import {
 } from "../controllers/userController";
 import authMiddleware from "../middleware/authMiddleware";
 import checkRole from '../middleware/roleMiddleware';
-import {uploadMiddleware} from "../utils/cloudinary"
+import {uploadMiddleware} from "../middleware/multer"
 
 const router = express.Router();
 

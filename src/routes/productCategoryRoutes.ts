@@ -10,7 +10,7 @@ import {
 } from "../controllers/ProductCategoryController";
 import authMiddleware from "../middleware/authMiddleware";
 import checkRole from "../middleware/roleMiddleware";
-import { upload } from "../utils/cloudinary";
+import { uploadMiddleware} from "../middleware/multer";
 
 const router = express.Router();
 
@@ -19,9 +19,9 @@ router.post(
   "/categories",
   authMiddleware, 
   checkRole(["admin"]),
-  upload.single("category_img"),
+  uploadMiddleware.singleImage("category_img"),
   createCategory);
-router.put("/categories/:id", authMiddleware, checkRole(["admin"]),upload.single("category_img"), updateCategory);
+router.put("/categories/:id", authMiddleware, checkRole(["admin"]),uploadMiddleware.singleImage("category_img"), updateCategory);
 router.delete("/categories/:id", authMiddleware, checkRole(["admin"]), deleteCategory);
 
 // 🔹 Product Routes (Admin & Seller can manage products)

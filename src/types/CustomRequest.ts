@@ -1,7 +1,7 @@
+// src/types/CustomRequest.ts
 import { Request } from "express";
 
-// Define UserInfo type based on actual user structure
-interface UserInfo {
+export interface UserInfo {
   id: string;
   name: string;
   email: string;
@@ -13,10 +13,14 @@ interface UserInfo {
   avatar: string;
 }
 
-// Extend Express Request with userInfo nested inside `user`
-export interface CustomRequest<T = unknown> extends Request {
-  user?: { userInfo: UserInfo }; // ✅ Ensures correct structure
+// Unified request interface
+export interface CustomRequest<T = any> extends Request {
+  user?: {
+    id: string;
+    role: string;
+    userInfo?: UserInfo;
+  };
   body: T;
   file?: Express.Multer.File;
-  files?: Express.Multer.File[];
+  files?: Express.Multer.File[] | { [fieldname: string]: Express.Multer.File[] };
 }
