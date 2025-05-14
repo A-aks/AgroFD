@@ -24,27 +24,23 @@ import { CustomRequest } from "../types/CustomRequest";
 // ✅ Get all users with pagination (Admin Only)
 export const getAllUsers = async (req: CustomRequest, res: Response): Promise<void> => {
   try {
-    // if (req.user?.userInfo?.role !== "admin") {
-    //   res.status(403).json({ message: "Unauthorized access" });
-    //   return;
-    // }
-
-    // Parse query parameters
-    const page = parseInt(req.query.page as string) || 1; // Default to page 1
-    const limit = parseInt(req.query.limit as string) || 10; // Default to 10 users per page
+    // Parse and validate pagination params
+    const page = Math.max(1, parseInt(req.query.page as string)) || 1;
+    const limit = Math.max(1, parseInt(req.query.limit as string)) || 10;
     const skip = (page - 1) * limit;
 
-    // Get total count
+    // Get total number of users
     const totalUsers = await User.countDocuments();
     const totalPages = Math.ceil(totalUsers / limit);
 
-    // Fetch users with pagination
+    // Fetch users with pagination and sort by latest
     const users = await User.find()
       .select("-password")
       .skip(skip)
       .limit(limit)
-      .sort({ createdAt: -1 }); // Optional: sort by latest users
+      .sort({ createdAt: -1 });
 
+    // Respond with paginated users
     res.status(200).json({
       users,
       pagination: {
@@ -55,6 +51,7 @@ export const getAllUsers = async (req: CustomRequest, res: Response): Promise<vo
       }
     });
   } catch (error) {
+    console.error("Error fetching users:", error);
     res.status(500).json({ message: "Error fetching users", error });
   }
 };

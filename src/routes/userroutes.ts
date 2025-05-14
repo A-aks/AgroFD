@@ -18,7 +18,7 @@ const router = express.Router();
 
 // Middleware to check admin role
 const isAdmin = (req: any, res: any, next: any) => {
-  if (req.user?.role !== "admin") {
+  if (req.user?.userInfo?.role !== "admin") {
     return res.status(403).json({ message: "Access denied: Admins only" });
   }
   next();
