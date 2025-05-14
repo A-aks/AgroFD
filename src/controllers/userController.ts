@@ -9,14 +9,51 @@ import { CustomRequest } from "../types/CustomRequest";
 
 
 // ✅ Get all users (Admin Only)
+// export const getAllUsers = async (req: CustomRequest, res: Response): Promise<void> => {
+//   try {
+//     // if (req.user?.role !== "admin") {
+//     //   res.status(403).json({ message: "Unauthorized access" });
+//     //   return;
+//     // }
+//     const users = await User.find().select("-password"); // Exclude password
+//     res.status(200).json(users);
+//   } catch (error) {
+//     res.status(500).json({ message: "Error fetching users", error });
+//   }
+// };
+// ✅ Get all users with pagination (Admin Only)
 export const getAllUsers = async (req: CustomRequest, res: Response): Promise<void> => {
   try {
-    // if (req.user?.role !== "admin") {
-    //   res.status(403).json({ message: "Unauthorized access" });
-    //   return;
-    // }
-    const users = await User.find().select("-password"); // Exclude password
-    res.status(200).json(users);
+    if (req.user?.role !== "admin") {
+      res.status(403).json({ message: "Unauthorized access" });
+      return;
+    }
+
+    // Parse query parameters
+    const page = parseInt(req.query.page as string) || 1; // Default to page 1
+    const limit = parseInt(req.query.limit as string) || 10; // Default to 10 users per page
+    const skip = (page - 1) * limit;
+
+    // Get total count
+    const totalUsers = await User.countDocuments();
+    const totalPages = Math.ceil(totalUsers / limit);
+
+    // Fetch users with pagination
+    const users = await User.find()
+      .select("-password")
+      .skip(skip)
+      .limit(limit)
+      .sort({ createdAt: -1 }); // Optional: sort by latest users
+
+    res.status(200).json({
+      users,
+      pagination: {
+        currentPage: page,
+        totalPages,
+        totalUsers,
+        limit
+      }
+    });
   } catch (error) {
     res.status(500).json({ message: "Error fetching users", error });
   }
