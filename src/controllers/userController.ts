@@ -24,7 +24,7 @@ import { CustomRequest } from "../types/CustomRequest";
 // ✅ Get all users with pagination (Admin Only)
 export const getAllUsers = async (req: CustomRequest, res: Response): Promise<void> => {
   try {
-    if (req.user?.role !== "admin") {
+    if (req.user?.userInfo?.role !== "admin") {
       res.status(403).json({ message: "Unauthorized access" });
       return;
     }
