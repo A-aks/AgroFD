@@ -6,7 +6,7 @@ export const getTranslations = async (req: Request, res: Response) => {
   try {
     const lang = req.params.lang || "en"; // Default to English if no language provided
     const translations = await Translation.find({}, { _id: 1, [lang]: 1 });
-    console.log(lang);
+   // console.log(lang);
     const formattedTranslations = translations.reduce((acc, item) => {
       acc[item._id] = item[lang];
       return acc;
