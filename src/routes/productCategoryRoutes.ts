@@ -3,9 +3,6 @@ import {
   createCategory,
   updateCategory,
   deleteCategory,
-  createProduct,
-  updateProduct,
-  deleteProduct,
   getCategories 
 } from "../controllers/ProductCategoryController";
 import authMiddleware from "../middleware/authMiddleware";
@@ -24,10 +21,7 @@ router.post(
 router.put("/categories/:id", authMiddleware, checkRole(["admin"]),uploadMiddleware.singleImage("category_img"), updateCategory);
 router.delete("/categories/:id", authMiddleware, checkRole(["admin"]), deleteCategory);
 
-// 🔹 Product Routes (Admin & Seller can manage products)
-router.post("/product", authMiddleware, checkRole(["admin", "seller"]), createProduct);
-router.put("/product/:id", authMiddleware, checkRole(["admin", "seller"]), updateProduct);
-router.delete("/product/:id", authMiddleware, checkRole(["admin", "seller"]), deleteProduct);
+
 router.get('/allcategories',authMiddleware,getCategories );
 
 export default router;

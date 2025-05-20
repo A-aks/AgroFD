@@ -1,0 +1,239 @@
+[{
+  "_id": {
+    "$oid": "67c8597bc28aa4829c7c6b3a"
+  },
+  "name": "John Deo ",
+  "email": "johndoe154@example.com",
+  "password": "$2b$10$iJ8I7H2inati1IP/iYfOgeXT/ClHrVW/Hyz3K.X9elh95tbHxMZBm",
+  "role": "customer",
+  "address": "satna ka ",
+  "city": "rewa aur satna",
+  "isDisabled": false,
+  "createdAt": {
+    "$date": "2025-03-05T14:02:35.765Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-11T17:33:47.444Z"
+  },
+  "__v": 0,
+  "altPhone": "6978546532",
+  "avatar": "https://res.cloudinary.com/dvurobnaz/image/upload/v1741714426/avatars/7d96a69e-b6b1-4737-9a1b-2b00914a5550_1741714424185.png",
+  "phone": "6987584658"
+},
+{
+  "_id": {
+    "$oid": "67c9d3fb2f95d3b2f9a83c75"
+  },
+  "name": "Amit kumar",
+  "email": "amitkushwaha079@gmail.com",
+  "password": "$2b$10$kATyiymXxPlpOEShJ85b..vsExdF7yFLyYTSLOfQLD434NQL6mzPq",
+  "role": "admin",
+  "address": "Lauwa Laxmanpur ",
+  "city": "Rewa",
+  "isDisabled": false,
+  "createdAt": {
+    "$date": "2025-03-06T16:57:31.242Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-17T11:01:14.588Z"
+  },
+  "__v": 0,
+  "altPhone": "6298654508",
+  "avatar": "https://res.cloudinary.com/dvurobnaz/image/upload/v1742209272/avatars/a807f9f6-9d62-4c5a-a4fc-9bfe1881b33d_1742209269982.png",
+  "phone": "6256987451"
+},
+{
+  "_id": {
+    "$oid": "67c9e0ae926c12fbe771ce76"
+  },
+  "name": "John Doe",
+  "email": "johndoe1564@example.com",
+  "password": "$2b$10$0Mmluw..AdVMJbDW5ACRw.YHlUAMbnFft864y12umrsaHJNZjnLo6",
+  "role": "customer",
+  "address": "123 Main Street",
+  "city": "New York",
+  "isDisabled": false,
+  "createdAt": {
+    "$date": "2025-03-06T17:51:42.811Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-06T17:51:42.811Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67cc53f616c548541a9f9f18"
+  },
+  "name": "Suraj Kumar ",
+  "email": "johndoe15694@example.com",
+  "password": "$2b$10$lxQJgiO06./u4C8Py2bKTOi6C0iAT28vpO0lWQbj4awykTG2d8kWO",
+  "role": "business",
+  "avatar": "https://res.cloudinary.com/dvurobnaz/image/upload/v1741670398/avatars/67c36465-b34f-45a7-a5fb-8add3736e816.png",
+  "phone": "6987548690",
+  "altPhone": "6266983590",
+  "address": "Satna to Rewa",
+  "city": "Rewa",
+  "isDisabled": false,
+  "createdAt": {
+    "$date": "2025-03-08T14:28:06.541Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-11T05:20:00.577Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d074821c7afcf5efb7ea4b"
+  },
+  "name": "Amit Kushwaha",
+  "email": "amitkushwaha@outlook.com",
+  "password": "$2b$10$3D47poDJGlpnXvf2atWatu4Xu4QWGLG5Xuwfj.EHjaUaiG1ItRCce",
+  "role": "admin",
+  "avatar": "https://res.cloudinary.com/dvurobnaz/image/upload/v1741714631/avatars/16ca9254-7792-4332-98c1-b91d9d3bb445_1741714629316.png",
+  "phone": "+919171959701",
+  "altPhone": "",
+  "address": "Lauwa Laxmanpur ",
+  "city": "Rewa",
+  "isDisabled": false,
+  "createdAt": {
+    "$date": "2025-03-11T17:36:02.666Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-11T17:37:12.218Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6823032d0cacf49f539c4848"
+  },
+  "name": "Suraj gunda",
+  "email": "surajgunda@gm.co",
+  "password": "surajgunda",
+  "role": "farmer",
+  "phone": "2564352532",
+  "altPhone": "2534652856",
+  "address": "Lauwa Laxmanpur",
+  "city": "Rewa",
+  "avatar": "https://res.cloudinary.com/dvurobnaz/image/upload/v1747125037/uploads/avatars/wvr0hpwvrmepdx3an6pb.webp",
+  "isDisabled": false,
+  "kyc": {
+    "documentType": "Aadhar",
+    "documentNumber": "34827372728",
+    "documentImage": "https://res.cloudinary.com/dvurobnaz/image/upload/v1747125036/uploads/kyc-documents/jwmwtnce8c5povc4qckv.webp",
+    "isVerified": false
+  },
+  "farmingDetails": {
+    "crops": [
+      {
+        "cropType": "Wheat ",
+        "productionSize": "20 Quintal ",
+        "_id": {
+          "$oid": "6823032d0cacf49f539c4849"
+        }
+      }
+    ],
+    "landSize": "25",
+    "experienceYears": 20,
+    "certifications": [
+      "Cert247"
+    ]
+  },
+  "createdAt": {
+    "$date": "2025-05-13T08:30:38.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-13T08:30:38.000Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6824b49be254252bc89e0bb8"
+  },
+  "name": "Baklol user",
+  "email": "bakloluser@user.co",
+  "password": "bakloluser",
+  "role": "farmer",
+  "phone": "2543265384",
+  "altPhone": "2453867592",
+  "address": "Lauwa Laxmanpur",
+  "city": "Rewa",
+  "avatar": "https://res.cloudinary.com/dvurobnaz/image/upload/v1747235994/uploads/avatars/ynrques9mvqxmywlyixu.webp",
+  "isDisabled": false,
+  "kyc": {
+    "documentType": "Aadhar",
+    "documentNumber": "3937482949294829",
+    "documentImage": "https://res.cloudinary.com/dvurobnaz/image/upload/v1747235994/uploads/kyc-documents/vydmc0hbtisgzapqwtmm.webp",
+    "isVerified": false
+  },
+  "farmingDetails": {
+    "crops": [
+      {
+        "cropType": "Wheat ",
+        "productionSize": "20 Quintal ",
+        "_id": {
+          "$oid": "6824b49be254252bc89e0bb9"
+        }
+      }
+    ],
+    "landSize": "25",
+    "experienceYears": 25,
+    "certifications": [
+      "Cert3492858"
+    ]
+  },
+  "createdAt": {
+    "$date": "2025-05-14T15:19:55.037Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-14T15:19:55.037Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6824b6b78a1f865334d559c9"
+  },
+  "name": "Dummy User",
+  "email": "dummyuser@mail.co",
+  "password": "Dummyuser",
+  "role": "farmer",
+  "phone": "5243265345",
+  "altPhone": "2534625258",
+  "address": "Lauwa Laxmanpur",
+  "city": "Rewa",
+  "avatar": "https://res.cloudinary.com/dvurobnaz/image/upload/v1747236535/uploads/avatars/p1lk0ex44edbuisiocow.webp",
+  "isDisabled": false,
+  "kyc": {
+    "documentType": "Aadhar",
+    "documentNumber": "2546535676864",
+    "documentImage": "https://res.cloudinary.com/dvurobnaz/image/upload/v1747236535/uploads/kyc-documents/lkhxrvi6sieduxjalwsw.webp",
+    "isVerified": false
+  },
+  "farmingDetails": {
+    "crops": [
+      {
+        "cropType": "Rice",
+        "productionSize": "20 Quintal ",
+        "_id": {
+          "$oid": "6824b6b78a1f865334d559ca"
+        }
+      }
+    ],
+    "landSize": "30",
+    "experienceYears": 25,
+    "certifications": [
+      "Cert256134628"
+    ]
+  },
+  "createdAt": {
+    "$date": "2025-05-14T15:28:55.978Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-14T15:28:55.978Z"
+  },
+  "__v": 0
+}]

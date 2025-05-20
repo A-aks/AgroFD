@@ -1,10 +1,10 @@
 import asyncHandler from "express-async-handler";
 import { Request, Response } from "express";
-import { Category, Product } from "../models/ProductsCategories";
 import {IMedia} from '../types/IMedia'
 import {ICategory} from '../types/ICategory'
 import {IProduct} from '../types/IProduct'
-
+import {Product} from '../models/Product'
+import {Category} from '../models/Category'
 
 
 //Extend Request to include user info
@@ -88,80 +88,4 @@ export const getCategories = asyncHandler(async (req: Request, res: Response) =>
   });
 });
 
-// ✅ Create a new product
-export const createProduct = asyncHandler(async (req: CustomRequest<IProduct>, res: Response) => {
-  const { name, category, price, unit, stock, description, media } = req.body;
 
-  if (!name || !category || !price || !unit || stock === undefined) {
-    res.status(400);
-    throw new Error("All product fields are required");
-  }
-
-  const categoryExists = await Category.findById(category);
-  if (!categoryExists) {
-    res.status(400);
-    throw new Error("Invalid category");
-  }
-  // Ensure media is an array of IMedia
-  let formattedMedia: IMedia[] | undefined = undefined;
-  if (media && Array.isArray(media)) {
-    formattedMedia = media.map((item) => {
-      if (typeof item === "string") {
-        return { url: item, type: "image" }; // Default to "image"
-      } else {
-        return { url: item.url, type: item.type as "image" | "video" };
-      }
-    });
-  }
-
-  const newProduct = await Product.create({
-    name,
-    category,
-    price,
-    unit,
-    stock,
-    description,
-    media:formattedMedia, // Ensure media is always a string[]
-    addedBy: req.userInfo?.id,
-  });
-
-  res.status(201).json({ message: "Product created successfully", product: newProduct });
-});
-
-// ✅ Update a product
-export const updateProduct = asyncHandler(async (req: CustomRequest<IProduct>, res: Response) => {
-  const { id } = req.params as { id: string };
-  const { name, category, price, unit, stock, description, media } = req.body;
-
-  const product = await findProductById(id);
-
-  let formattedMedia: IMedia[] | undefined = product.media;
-  if (media && Array.isArray(media)) {
-    formattedMedia = media.map((item) => {
-      if (typeof item === "string") {
-        return { url: item, type: "image" }; // Default to "image"
-      } else {
-        return { url: item.url, type: item.type as "image" | "video" };
-      }
-    });
-  }
-
-  product.name = name || product.name;
-  product.category = category || product.category;
-  product.price = price || product.price;
-  product.unit = unit || product.unit;
-  product.stock = stock !== undefined ? stock : product.stock;
-  product.description = description || product.description;
-  product.media = formattedMedia;
-
-  await product.save();
-  res.status(200).json({ message: "Product updated successfully", product });
-});
-// ✅ Delete a product
-export const deleteProduct = asyncHandler(async (req: CustomRequest, res: Response) => {
-  const { id } = req.params as { id: string };
-  const product = await findProductById(id);
-
-  await product.deleteOne();
-  res.status(200).json({ message: "Product deleted successfully" });
-});

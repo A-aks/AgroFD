@@ -21,7 +21,7 @@ app.use(express.json());
 
 app.use("/api/users", userRoutes);
 app.use("/api/auth", authRoutes);
-app.use("/api/product", product_category);
+app.use("/api/category", product_category);
 app.use("/api/translations", translationRoutes);
 app.use(errorHandler);
 

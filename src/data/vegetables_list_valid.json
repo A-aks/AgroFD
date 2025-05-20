@@ -1,0 +1,262 @@
+[
+  {
+    "_id": {
+      "$oid": "c25e4f000000000000000001"
+    },
+    "name": {
+      "en": "Potato",
+      "hi": "आलू"
+    },
+    "description": {
+      "en": "A starchy tuber used in various dishes.",
+      "hi": "एक स्टार्चयुक्त कंद जो विभिन्न व्यंजनों में उपयोग होता है।"
+    },
+    "parentCategory": {
+      "$oid": "67dd36387ed1fa004b462778"
+    },
+    "subcategory_img": "https://example.com/vegetables/potato.jpg",
+    "price": 30,
+    "currency": "INR",
+    "unit": "1kg",
+    "createdAt": {
+      "$date": "2025-05-17T15:46:57.996614Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-17T15:46:57.996614Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c25e4f000000000000000002"
+    },
+    "name": {
+      "en": "Tomato",
+      "hi": "टमाटर"
+    },
+    "description": {
+      "en": "A red fruit used as a vegetable in cooking.",
+      "hi": "एक लाल फल जो खाना पकाने में सब्जी के रूप में उपयोग होता है।"
+    },
+    "parentCategory": {
+      "$oid": "67dd36387ed1fa004b462778"
+    },
+    "subcategory_img": "https://example.com/vegetables/tomato.jpg",
+    "price": 40,
+    "currency": "INR",
+    "unit": "1kg",
+    "createdAt": {
+      "$date": "2025-05-17T15:46:57.996614Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-17T15:46:57.996614Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c25e4f000000000000000003"
+    },
+    "name": {
+      "en": "Onion",
+      "hi": "प्याज"
+    },
+    "description": {
+      "en": "A bulb vegetable with a pungent taste.",
+      "hi": "एक बल्ब सब्जी जिसमें तीखा स्वाद होता है।"
+    },
+    "parentCategory": {
+      "$oid": "67dd36387ed1fa004b462778"
+    },
+    "subcategory_img": "https://example.com/vegetables/onion.jpg",
+    "price": 25,
+    "currency": "INR",
+    "unit": "1kg",
+    "createdAt": {
+      "$date": "2025-05-17T15:46:57.996614Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-17T15:46:57.996614Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c25e4f000000000000000004"
+    },
+    "name": {
+      "en": "Carrot",
+      "hi": "गाजर"
+    },
+    "description": {
+      "en": "An orange root vegetable rich in beta-carotene.",
+      "hi": "एक नारंगी जड़ वाली सब्जी जो बीटा-कैरोटीन से भरपूर होती है।"
+    },
+    "parentCategory": {
+      "$oid": "67dd36387ed1fa004b462778"
+    },
+    "subcategory_img": "https://example.com/vegetables/carrot.jpg",
+    "price": 35,
+    "currency": "INR",
+    "unit": "1kg",
+    "createdAt": {
+      "$date": "2025-05-17T15:46:57.996614Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-17T15:46:57.996614Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c25e4f000000000000000005"
+    },
+    "name": {
+      "en": "Spinach",
+      "hi": "पालक"
+    },
+    "description": {
+      "en": "A leafy green vegetable high in iron.",
+      "hi": "एक हरी पत्तेदार सब्जी जो आयरन से भरपूर होती है।"
+    },
+    "parentCategory": {
+      "$oid": "67dd36387ed1fa004b462778"
+    },
+    "subcategory_img": "https://example.com/vegetables/spinach.jpg",
+    "price": 20,
+    "currency": "INR",
+    "unit": "500g",
+    "createdAt": {
+      "$date": "2025-05-17T15:46:57.996614Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-17T15:46:57.996614Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c25e4f000000000000000006"
+    },
+    "name": {
+      "en": "Cauliflower",
+      "hi": "फूलगोभी"
+    },
+    "description": {
+      "en": "A white flowering vegetable rich in nutrients.",
+      "hi": "एक सफेद फूल वाली सब्जी जो पोषक तत्वों से भरपूर होती है।"
+    },
+    "parentCategory": {
+      "$oid": "67dd36387ed1fa004b462778"
+    },
+    "subcategory_img": "https://example.com/vegetables/cauliflower.jpg",
+    "price": 45,
+    "currency": "INR",
+    "unit": "1kg",
+    "createdAt": {
+      "$date": "2025-05-17T15:46:57.996614Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-17T15:46:57.996614Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c25e4f000000000000000007"
+    },
+    "name": {
+      "en": "Cabbage",
+      "hi": "पत्ता गोभी"
+    },
+    "description": {
+      "en": "A leafy vegetable with dense green leaves.",
+      "hi": "एक पत्तेदार सब्जी जिसमें घने हरे पत्ते होते हैं।"
+    },
+    "parentCategory": {
+      "$oid": "67dd36387ed1fa004b462778"
+    },
+    "subcategory_img": "https://example.com/vegetables/cabbage.jpg",
+    "price": 30,
+    "currency": "INR",
+    "unit": "1kg",
+    "createdAt": {
+      "$date": "2025-05-17T15:46:57.996614Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-17T15:46:57.996614Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c25e4f000000000000000008"
+    },
+    "name": {
+      "en": "Brinjal",
+      "hi": "बैंगन"
+    },
+    "description": {
+      "en": "A purple vegetable also known as eggplant.",
+      "hi": "एक बैंगनी रंग की सब्जी जिसे एगप्लांट भी कहते हैं।"
+    },
+    "parentCategory": {
+      "$oid": "67dd36387ed1fa004b462778"
+    },
+    "subcategory_img": "https://example.com/vegetables/brinjal.jpg",
+    "price": 28,
+    "currency": "INR",
+    "unit": "1kg",
+    "createdAt": {
+      "$date": "2025-05-17T15:46:57.996614Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-17T15:46:57.996614Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c25e4f000000000000000009"
+    },
+    "name": {
+      "en": "Lady Finger",
+      "hi": "भिंडी"
+    },
+    "description": {
+      "en": "A green finger-like vegetable also called okra.",
+      "hi": "एक हरी उंगली जैसी सब्जी जिसे ओकरा भी कहा जाता है।"
+    },
+    "parentCategory": {
+      "$oid": "67dd36387ed1fa004b462778"
+    },
+    "subcategory_img": "https://example.com/vegetables/ladyfinger.jpg",
+    "price": 38,
+    "currency": "INR",
+    "unit": "500g",
+    "createdAt": {
+      "$date": "2025-05-17T15:46:57.996614Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-17T15:46:57.996614Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "c25e4f00000000000000000a"
+    },
+    "name": {
+      "en": "Green Peas",
+      "hi": "मटर"
+    },
+    "description": {
+      "en": "Small green peas used in various dishes.",
+      "hi": "छोटी हरी मटर जो विभिन्न व्यंजनों में उपयोग होती है।"
+    },
+    "parentCategory": {
+      "$oid": "67dd36387ed1fa004b462778"
+    },
+    "subcategory_img": "https://example.com/vegetables/greenpeas.jpg",
+    "price": 60,
+    "currency": "INR",
+    "unit": "500g",
+    "createdAt": {
+      "$date": "2025-05-17T15:46:57.996614Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-17T15:46:57.996614Z"
+    }
+  }
+]

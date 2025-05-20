@@ -1,5 +1,4 @@
-import {Document} from 'mongoose'
-export interface IMedia{
-    url: string;
-    type: "image" | "video";
-  }
+export interface IMedia {
+  type: "image" | "video";
+  url: string;
+}
