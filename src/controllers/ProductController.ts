@@ -5,18 +5,39 @@ import { CustomRequest } from "../types/CustomRequest";
 
 export const getAllProducts = async (req: CustomRequest, res: Response): Promise<void> => {
   try {
-    const products = await Product.find();
-    res.status(200).json(products);
+    const page = parseInt(req.query.page as string) || 1;      // current page
+    const limit = parseInt(req.query.limit as string) || 20;   // items per page
+    const skip = (page - 1) * limit;
+
+    const [products, total] = await Promise.all([
+      Product.find().skip(skip).limit(limit),
+      Product.countDocuments()
+    ]);
+
+    res.status(200).json({
+      page,
+      totalPages: Math.ceil(total / limit),
+      totalItems: total,
+      items: products,
+    });
   } catch (error: any) {
     res.status(500).json({ error: error.message || 'Failed to fetch products.' });
   }
 };
+
 export const getProductsByCategory = async (req: Request, res: Response): Promise<void> => {
   const category = req.query.category as string | undefined;
+  const page = parseInt(req.query.page as string) || 1;
+  const limit = parseInt(req.query.limit as string) || 20;
+  const skip = (page - 1) * limit;
 
   try {
     const filter = category ? { category } : {};
-    const products = await Product.find(filter).sort({ category: 1 }); // 1 = ascending, -1 = descending
+
+    const [products, total] = await Promise.all([
+      Product.find(filter).sort({ category: 1 }).skip(skip).limit(limit),
+      Product.countDocuments(filter)
+    ]);
 
     if (!products.length) {
       res.status(404).json({
@@ -27,11 +48,17 @@ export const getProductsByCategory = async (req: Request, res: Response): Promis
       return;
     }
 
-    res.status(200).json(products);
+    res.status(200).json({
+      page,
+      totalPages: Math.ceil(total / limit),
+      totalItems: total,
+      items: products,
+    });
   } catch (error) {
     console.error("❌ Error fetching products:", error);
     res.status(500).json({ message: "Server error" });
   }
 };
+
 
 

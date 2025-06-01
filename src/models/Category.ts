@@ -5,8 +5,7 @@ import { ICategory } from "../types/ICategory";
 export enum ProductCategory {
   VEGETABLES = "vegetables",
   FRUITS = "fruits",
-  MILK = "milk",
-  MILK_PRODUCTS = "milk-products",
+  DAIRY="dairy",
   GRAINS = "grains",
   SEEDS = "seed",
   NURSERY_TREES = "nursery-plants",
