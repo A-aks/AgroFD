@@ -1,16 +1,11 @@
-import { IMedia } from "./IMedia";
+import { Document} from 'mongoose';
 import { IMultilingualText } from "./IMultilingualText";
-
-export interface IProduct {
+export interface IProduct extends Document {
+   _id: string;  
   name: IMultilingualText;
-  description?: IMultilingualText;
   category: string;
-  subcategory?: string;
-  price: number;
-  unit: string;
-  stock: number;
-  media?: IMedia[];
-  addedBy?: string;
+  type?: string;
+  image: string;
   createdAt?: Date;
-  updatedAt?: Date;
 }
+

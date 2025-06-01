@@ -2,8 +2,8 @@ import asyncHandler from "express-async-handler";
 import { Request, Response } from "express";
 import {IMedia} from '../types/IMedia'
 import {ICategory} from '../types/ICategory'
-import {IProduct} from '../types/IProduct'
-import {Product} from '../models/Product'
+import {IProduct} from '../types/IProduct_stock'
+import {Product} from '../models/Product_stock'
 import {Category} from '../models/Category'
 
 

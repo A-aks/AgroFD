@@ -1,0 +1,3872 @@
+[
+    {
+        "id": "sp_1_veg001_0",
+        "product_id": "veg001",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 22,
+        "available_stock": 120
+    },
+    {
+        "id": "sp_2_veg001_1",
+        "product_id": "veg001",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 20,
+        "available_stock": 95
+    },
+    {
+        "id": "sp_3_veg001_2",
+        "product_id": "veg001",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 25,
+        "available_stock": 80
+    },
+    {
+        "id": "sp_1_veg002_3",
+        "product_id": "veg002",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 35,
+        "available_stock": 150
+    },
+    {
+        "id": "sp_2_veg002_4",
+        "product_id": "veg002",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 32,
+        "available_stock": 110
+    },
+    {
+        "id": "sp_3_veg002_5",
+        "product_id": "veg002",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 38,
+        "available_stock": 90
+    },
+    {
+        "id": "sp_1_veg003_6",
+        "product_id": "veg003",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 28,
+        "available_stock": 200
+    },
+    {
+        "id": "sp_2_veg003_7",
+        "product_id": "veg003",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 25,
+        "available_stock": 180
+    },
+    {
+        "id": "sp_3_veg003_8",
+        "product_id": "veg003",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 30,
+        "available_stock": 150
+    },
+    {
+        "id": "sp_1_veg004_9",
+        "product_id": "veg004",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 180,
+        "available_stock": 50
+    },
+    {
+        "id": "sp_2_veg004_10",
+        "product_id": "veg004",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 175,
+        "available_stock": 40
+    },
+    {
+        "id": "sp_3_veg004_11",
+        "product_id": "veg004",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 190,
+        "available_stock": 35
+    },
+    {
+        "id": "sp_1_veg005_12",
+        "product_id": "veg005",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 150,
+        "available_stock": 60
+    },
+    {
+        "id": "sp_2_veg005_13",
+        "product_id": "veg005",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 145,
+        "available_stock": 45
+    },
+    {
+        "id": "sp_3_veg005_14",
+        "product_id": "veg005",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 160,
+        "available_stock": 50
+    },
+    {
+        "id": "sp_1_veg006_15",
+        "product_id": "veg006",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 40,
+        "available_stock": 100
+    },
+    {
+        "id": "sp_2_veg006_16",
+        "product_id": "veg006",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 38,
+        "available_stock": 85
+    },
+    {
+        "id": "sp_3_veg006_17",
+        "product_id": "veg006",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 42,
+        "available_stock": 70
+    },
+    {
+        "id": "sp_1_veg007_18",
+        "product_id": "veg007",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 45,
+        "available_stock": 80
+    },
+    {
+        "id": "sp_2_veg007_19",
+        "product_id": "veg007",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 42,
+        "available_stock": 65
+    },
+    {
+        "id": "sp_3_veg007_20",
+        "product_id": "veg007",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 48,
+        "available_stock": 55
+    },
+    {
+        "id": "sp_1_veg008_21",
+        "product_id": "veg008",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 30,
+        "available_stock": 120
+    },
+    {
+        "id": "sp_2_veg008_22",
+        "product_id": "veg008",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 28,
+        "available_stock": 100
+    },
+    {
+        "id": "sp_3_veg008_23",
+        "product_id": "veg008",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 32,
+        "available_stock": 90
+    },
+    {
+        "id": "sp_1_veg009_24",
+        "product_id": "veg009",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 60,
+        "available_stock": 70
+    },
+    {
+        "id": "sp_2_veg009_25",
+        "product_id": "veg009",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 58,
+        "available_stock": 50
+    },
+    {
+        "id": "sp_3_veg009_26",
+        "product_id": "veg009",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 65,
+        "available_stock": 45
+    },
+    {
+        "id": "sp_1_veg010_27",
+        "product_id": "veg010",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 80,
+        "available_stock": 60
+    },
+    {
+        "id": "sp_2_veg010_28",
+        "product_id": "veg010",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 75,
+        "available_stock": 45
+    },
+    {
+        "id": "sp_3_veg010_29",
+        "product_id": "veg010",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 85,
+        "available_stock": 40
+    },
+    {
+        "id": "sp_1_veg011_30",
+        "product_id": "veg011",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 35,
+        "available_stock": 90
+    },
+    {
+        "id": "sp_2_veg011_31",
+        "product_id": "veg011",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 32,
+        "available_stock": 70
+    },
+    {
+        "id": "sp_3_veg011_32",
+        "product_id": "veg011",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 38,
+        "available_stock": 60
+    },
+    {
+        "id": "sp_1_veg012_33",
+        "product_id": "veg012",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 25,
+        "available_stock": 110
+    },
+    {
+        "id": "sp_2_veg012_34",
+        "product_id": "veg012",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 22,
+        "available_stock": 95
+    },
+    {
+        "id": "sp_3_veg012_35",
+        "product_id": "veg012",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 28,
+        "available_stock": 80
+    },
+    {
+        "id": "sp_1_veg013_36",
+        "product_id": "veg013",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 40,
+        "available_stock": 75
+    },
+    {
+        "id": "sp_2_veg013_37",
+        "product_id": "veg013",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 38,
+        "available_stock": 60
+    },
+    {
+        "id": "sp_3_veg013_38",
+        "product_id": "veg013",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 45,
+        "available_stock": 50
+    },
+    {
+        "id": "sp_1_veg014_39",
+        "product_id": "veg014",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 30,
+        "available_stock": 85
+    },
+    {
+        "id": "sp_2_veg014_40",
+        "product_id": "veg014",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 28,
+        "available_stock": 70
+    },
+    {
+        "id": "sp_3_veg014_41",
+        "product_id": "veg014",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 32,
+        "available_stock": 60
+    },
+    {
+        "id": "sp_1_veg015_42",
+        "product_id": "veg015",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 50,
+        "available_stock": 65
+    },
+    {
+        "id": "sp_2_veg015_43",
+        "product_id": "veg015",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 48,
+        "available_stock": 50
+    },
+    {
+        "id": "sp_3_veg015_44",
+        "product_id": "veg015",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 55,
+        "available_stock": 40
+    },
+    {
+        "id": "sp_1_veg016_45",
+        "product_id": "veg016",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 20,
+        "available_stock": 150
+    },
+    {
+        "id": "sp_2_veg016_46",
+        "product_id": "veg016",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 18,
+        "available_stock": 120
+    },
+    {
+        "id": "sp_3_veg016_47",
+        "product_id": "veg016",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 22,
+        "available_stock": 100
+    },
+    {
+        "id": "sp_1_veg017_48",
+        "product_id": "veg017",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 25,
+        "available_stock": 80
+    },
+    {
+        "id": "sp_2_veg017_49",
+        "product_id": "veg017",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 22,
+        "available_stock": 65
+    },
+    {
+        "id": "sp_3_veg017_50",
+        "product_id": "veg017",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 28,
+        "available_stock": 55
+    },
+    {
+        "id": "sp_1_veg018_51",
+        "product_id": "veg018",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 30,
+        "available_stock": 70
+    },
+    {
+        "id": "sp_2_veg018_52",
+        "product_id": "veg018",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 28,
+        "available_stock": 55
+    },
+    {
+        "id": "sp_3_veg018_53",
+        "product_id": "veg018",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 35,
+        "available_stock": 45
+    },
+    {
+        "id": "sp_1_veg019_54",
+        "product_id": "veg019",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 40,
+        "available_stock": 60
+    },
+    {
+        "id": "sp_2_veg019_55",
+        "product_id": "veg019",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 38,
+        "available_stock": 45
+    },
+    {
+        "id": "sp_3_veg019_56",
+        "product_id": "veg019",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 45,
+        "available_stock": 40
+    },
+    {
+        "id": "sp_1_veg020_57",
+        "product_id": "veg020",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 60,
+        "available_stock": 90
+    },
+    {
+        "id": "sp_2_veg020_58",
+        "product_id": "veg020",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 55,
+        "available_stock": 70
+    },
+    {
+        "id": "sp_3_veg020_59",
+        "product_id": "veg020",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 65,
+        "available_stock": 60
+    },
+    {
+        "id": "sp_1_veg021_60",
+        "product_id": "veg021",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 20,
+        "available_stock": 130
+    },
+    {
+        "id": "sp_2_veg021_61",
+        "product_id": "veg021",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 18,
+        "available_stock": 110
+    },
+    {
+        "id": "sp_3_veg021_62",
+        "product_id": "veg021",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 22,
+        "available_stock": 90
+    },
+    {
+        "id": "sp_1_veg022_63",
+        "product_id": "veg022",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 35,
+        "available_stock": 80
+    },
+    {
+        "id": "sp_2_veg022_64",
+        "product_id": "veg022",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 32,
+        "available_stock": 65
+    },
+    {
+        "id": "sp_3_veg022_65",
+        "product_id": "veg022",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 38,
+        "available_stock": 55
+    },
+    {
+        "id": "sp_1_veg023_66",
+        "product_id": "veg023",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 30,
+        "available_stock": 70
+    },
+    {
+        "id": "sp_2_veg023_67",
+        "product_id": "veg023",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 28,
+        "available_stock": 55
+    },
+    {
+        "id": "sp_3_veg023_68",
+        "product_id": "veg023",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 32,
+        "available_stock": 45
+    },
+    {
+        "id": "sp_1_veg041_69",
+        "product_id": "veg041",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 40,
+        "available_stock": 60
+    },
+    {
+        "id": "sp_2_veg041_70",
+        "product_id": "veg041",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 38,
+        "available_stock": 45
+    },
+    {
+        "id": "sp_3_veg041_71",
+        "product_id": "veg041",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 45,
+        "available_stock": 40
+    },
+    {
+        "id": "sp_1_veg024_72",
+        "product_id": "veg024",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 25,
+        "available_stock": 120
+    },
+    {
+        "id": "sp_2_veg024_73",
+        "product_id": "veg024",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 22,
+        "available_stock": 100
+    },
+    {
+        "id": "sp_3_veg024_74",
+        "product_id": "veg024",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 28,
+        "available_stock": 85
+    },
+    {
+        "id": "sp_1_veg025_75",
+        "product_id": "veg025",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 35,
+        "available_stock": 90
+    },
+    {
+        "id": "sp_2_veg025_76",
+        "product_id": "veg025",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 32,
+        "available_stock": 70
+    },
+    {
+        "id": "sp_3_veg025_77",
+        "product_id": "veg025",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 38,
+        "available_stock": 60
+    },
+    {
+        "id": "sp_1_veg026_78",
+        "product_id": "veg026",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 30,
+        "available_stock": 110
+    },
+    {
+        "id": "sp_2_veg026_79",
+        "product_id": "veg026",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 28,
+        "available_stock": 90
+    },
+    {
+        "id": "sp_3_veg026_80",
+        "product_id": "veg026",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 32,
+        "available_stock": 75
+    },
+    {
+        "id": "sp_1_veg030_81",
+        "product_id": "veg030",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 80,
+        "available_stock": 50
+    },
+    {
+        "id": "sp_2_veg030_82",
+        "product_id": "veg030",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 75,
+        "available_stock": 40
+    },
+    {
+        "id": "sp_3_veg030_83",
+        "product_id": "veg030",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 85,
+        "available_stock": 35
+    },
+    {
+        "id": "sp_1_veg031_84",
+        "product_id": "veg031",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 40,
+        "available_stock": 70
+    },
+    {
+        "id": "sp_2_veg031_85",
+        "product_id": "veg031",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 38,
+        "available_stock": 55
+    },
+    {
+        "id": "sp_3_veg031_86",
+        "product_id": "veg031",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 45,
+        "available_stock": 45
+    },
+    {
+        "id": "sp_1_veg032_87",
+        "product_id": "veg032",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 50,
+        "available_stock": 60
+    },
+    {
+        "id": "sp_2_veg032_88",
+        "product_id": "veg032",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 48,
+        "available_stock": 45
+    },
+    {
+        "id": "sp_3_veg032_89",
+        "product_id": "veg032",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 55,
+        "available_stock": 40
+    },
+    {
+        "id": "sp_1_veg033_90",
+        "product_id": "veg033",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 35,
+        "available_stock": 80
+    },
+    {
+        "id": "sp_2_veg033_91",
+        "product_id": "veg033",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 32,
+        "available_stock": 65
+    },
+    {
+        "id": "sp_3_veg033_92",
+        "product_id": "veg033",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 38,
+        "available_stock": 55
+    },
+    {
+        "id": "sp_1_veg036_93",
+        "product_id": "veg036",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 120,
+        "available_stock": 40
+    },
+    {
+        "id": "sp_2_veg036_94",
+        "product_id": "veg036",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 115,
+        "available_stock": 30
+    },
+    {
+        "id": "sp_3_veg036_95",
+        "product_id": "veg036",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 125,
+        "available_stock": 25
+    },
+    {
+        "id": "sp_1_veg037_96",
+        "product_id": "veg037",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 30,
+        "available_stock": 90
+    },
+    {
+        "id": "sp_2_veg037_97",
+        "product_id": "veg037",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 28,
+        "available_stock": 70
+    },
+    {
+        "id": "sp_3_veg037_98",
+        "product_id": "veg037",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 32,
+        "available_stock": 60
+    },
+    {
+        "id": "sp_1_veg039_99",
+        "product_id": "veg039",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 25,
+        "available_stock": 100
+    },
+    {
+        "id": "sp_2_veg039_100",
+        "product_id": "veg039",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 22,
+        "available_stock": 85
+    },
+    {
+        "id": "sp_3_veg039_101",
+        "product_id": "veg039",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 28,
+        "available_stock": 70
+    },
+    {
+        "id": "sp_1_veg040_102",
+        "product_id": "veg040",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 40,
+        "available_stock": 70
+    },
+    {
+        "id": "sp_2_veg040_103",
+        "product_id": "veg040",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 38,
+        "available_stock": 55
+    },
+    {
+        "id": "sp_3_veg040_104",
+        "product_id": "veg040",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 45,
+        "available_stock": 45
+    },
+    {
+        "id": "sp_1_fruit001_105",
+        "product_id": "fruit001",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 80,
+        "available_stock": 120
+    },
+    {
+        "id": "sp_1_fruit002_106",
+        "product_id": "fruit002",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "dozen",
+        "price": 40,
+        "available_stock": 200
+    },
+    {
+        "id": "sp_2_fruit003_107",
+        "product_id": "fruit003",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 60,
+        "available_stock": 150
+    },
+    {
+        "id": "sp_2_fruit004_108",
+        "product_id": "fruit004",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 50,
+        "available_stock": 180
+    },
+    {
+        "id": "sp_3_fruit005_109",
+        "product_id": "fruit005",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 30,
+        "available_stock": 90
+    },
+    {
+        "id": "sp_3_fruit006_110",
+        "product_id": "fruit006",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "piece",
+        "price": 45,
+        "available_stock": 70
+    },
+    {
+        "id": "sp_1_fruit007_111",
+        "product_id": "fruit007",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 35,
+        "available_stock": 110
+    },
+    {
+        "id": "sp_2_fruit008_112",
+        "product_id": "fruit008",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 90,
+        "available_stock": 60
+    },
+    {
+        "id": "sp_3_fruit009_113",
+        "product_id": "fruit009",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 25,
+        "available_stock": 200
+    },
+    {
+        "id": "sp_1_fruit010_114",
+        "product_id": "fruit010",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 40,
+        "available_stock": 130
+    },
+    {
+        "id": "sp_2_fruit011_115",
+        "product_id": "fruit011",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 70,
+        "available_stock": 85
+    },
+    {
+        "id": "sp_3_fruit012_116",
+        "product_id": "fruit012",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 120,
+        "available_stock": 40
+    },
+    {
+        "id": "sp_1_fruit013_117",
+        "product_id": "fruit013",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 55,
+        "available_stock": 75
+    },
+    {
+        "id": "sp_2_fruit014_118",
+        "product_id": "fruit014",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 65,
+        "available_stock": 50
+    },
+    {
+        "id": "sp_3_fruit015_119",
+        "product_id": "fruit015",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "piece",
+        "price": 20,
+        "available_stock": 300
+    },
+    {
+        "id": "sp_1_fruit016_120",
+        "product_id": "fruit016",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "box",
+        "price": 150,
+        "available_stock": 30
+    },
+    {
+        "id": "sp_2_fruit017_121",
+        "product_id": "fruit017",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "box",
+        "price": 180,
+        "available_stock": 25
+    },
+    {
+        "id": "sp_3_fruit018_122",
+        "product_id": "fruit018",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "box",
+        "price": 160,
+        "available_stock": 20
+    },
+    {
+        "id": "sp_1_fruit019_123",
+        "product_id": "fruit019",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "piece",
+        "price": 25,
+        "available_stock": 150
+    },
+    {
+        "id": "sp_2_fruit020_124",
+        "product_id": "fruit020",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "piece",
+        "price": 100,
+        "available_stock": 40
+    },
+    {
+        "id": "sp_3_fruit021_125",
+        "product_id": "fruit021",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 75,
+        "available_stock": 60
+    },
+    {
+        "id": "sp_1_fruit022_126",
+        "product_id": "fruit022",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 85,
+        "available_stock": 45
+    },
+    {
+        "id": "sp_2_fruit024_127",
+        "product_id": "fruit024",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 95,
+        "available_stock": 35
+    },
+    {
+        "id": "sp_3_fruit025_128",
+        "product_id": "fruit025",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 110,
+        "available_stock": 25
+    },
+    {
+        "id": "sp_1_fruit026_129",
+        "product_id": "fruit026",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 40,
+        "available_stock": 80
+    },
+    {
+        "id": "sp_2_fruit027_130",
+        "product_id": "fruit027",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "piece",
+        "price": 30,
+        "available_stock": 200
+    },
+    {
+        "id": "sp_3_fruit028_131",
+        "product_id": "fruit028",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 200,
+        "available_stock": 30
+    },
+    {
+        "id": "sp_1_fruit029_132",
+        "product_id": "fruit029",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 50,
+        "available_stock": 70
+    },
+    {
+        "id": "sp_2_fruit038_133",
+        "product_id": "fruit038",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 130,
+        "available_stock": 20
+    },
+    {
+        "id": "sp_3_fruit040_134",
+        "product_id": "fruit040",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "piece",
+        "price": 90,
+        "available_stock": 50
+    },
+    {
+        "id": "sp_1_grain001_135",
+        "product_id": "grain001",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 25,
+        "available_stock": 500
+    },
+    {
+        "id": "sp_2_grain002_136",
+        "product_id": "grain002",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 40,
+        "available_stock": 400
+    },
+    {
+        "id": "sp_3_grain012_137",
+        "product_id": "grain012",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 35,
+        "available_stock": 300
+    },
+    {
+        "id": "sp_1_grain003_138",
+        "product_id": "grain003",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 20,
+        "available_stock": 350
+    },
+    {
+        "id": "sp_2_grain004_139",
+        "product_id": "grain004",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 30,
+        "available_stock": 200
+    },
+    {
+        "id": "sp_3_grain005_140",
+        "product_id": "grain005",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 28,
+        "available_stock": 250
+    },
+    {
+        "id": "sp_1_grain006_141",
+        "product_id": "grain006",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 22,
+        "available_stock": 180
+    },
+    {
+        "id": "sp_2_grain014_142",
+        "product_id": "grain014",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 50,
+        "available_stock": 150
+    },
+    {
+        "id": "sp_3_grain038_143",
+        "product_id": "grain038",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 45,
+        "available_stock": 220
+    },
+    {
+        "id": "sp_1_grain040_144",
+        "product_id": "grain040",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 38,
+        "available_stock": 280
+    },
+    {
+        "id": "sp_1_pulse001_145",
+        "product_id": "pulse001",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 120,
+        "available_stock": 150
+    },
+    {
+        "id": "sp_2_pulse001_146",
+        "product_id": "pulse001",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 125,
+        "available_stock": 130
+    },
+    {
+        "id": "sp_3_pulse001_147",
+        "product_id": "pulse001",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 118,
+        "available_stock": 140
+    },
+    {
+        "id": "sp_1_pulse002_148",
+        "product_id": "pulse002",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 90,
+        "available_stock": 200
+    },
+    {
+        "id": "sp_2_pulse002_149",
+        "product_id": "pulse002",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 88,
+        "available_stock": 180
+    },
+    {
+        "id": "sp_3_pulse002_150",
+        "product_id": "pulse002",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 92,
+        "available_stock": 190
+    },
+    {
+        "id": "sp_1_pulse003_151",
+        "product_id": "pulse003",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 110,
+        "available_stock": 180
+    },
+    {
+        "id": "sp_2_pulse003_152",
+        "product_id": "pulse003",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 108,
+        "available_stock": 170
+    },
+    {
+        "id": "sp_3_pulse003_153",
+        "product_id": "pulse003",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 112,
+        "available_stock": 175
+    },
+    {
+        "id": "sp_1_pulse004_154",
+        "product_id": "pulse004",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 130,
+        "available_stock": 120
+    },
+    {
+        "id": "sp_2_pulse004_155",
+        "product_id": "pulse004",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 128,
+        "available_stock": 110
+    },
+    {
+        "id": "sp_3_pulse004_156",
+        "product_id": "pulse004",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 132,
+        "available_stock": 115
+    },
+    {
+        "id": "sp_1_pulse005_157",
+        "product_id": "pulse005",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 85,
+        "available_stock": 160
+    },
+    {
+        "id": "sp_2_pulse005_158",
+        "product_id": "pulse005",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 83,
+        "available_stock": 150
+    },
+    {
+        "id": "sp_3_pulse005_159",
+        "product_id": "pulse005",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 87,
+        "available_stock": 155
+    },
+    {
+        "id": "sp_1_pulse006_160",
+        "product_id": "pulse006",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 140,
+        "available_stock": 100
+    },
+    {
+        "id": "sp_2_pulse006_161",
+        "product_id": "pulse006",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 138,
+        "available_stock": 90
+    },
+    {
+        "id": "sp_3_pulse006_162",
+        "product_id": "pulse006",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 142,
+        "available_stock": 95
+    },
+    {
+        "id": "sp_1_pulse007_163",
+        "product_id": "pulse007",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 95,
+        "available_stock": 140
+    },
+    {
+        "id": "sp_2_pulse007_164",
+        "product_id": "pulse007",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 93,
+        "available_stock": 130
+    },
+    {
+        "id": "sp_3_pulse007_165",
+        "product_id": "pulse007",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 97,
+        "available_stock": 135
+    },
+    {
+        "id": "sp_1_pulse012_166",
+        "product_id": "pulse012",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 70,
+        "available_stock": 180
+    },
+    {
+        "id": "sp_2_pulse012_167",
+        "product_id": "pulse012",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 68,
+        "available_stock": 170
+    },
+    {
+        "id": "sp_3_pulse012_168",
+        "product_id": "pulse012",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 72,
+        "available_stock": 175
+    },
+    {
+        "id": "sp_1_pulse013_169",
+        "product_id": "pulse013",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 100,
+        "available_stock": 130
+    },
+    {
+        "id": "sp_2_pulse013_170",
+        "product_id": "pulse013",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 98,
+        "available_stock": 120
+    },
+    {
+        "id": "sp_3_pulse013_171",
+        "product_id": "pulse013",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 102,
+        "available_stock": 125
+    },
+    {
+        "id": "sp_1_pulse015_172",
+        "product_id": "pulse015",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 80,
+        "available_stock": 170
+    },
+    {
+        "id": "sp_2_pulse015_173",
+        "product_id": "pulse015",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 78,
+        "available_stock": 160
+    },
+    {
+        "id": "sp_3_pulse015_174",
+        "product_id": "pulse015",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 82,
+        "available_stock": 165
+    },
+    {
+        "id": "sp_1_pulse037_175",
+        "product_id": "pulse037",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 75,
+        "available_stock": 150
+    },
+    {
+        "id": "sp_2_pulse037_176",
+        "product_id": "pulse037",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 73,
+        "available_stock": 140
+    },
+    {
+        "id": "sp_3_pulse037_177",
+        "product_id": "pulse037",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 77,
+        "available_stock": 145
+    },
+    {
+        "id": "sp_1_dairy001_178",
+        "product_id": "dairy001",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "liter",
+        "price": 50,
+        "available_stock": 200
+    },
+    {
+        "id": "sp_2_dairy001_179",
+        "product_id": "dairy001",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "liter",
+        "price": 48,
+        "available_stock": 180
+    },
+    {
+        "id": "sp_3_dairy001_180",
+        "product_id": "dairy001",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "liter",
+        "price": 52,
+        "available_stock": 160
+    },
+    {
+        "id": "sp_1_dairy005_181",
+        "product_id": "dairy005",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 60,
+        "available_stock": 120
+    },
+    {
+        "id": "sp_2_dairy005_182",
+        "product_id": "dairy005",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 58,
+        "available_stock": 100
+    },
+    {
+        "id": "sp_3_dairy005_183",
+        "product_id": "dairy005",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 62,
+        "available_stock": 90
+    },
+    {
+        "id": "sp_1_dairy006_184",
+        "product_id": "dairy006",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 220,
+        "available_stock": 80
+    },
+    {
+        "id": "sp_2_dairy006_185",
+        "product_id": "dairy006",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 215,
+        "available_stock": 70
+    },
+    {
+        "id": "sp_3_dairy006_186",
+        "product_id": "dairy006",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 225,
+        "available_stock": 60
+    },
+    {
+        "id": "sp_1_dairy007_187",
+        "product_id": "dairy007",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 500,
+        "available_stock": 50
+    },
+    {
+        "id": "sp_2_dairy007_188",
+        "product_id": "dairy007",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 490,
+        "available_stock": 45
+    },
+    {
+        "id": "sp_3_dairy007_189",
+        "product_id": "dairy007",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 510,
+        "available_stock": 40
+    },
+    {
+        "id": "sp_1_dairy008_190",
+        "product_id": "dairy008",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 350,
+        "available_stock": 60
+    },
+    {
+        "id": "sp_2_dairy008_191",
+        "product_id": "dairy008",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 340,
+        "available_stock": 50
+    },
+    {
+        "id": "sp_3_dairy008_192",
+        "product_id": "dairy008",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 360,
+        "available_stock": 45
+    },
+    {
+        "id": "sp_1_dairy009_193",
+        "product_id": "dairy009",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 400,
+        "available_stock": 55
+    },
+    {
+        "id": "sp_2_dairy009_194",
+        "product_id": "dairy009",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 390,
+        "available_stock": 45
+    },
+    {
+        "id": "sp_3_dairy009_195",
+        "product_id": "dairy009",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 410,
+        "available_stock": 40
+    },
+    {
+        "id": "sp_1_dairy010_196",
+        "product_id": "dairy010",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "liter",
+        "price": 70,
+        "available_stock": 90
+    },
+    {
+        "id": "sp_2_dairy010_197",
+        "product_id": "dairy010",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "liter",
+        "price": 68,
+        "available_stock": 80
+    },
+    {
+        "id": "sp_3_dairy010_198",
+        "product_id": "dairy010",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "liter",
+        "price": 72,
+        "available_stock": 70
+    },
+    {
+        "id": "sp_1_dairy019_199",
+        "product_id": "dairy019",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 300,
+        "available_stock": 65
+    },
+    {
+        "id": "sp_2_dairy019_200",
+        "product_id": "dairy019",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 290,
+        "available_stock": 55
+    },
+    {
+        "id": "sp_3_dairy019_201",
+        "product_id": "dairy019",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 310,
+        "available_stock": 50
+    },
+    {
+        "id": "sp_1_dairy020_202",
+        "product_id": "dairy020",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 280,
+        "available_stock": 70
+    },
+    {
+        "id": "sp_2_dairy020_203",
+        "product_id": "dairy020",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 270,
+        "available_stock": 60
+    },
+    {
+        "id": "sp_3_dairy020_204",
+        "product_id": "dairy020",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 290,
+        "available_stock": 55
+    },
+    {
+        "id": "sp_1_dryfruit001_205",
+        "product_id": "dryfruit001",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 600,
+        "available_stock": 150
+    },
+    {
+        "id": "sp_2_dryfruit001_206",
+        "product_id": "dryfruit001",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 590,
+        "available_stock": 130
+    },
+    {
+        "id": "sp_3_dryfruit001_207",
+        "product_id": "dryfruit001",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 610,
+        "available_stock": 120
+    },
+    {
+        "id": "sp_1_dryfruit002_208",
+        "product_id": "dryfruit002",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 700,
+        "available_stock": 120
+    },
+    {
+        "id": "sp_2_dryfruit002_209",
+        "product_id": "dryfruit002",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 690,
+        "available_stock": 110
+    },
+    {
+        "id": "sp_3_dryfruit002_210",
+        "product_id": "dryfruit002",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 710,
+        "available_stock": 100
+    },
+    {
+        "id": "sp_1_dryfruit003_211",
+        "product_id": "dryfruit003",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 550,
+        "available_stock": 100
+    },
+    {
+        "id": "sp_2_dryfruit003_212",
+        "product_id": "dryfruit003",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 540,
+        "available_stock": 90
+    },
+    {
+        "id": "sp_3_dryfruit003_213",
+        "product_id": "dryfruit003",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 560,
+        "available_stock": 85
+    },
+    {
+        "id": "sp_1_dryfruit004_214",
+        "product_id": "dryfruit004",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 200,
+        "available_stock": 200
+    },
+    {
+        "id": "sp_2_dryfruit004_215",
+        "product_id": "dryfruit004",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 195,
+        "available_stock": 180
+    },
+    {
+        "id": "sp_3_dryfruit004_216",
+        "product_id": "dryfruit004",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 210,
+        "available_stock": 170
+    },
+    {
+        "id": "sp_1_dryfruit005_217",
+        "product_id": "dryfruit005",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 800,
+        "available_stock": 90
+    },
+    {
+        "id": "sp_2_dryfruit005_218",
+        "product_id": "dryfruit005",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 790,
+        "available_stock": 80
+    },
+    {
+        "id": "sp_3_dryfruit005_219",
+        "product_id": "dryfruit005",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 810,
+        "available_stock": 75
+    },
+    {
+        "id": "sp_1_dryfruit006_220",
+        "product_id": "dryfruit006",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 300,
+        "available_stock": 180
+    },
+    {
+        "id": "sp_2_dryfruit006_221",
+        "product_id": "dryfruit006",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 290,
+        "available_stock": 160
+    },
+    {
+        "id": "sp_3_dryfruit006_222",
+        "product_id": "dryfruit006",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 310,
+        "available_stock": 150
+    },
+    {
+        "id": "sp_1_dryfruit008_223",
+        "product_id": "dryfruit008",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 120,
+        "available_stock": 250
+    },
+    {
+        "id": "sp_2_dryfruit008_224",
+        "product_id": "dryfruit008",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 115,
+        "available_stock": 230
+    },
+    {
+        "id": "sp_3_dryfruit008_225",
+        "product_id": "dryfruit008",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 125,
+        "available_stock": 220
+    },
+    {
+        "id": "sp_1_seed001_226",
+        "product_id": "seed001",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 45,
+        "available_stock": 500
+    },
+    {
+        "id": "sp_2_seed001_227",
+        "product_id": "seed001",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 43,
+        "available_stock": 450
+    },
+    {
+        "id": "sp_3_seed001_228",
+        "product_id": "seed001",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 47,
+        "available_stock": 480
+    },
+    {
+        "id": "sp_1_seed002_229",
+        "product_id": "seed002",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 55,
+        "available_stock": 400
+    },
+    {
+        "id": "sp_2_seed002_230",
+        "product_id": "seed002",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 53,
+        "available_stock": 380
+    },
+    {
+        "id": "sp_3_seed002_231",
+        "product_id": "seed002",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 57,
+        "available_stock": 420
+    },
+    {
+        "id": "sp_1_seed003_232",
+        "product_id": "seed003",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 50,
+        "available_stock": 350
+    },
+    {
+        "id": "sp_2_seed003_233",
+        "product_id": "seed003",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 48,
+        "available_stock": 320
+    },
+    {
+        "id": "sp_3_seed003_234",
+        "product_id": "seed003",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 52,
+        "available_stock": 380
+    },
+    {
+        "id": "sp_1_seed010_235",
+        "product_id": "seed010",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 65,
+        "available_stock": 300
+    },
+    {
+        "id": "sp_2_seed010_236",
+        "product_id": "seed010",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 63,
+        "available_stock": 280
+    },
+    {
+        "id": "sp_3_seed010_237",
+        "product_id": "seed010",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 67,
+        "available_stock": 320
+    },
+    {
+        "id": "sp_1_seed006_238",
+        "product_id": "seed006",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 70,
+        "available_stock": 250
+    },
+    {
+        "id": "sp_2_seed006_239",
+        "product_id": "seed006",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 68,
+        "available_stock": 230
+    },
+    {
+        "id": "sp_3_seed006_240",
+        "product_id": "seed006",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 72,
+        "available_stock": 270
+    },
+    {
+        "id": "sp_1_seed005_241",
+        "product_id": "seed005",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 60,
+        "available_stock": 200
+    },
+    {
+        "id": "sp_2_seed005_242",
+        "product_id": "seed005",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 58,
+        "available_stock": 180
+    },
+    {
+        "id": "sp_3_seed005_243",
+        "product_id": "seed005",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 62,
+        "available_stock": 220
+    },
+    {
+        "id": "sp_1_seed015_244",
+        "product_id": "seed015",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 40,
+        "available_stock": 350
+    },
+    {
+        "id": "sp_2_seed015_245",
+        "product_id": "seed015",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 38,
+        "available_stock": 320
+    },
+    {
+        "id": "sp_3_seed015_246",
+        "product_id": "seed015",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 42,
+        "available_stock": 380
+    },
+    {
+        "id": "sp_1_seed017_247",
+        "product_id": "seed017",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 45,
+        "available_stock": 300
+    },
+    {
+        "id": "sp_2_seed017_248",
+        "product_id": "seed017",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 43,
+        "available_stock": 280
+    },
+    {
+        "id": "sp_3_seed017_249",
+        "product_id": "seed017",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 47,
+        "available_stock": 320
+    },
+    {
+        "id": "sp_1_seed018_250",
+        "product_id": "seed018",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 120,
+        "available_stock": 150
+    },
+    {
+        "id": "sp_2_seed018_251",
+        "product_id": "seed018",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 118,
+        "available_stock": 130
+    },
+    {
+        "id": "sp_3_seed018_252",
+        "product_id": "seed018",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 122,
+        "available_stock": 170
+    },
+    {
+        "id": "sp_1_seed022_253",
+        "product_id": "seed022",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 180,
+        "available_stock": 100
+    },
+    {
+        "id": "sp_2_seed022_254",
+        "product_id": "seed022",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 175,
+        "available_stock": 90
+    },
+    {
+        "id": "sp_3_seed022_255",
+        "product_id": "seed022",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 185,
+        "available_stock": 110
+    },
+    {
+        "id": "sp_1_seed020_256",
+        "product_id": "seed020",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 90,
+        "available_stock": 180
+    },
+    {
+        "id": "sp_2_seed020_257",
+        "product_id": "seed020",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 88,
+        "available_stock": 160
+    },
+    {
+        "id": "sp_3_seed020_258",
+        "product_id": "seed020",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 92,
+        "available_stock": 200
+    },
+    {
+        "id": "sp_1_seed024_259",
+        "product_id": "seed024",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 150,
+        "available_stock": 120
+    },
+    {
+        "id": "sp_2_seed024_260",
+        "product_id": "seed024",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 145,
+        "available_stock": 110
+    },
+    {
+        "id": "sp_3_seed024_261",
+        "product_id": "seed024",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 155,
+        "available_stock": 130
+    },
+    {
+        "id": "sp_1_seed025_262",
+        "product_id": "seed025",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 140,
+        "available_stock": 150
+    },
+    {
+        "id": "sp_2_seed025_263",
+        "product_id": "seed025",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 135,
+        "available_stock": 130
+    },
+    {
+        "id": "sp_3_seed025_264",
+        "product_id": "seed025",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 145,
+        "available_stock": 160
+    },
+    {
+        "id": "sp_1_seed027_265",
+        "product_id": "seed027",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 110,
+        "available_stock": 200
+    },
+    {
+        "id": "sp_2_seed027_266",
+        "product_id": "seed027",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 105,
+        "available_stock": 180
+    },
+    {
+        "id": "sp_3_seed027_267",
+        "product_id": "seed027",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 115,
+        "available_stock": 220
+    },
+    {
+        "id": "sp_1_seed028_268",
+        "product_id": "seed028",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "kg",
+        "price": 100,
+        "available_stock": 180
+    },
+    {
+        "id": "sp_2_seed028_269",
+        "product_id": "seed028",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "kg",
+        "price": 95,
+        "available_stock": 160
+    },
+    {
+        "id": "sp_3_seed028_270",
+        "product_id": "seed028",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "kg",
+        "price": 105,
+        "available_stock": 190
+    },
+    {
+        "_id": "fert001_1",
+        "product_id": "fert001",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "50kg bag",
+        "price": 300,
+        "available_stock": 150
+    },
+    {
+        "_id": "fert001_2",
+        "product_id": "fert001",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "50kg bag",
+        "price": 295,
+        "available_stock": 130
+    },
+    {
+        "_id": "fert001_3",
+        "product_id": "fert001",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "50kg bag",
+        "price": 305,
+        "available_stock": 140
+    },
+    {
+        "_id": "fert002_1",
+        "product_id": "fert002",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "50kg bag",
+        "price": 1350,
+        "available_stock": 80
+    },
+    {
+        "_id": "fert002_2",
+        "product_id": "fert002",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "50kg bag",
+        "price": 1340,
+        "available_stock": 75
+    },
+    {
+        "_id": "fert002_3",
+        "product_id": "fert002",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "50kg bag",
+        "price": 1360,
+        "available_stock": 78
+    },
+    {
+        "_id": "fert003_1",
+        "product_id": "fert003",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "50kg bag",
+        "price": 1750,
+        "available_stock": 60
+    },
+    {
+        "_id": "fert003_2",
+        "product_id": "fert003",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "50kg bag",
+        "price": 1740,
+        "available_stock": 55
+    },
+    {
+        "_id": "fert003_3",
+        "product_id": "fert003",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "50kg bag",
+        "price": 1760,
+        "available_stock": 58
+    },
+    {
+        "_id": "fert004_1",
+        "product_id": "fert004",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "50kg bag",
+        "price": 1400,
+        "available_stock": 70
+    },
+    {
+        "_id": "fert004_2",
+        "product_id": "fert004",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "50kg bag",
+        "price": 1390,
+        "available_stock": 65
+    },
+    {
+        "_id": "fert004_3",
+        "product_id": "fert004",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "50kg bag",
+        "price": 1410,
+        "available_stock": 68
+    },
+    {
+        "_id": "fert005_1",
+        "product_id": "fert005",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "50kg bag",
+        "price": 1450,
+        "available_stock": 65
+    },
+    {
+        "_id": "fert005_2",
+        "product_id": "fert005",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "50kg bag",
+        "price": 1440,
+        "available_stock": 60
+    },
+    {
+        "_id": "fert005_3",
+        "product_id": "fert005",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "50kg bag",
+        "price": 1460,
+        "available_stock": 63
+    },
+    {
+        "_id": "fert006_1",
+        "product_id": "fert006",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "50kg bag",
+        "price": 650,
+        "available_stock": 90
+    },
+    {
+        "_id": "fert006_2",
+        "product_id": "fert006",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "50kg bag",
+        "price": 640,
+        "available_stock": 85
+    },
+    {
+        "_id": "fert006_3",
+        "product_id": "fert006",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "50kg bag",
+        "price": 660,
+        "available_stock": 88
+    },
+    {
+        "_id": "fert007_1",
+        "product_id": "fert007",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "50kg bag",
+        "price": 850,
+        "available_stock": 75
+    },
+    {
+        "_id": "fert007_2",
+        "product_id": "fert007",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "50kg bag",
+        "price": 840,
+        "available_stock": 70
+    },
+    {
+        "_id": "fert007_3",
+        "product_id": "fert007",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "50kg bag",
+        "price": 860,
+        "available_stock": 73
+    },
+    {
+        "_id": "fert008_1",
+        "product_id": "fert008",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "50kg bag",
+        "price": 950,
+        "available_stock": 70
+    },
+    {
+        "_id": "fert008_2",
+        "product_id": "fert008",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "50kg bag",
+        "price": 940,
+        "available_stock": 65
+    },
+    {
+        "_id": "fert008_3",
+        "product_id": "fert008",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "50kg bag",
+        "price": 960,
+        "available_stock": 68
+    },
+    {
+        "_id": "fert009_1",
+        "product_id": "fert009",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "25kg bag",
+        "price": 600,
+        "available_stock": 120
+    },
+    {
+        "_id": "fert009_2",
+        "product_id": "fert009",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "25kg bag",
+        "price": 590,
+        "available_stock": 110
+    },
+    {
+        "_id": "fert009_3",
+        "product_id": "fert009",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "25kg bag",
+        "price": 610,
+        "available_stock": 115
+    },
+    {
+        "_id": "fert010_1",
+        "product_id": "fert010",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "1kg packet",
+        "price": 120,
+        "available_stock": 200
+    },
+    {
+        "_id": "fert010_2",
+        "product_id": "fert010",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "1kg packet",
+        "price": 115,
+        "available_stock": 190
+    },
+    {
+        "_id": "fert010_3",
+        "product_id": "fert010",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "1kg packet",
+        "price": 125,
+        "available_stock": 195
+    },
+    {
+        "_id": "fert011_1",
+        "product_id": "fert011",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "truckload",
+        "price": 8000,
+        "available_stock": 15
+    },
+    {
+        "_id": "fert011_2",
+        "product_id": "fert011",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "truckload",
+        "price": 7900,
+        "available_stock": 12
+    },
+    {
+        "_id": "fert011_3",
+        "product_id": "fert011",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "truckload",
+        "price": 8100,
+        "available_stock": 14
+    },
+    {
+        "_id": "fert012_1",
+        "product_id": "fert012",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "50kg bag",
+        "price": 400,
+        "available_stock": 100
+    },
+    {
+        "_id": "fert012_2",
+        "product_id": "fert012",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "50kg bag",
+        "price": 390,
+        "available_stock": 95
+    },
+    {
+        "_id": "fert012_3",
+        "product_id": "fert012",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "50kg bag",
+        "price": 410,
+        "available_stock": 98
+    },
+    {
+        "_id": "fert013_1",
+        "product_id": "fert013",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "25kg bag",
+        "price": 450,
+        "available_stock": 80
+    },
+    {
+        "_id": "fert013_2",
+        "product_id": "fert013",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "25kg bag",
+        "price": 440,
+        "available_stock": 75
+    },
+    {
+        "_id": "fert013_3",
+        "product_id": "fert013",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "25kg bag",
+        "price": 460,
+        "available_stock": 78
+    },
+    {
+        "_id": "fert014_1",
+        "product_id": "fert014",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "1kg packet",
+        "price": 200,
+        "available_stock": 150
+    },
+    {
+        "_id": "fert014_2",
+        "product_id": "fert014",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "1kg packet",
+        "price": 195,
+        "available_stock": 140
+    },
+    {
+        "_id": "fert014_3",
+        "product_id": "fert014",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "1kg packet",
+        "price": 205,
+        "available_stock": 145
+    },
+    {
+        "_id": "fert015_1",
+        "product_id": "fert015",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "1kg packet",
+        "price": 180,
+        "available_stock": 160
+    },
+    {
+        "_id": "fert015_2",
+        "product_id": "fert015",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "1kg packet",
+        "price": 175,
+        "available_stock": 150
+    },
+    {
+        "_id": "fert015_3",
+        "product_id": "fert015",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "1kg packet",
+        "price": 185,
+        "available_stock": 155
+    },
+    {
+        "_id": "fert016_1",
+        "product_id": "fert016",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "50kg bag",
+        "price": 350,
+        "available_stock": 110
+    },
+    {
+        "_id": "fert016_2",
+        "product_id": "fert016",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "50kg bag",
+        "price": 340,
+        "available_stock": 105
+    },
+    {
+        "_id": "fert016_3",
+        "product_id": "fert016",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "50kg bag",
+        "price": 360,
+        "available_stock": 108
+    },
+    {
+        "_id": "fert017_1",
+        "product_id": "fert017",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "25kg bag",
+        "price": 2200,
+        "available_stock": 40
+    },
+    {
+        "_id": "fert017_2",
+        "product_id": "fert017",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "25kg bag",
+        "price": 2180,
+        "available_stock": 38
+    },
+    {
+        "_id": "fert017_3",
+        "product_id": "fert017",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "25kg bag",
+        "price": 2220,
+        "available_stock": 39
+    },
+    {
+        "_id": "fert018_1",
+        "product_id": "fert018",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "25kg bag",
+        "price": 550,
+        "available_stock": 90
+    },
+    {
+        "_id": "fert018_2",
+        "product_id": "fert018",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "25kg bag",
+        "price": 540,
+        "available_stock": 85
+    },
+    {
+        "_id": "fert018_3",
+        "product_id": "fert018",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "25kg bag",
+        "price": 560,
+        "available_stock": 88
+    },
+    {
+        "_id": "fert019_1",
+        "product_id": "fert019",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "25kg bag",
+        "price": 500,
+        "available_stock": 95
+    },
+    {
+        "_id": "fert019_2",
+        "product_id": "fert019",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "25kg bag",
+        "price": 490,
+        "available_stock": 90
+    },
+    {
+        "_id": "fert019_3",
+        "product_id": "fert019",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "25kg bag",
+        "price": 510,
+        "available_stock": 93
+    },
+    {
+        "_id": "fert020_1",
+        "product_id": "fert020",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "50kg bag",
+        "price": 850,
+        "available_stock": 70
+    },
+    {
+        "_id": "fert020_2",
+        "product_id": "fert020",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "50kg bag",
+        "price": 840,
+        "available_stock": 65
+    },
+    {
+        "_id": "fert020_3",
+        "product_id": "fert020",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "50kg bag",
+        "price": 860,
+        "available_stock": 68
+    },
+    {
+        "_id": "fert021_1",
+        "product_id": "fert021",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "25kg bag",
+        "price": 650,
+        "available_stock": 60
+    },
+    {
+        "_id": "fert021_2",
+        "product_id": "fert021",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "25kg bag",
+        "price": 640,
+        "available_stock": 55
+    },
+    {
+        "_id": "fert021_3",
+        "product_id": "fert021",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "25kg bag",
+        "price": 660,
+        "available_stock": 58
+    },
+    {
+        "_id": "fert022_1",
+        "product_id": "fert022",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "1 liter",
+        "price": 350,
+        "available_stock": 120
+    },
+    {
+        "_id": "fert022_2",
+        "product_id": "fert022",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "1 liter",
+        "price": 340,
+        "available_stock": 110
+    },
+    {
+        "_id": "fert022_3",
+        "product_id": "fert022",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "1 liter",
+        "price": 360,
+        "available_stock": 115
+    },
+    {
+        "_id": "fert023_1",
+        "product_id": "fert023",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "1kg packet",
+        "price": 280,
+        "available_stock": 130
+    },
+    {
+        "_id": "fert023_2",
+        "product_id": "fert023",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "1kg packet",
+        "price": 270,
+        "available_stock": 120
+    },
+    {
+        "_id": "fert023_3",
+        "product_id": "fert023",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "1kg packet",
+        "price": 290,
+        "available_stock": 125
+    },
+    {
+        "_id": "fert024_1",
+        "product_id": "fert024",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "50kg bag",
+        "price": 950,
+        "available_stock": 65
+    },
+    {
+        "_id": "fert024_2",
+        "product_id": "fert024",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "50kg bag",
+        "price": 940,
+        "available_stock": 60
+    },
+    {
+        "_id": "fert024_3",
+        "product_id": "fert024",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "50kg bag",
+        "price": 960,
+        "available_stock": 63
+    },
+    {
+        "_id": "fert025_1",
+        "product_id": "fert025",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "50kg bag",
+        "price": 1250,
+        "available_stock": 55
+    },
+    {
+        "_id": "fert025_2",
+        "product_id": "fert025",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "50kg bag",
+        "price": 1240,
+        "available_stock": 50
+    },
+    {
+        "_id": "fert025_3",
+        "product_id": "fert025",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "50kg bag",
+        "price": 1260,
+        "available_stock": 53
+    },
+     {
+        "_id": "fruit001_1",
+        "product_id": "fruit001",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 120,
+        "available_stock": 50
+    },
+    {
+        "_id": "fruit001_2",
+        "product_id": "fruit001",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 115,
+        "available_stock": 45
+    },
+    {
+        "_id": "fruit001_3",
+        "product_id": "fruit001",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 125,
+        "available_stock": 55
+    },
+    {
+        "_id": "fruit002_1",
+        "product_id": "fruit002",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 80,
+        "available_stock": 70
+    },
+    {
+        "_id": "fruit002_2",
+        "product_id": "fruit002",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 75,
+        "available_stock": 65
+    },
+    {
+        "_id": "fruit002_3",
+        "product_id": "fruit002",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 85,
+        "available_stock": 75
+    },
+    {
+        "_id": "fruit003_1",
+        "product_id": "fruit003",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 90,
+        "available_stock": 60
+    },
+    {
+        "_id": "fruit003_2",
+        "product_id": "fruit003",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 85,
+        "available_stock": 55
+    },
+    {
+        "_id": "fruit003_3",
+        "product_id": "fruit003",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 95,
+        "available_stock": 65
+    },
+    {
+        "_id": "fruit004_1",
+        "product_id": "fruit004",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 100,
+        "available_stock": 40
+    },
+    {
+        "_id": "fruit004_2",
+        "product_id": "fruit004",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 95,
+        "available_stock": 35
+    },
+    {
+        "_id": "fruit004_3",
+        "product_id": "fruit004",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 105,
+        "available_stock": 45
+    },
+    {
+        "_id": "fruit005_1",
+        "product_id": "fruit005",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 150,
+        "available_stock": 30
+    },
+    {
+        "_id": "fruit005_2",
+        "product_id": "fruit005",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 145,
+        "available_stock": 25
+    },
+    {
+        "_id": "fruit005_3",
+        "product_id": "fruit005",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 155,
+        "available_stock": 35
+    },
+    {
+        "_id": "fruit006_1",
+        "product_id": "fruit006",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 70,
+        "available_stock": 80
+    },
+    {
+        "_id": "fruit006_2",
+        "product_id": "fruit006",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 65,
+        "available_stock": 75
+    },
+    {
+        "_id": "fruit006_3",
+        "product_id": "fruit006",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 75,
+        "available_stock": 85
+    },
+    {
+        "_id": "fruit007_1",
+        "product_id": "fruit007",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 200,
+        "available_stock": 20
+    },
+    {
+        "_id": "fruit007_2",
+        "product_id": "fruit007",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 195,
+        "available_stock": 15
+    },
+    {
+        "_id": "fruit007_3",
+        "product_id": "fruit007",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 205,
+        "available_stock": 25
+    },
+    {
+        "_id": "fruit008_1",
+        "product_id": "fruit008",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 180,
+        "available_stock": 25
+    },
+    {
+        "_id": "fruit008_2",
+        "product_id": "fruit008",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 175,
+        "available_stock": 20
+    },
+    {
+        "_id": "fruit008_3",
+        "product_id": "fruit008",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 185,
+        "available_stock": 30
+    },
+    {
+        "_id": "fruit009_1",
+        "product_id": "fruit009",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 130,
+        "available_stock": 35
+    },
+    {
+        "_id": "fruit009_2",
+        "product_id": "fruit009",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 125,
+        "available_stock": 30
+    },
+    {
+        "_id": "fruit009_3",
+        "product_id": "fruit009",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 135,
+        "available_stock": 40
+    },
+    {
+        "_id": "fruit010_1",
+        "product_id": "fruit010",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 110,
+        "available_stock": 45
+    },
+    {
+        "_id": "fruit010_2",
+        "product_id": "fruit010",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 105,
+        "available_stock": 40
+    },
+    {
+        "_id": "fruit010_3",
+        "product_id": "fruit010",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 115,
+        "available_stock": 50
+    },
+    {
+        "_id": "veg001_1",
+        "product_id": "veg001",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 40,
+        "available_stock": 100
+    },
+    {
+        "_id": "veg001_2",
+        "product_id": "veg001",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 35,
+        "available_stock": 95
+    },
+    {
+        "_id": "veg001_3",
+        "product_id": "veg001",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 45,
+        "available_stock": 105
+    },
+    {
+        "_id": "veg002_1",
+        "product_id": "veg002",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 50,
+        "available_stock": 80
+    },
+    {
+        "_id": "veg002_2",
+        "product_id": "veg002",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 45,
+        "available_stock": 75
+    },
+    {
+        "_id": "veg002_3",
+        "product_id": "veg002",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 55,
+        "available_stock": 85
+    },
+    {
+        "_id": "veg003_1",
+        "product_id": "veg003",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 30,
+        "available_stock": 120
+    },
+    {
+        "_id": "veg003_2",
+        "product_id": "veg003",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 25,
+        "available_stock": 115
+    },
+    {
+        "_id": "veg003_3",
+        "product_id": "veg003",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 35,
+        "available_stock": 125
+    },
+    {
+        "_id": "veg009_1",
+        "product_id": "veg009",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 60,
+        "available_stock": 70
+    },
+    {
+        "_id": "veg009_2",
+        "product_id": "veg009",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 55,
+        "available_stock": 65
+    },
+    {
+        "_id": "veg009_3",
+        "product_id": "veg009",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 65,
+        "available_stock": 75
+    },
+    {
+        "_id": "flower001_1",
+        "product_id": "flower001",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 80,
+        "available_stock": 60
+    },
+    {
+        "_id": "flower001_2",
+        "product_id": "flower001",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 75,
+        "available_stock": 55
+    },
+    {
+        "_id": "flower001_3",
+        "product_id": "flower001",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 85,
+        "available_stock": 65
+    },
+    {
+        "_id": "flower002_1",
+        "product_id": "flower002",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 50,
+        "available_stock": 90
+    },
+    {
+        "_id": "flower002_2",
+        "product_id": "flower002",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 45,
+        "available_stock": 85
+    },
+    {
+        "_id": "flower002_3",
+        "product_id": "flower002",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 55,
+        "available_stock": 95
+    },
+    {
+        "_id": "flower003_1",
+        "product_id": "flower003",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 70,
+        "available_stock": 70
+    },
+    {
+        "_id": "flower003_2",
+        "product_id": "flower003",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 65,
+        "available_stock": 65
+    },
+    {
+        "_id": "flower003_3",
+        "product_id": "flower003",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 75,
+        "available_stock": 75
+    },
+    {
+        "_id": "flower004_1",
+        "product_id": "flower004",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 60,
+        "available_stock": 80
+    },
+    {
+        "_id": "flower004_2",
+        "product_id": "flower004",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 55,
+        "available_stock": 75
+    },
+    {
+        "_id": "flower004_3",
+        "product_id": "flower004",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 65,
+        "available_stock": 85
+    },
+    {
+        "_id": "flower005_1",
+        "product_id": "flower005",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 90,
+        "available_stock": 50
+    },
+    {
+        "_id": "flower005_2",
+        "product_id": "flower005",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 85,
+        "available_stock": 45
+    },
+    {
+        "_id": "flower005_3",
+        "product_id": "flower005",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 95,
+        "available_stock": 55
+    },
+    {
+        "_id": "flower006_1",
+        "product_id": "flower006",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 120,
+        "available_stock": 30
+    },
+    {
+        "_id": "flower006_2",
+        "product_id": "flower006",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 115,
+        "available_stock": 25
+    },
+    {
+        "_id": "flower006_3",
+        "product_id": "flower006",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 125,
+        "available_stock": 35
+    },
+    {
+        "_id": "flower007_1",
+        "product_id": "flower007",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 100,
+        "available_stock": 40
+    },
+    {
+        "_id": "flower007_2",
+        "product_id": "flower007",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 95,
+        "available_stock": 35
+    },
+    {
+        "_id": "flower007_3",
+        "product_id": "flower007",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 105,
+        "available_stock": 45
+    },
+    {
+        "_id": "flower008_1",
+        "product_id": "flower008",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 85,
+        "available_stock": 55
+    },
+    {
+        "_id": "flower008_2",
+        "product_id": "flower008",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 80,
+        "available_stock": 50
+    },
+    {
+        "_id": "flower008_3",
+        "product_id": "flower008",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 90,
+        "available_stock": 60
+    },
+    {
+        "_id": "flower009_1",
+        "product_id": "flower009",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 110,
+        "available_stock": 35
+    },
+    {
+        "_id": "flower009_2",
+        "product_id": "flower009",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 105,
+        "available_stock": 30
+    },
+    {
+        "_id": "flower009_3",
+        "product_id": "flower009",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 115,
+        "available_stock": 40
+    },
+    {
+        "_id": "flower010_1",
+        "product_id": "flower010",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 150,
+        "available_stock": 20
+    },
+    {
+        "_id": "flower010_2",
+        "product_id": "flower010",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 145,
+        "available_stock": 15
+    },
+    {
+        "_id": "flower010_3",
+        "product_id": "flower010",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 155,
+        "available_stock": 25
+    },
+    {
+        "_id": "herb001_1",
+        "product_id": "herb001",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 40,
+        "available_stock": 100
+    },
+    {
+        "_id": "herb001_2",
+        "product_id": "herb001",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 35,
+        "available_stock": 95
+    },
+    {
+        "_id": "herb001_3",
+        "product_id": "herb001",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 45,
+        "available_stock": 105
+    },
+    {
+        "_id": "herb002_1",
+        "product_id": "herb002",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 30,
+        "available_stock": 120
+    },
+    {
+        "_id": "herb002_2",
+        "product_id": "herb002",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 25,
+        "available_stock": 115
+    },
+    {
+        "_id": "herb002_3",
+        "product_id": "herb002",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 35,
+        "available_stock": 125
+    },
+    {
+        "_id": "herb004_1",
+        "product_id": "herb004",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 60,
+        "available_stock": 70
+    },
+    {
+        "_id": "herb004_2",
+        "product_id": "herb004",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 55,
+        "available_stock": 65
+    },
+    {
+        "_id": "herb004_3",
+        "product_id": "herb004",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 65,
+        "available_stock": 75
+    },
+    {
+        "_id": "herb005_1",
+        "product_id": "herb005",
+        "date": "2025-05-29",
+        "market": "mandi1",
+        "unit": "plant",
+        "price": 50,
+        "available_stock": 80
+    },
+    {
+        "_id": "herb005_2",
+        "product_id": "herb005",
+        "date": "2025-05-29",
+        "market": "mandi2",
+        "unit": "plant",
+        "price": 45,
+        "available_stock": 75
+    },
+    {
+        "_id": "herb005_3",
+        "product_id": "herb005",
+        "date": "2025-05-29",
+        "market": "mandi3",
+        "unit": "plant",
+        "price": 55,
+        "available_stock": 85
+    }
+]

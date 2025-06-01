@@ -1,0 +1,1756 @@
+[
+    {
+        "_id": "veg001",
+        "name": {
+            "en": "Potato",
+            "hi": "आलू"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057347/uploads/vegetables/potato_vegtable_nfnjqn.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg002",
+        "name": {
+            "en": "Tomato",
+            "hi": "टमाटर"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057389/uploads/vegetables/tomato__vegetable_o6wixi.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg003",
+        "name": {
+            "en": "Onion",
+            "hi": "प्याज़"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057359/uploads/vegetables/onion_vegetable_ebagtt.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg004",
+        "name": {
+            "en": "Garlic",
+            "hi": "लहसुन"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057360/uploads/vegetables/garlic-21c_yy.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg005",
+        "name": {
+            "en": "Ginger",
+            "hi": "अदरक"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057278/uploads/vegetables/ginger_rdz5r6.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg006",
+        "name": {
+            "en": "Carrot",
+            "hi": "गाजर"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057260/uploads/vegetables/carrot_e7n8kq.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg007",
+        "name": {
+            "en": "Cauliflower",
+            "hi": "फूल गोभी"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057319/uploads/vegetables/cauliflower_wgfotp.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg008",
+        "name": {
+            "en": "Cabbage",
+            "hi": "पत्ता गोभी"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057396/uploads/vegetables/cabbage_stq8ca.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg009",
+        "name": {
+            "en": "Green Peas",
+            "hi": "हरे मटर"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057306/uploads/vegetables/green_pea_h8pl5k.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg010",
+        "name": {
+            "en": "Capsicum",
+            "hi": "शिमला मिर्च"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057255/uploads/vegetables/capsicum_wydwlz.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg011",
+        "name": {
+            "en": "Brinjal",
+            "hi": "बैंगन"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057229/uploads/vegetables/baigan_file_uufldq.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg012",
+        "name": {
+            "en": "Bottle Gourd",
+            "hi": "लौकी"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057211/uploads/vegetables/calabash_gourd_vwz2gy.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg013",
+        "name": {
+            "en": "Bitter Gourd",
+            "hi": "करेला"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057287/uploads/vegetables/bitter_gourd_m3bkap.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg014",
+        "name": {
+            "en": "Ridge Gourd",
+            "hi": "तुरई"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748062999/uploads/vegetables/1s6sLq8QNpH26fvpo7GI7PzZS9SwLFm2u_1024x1024_xfmerr.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg015",
+        "name": {
+            "en": "Lady Finger",
+            "hi": "भिंडी"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057320/uploads/vegetables/ladyfinger_file_sd0xtw.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg016",
+        "name": {
+            "en": "Spinach",
+            "hi": "पालक"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057368/uploads/vegetables/spinach_yhiokh.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg017",
+        "name": {
+            "en": "Fenugreek Leaves",
+            "hi": "मेथी"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057258/uploads/vegetables/fenugreek_fiahmr.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg018",
+        "name": {
+            "en": "Coriander Leaves",
+            "hi": "धनिया पत्ता"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057298/uploads/vegetables/green_coriander_runzrm.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg019",
+        "name": {
+            "en": "Mint Leaves",
+            "hi": "पुदीना"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748063574/uploads/vegetables/f5566bcc-b5fc-47fe-bcef-15f263042a23_uyzfmt.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg020",
+        "name": {
+            "en": "Green Chili",
+            "hi": "हरी मिर्च"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057275/uploads/vegetables/green_chilli_file_fprlpm.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg021",
+        "name": {
+            "en": "Pumpkin",
+            "hi": "कद्दू"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748064230/uploads/vegetables/pumpkin_vegtable_thjjuz.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg022",
+        "name": {
+            "en": "Sweet Potato",
+            "hi": "शकरकंदी"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748064815/uploads/vegetables/2cdb4dab-796f-4a8c-a342-b95fc65f603d_mt1gou.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg023",
+        "name": {
+            "en": "Turnip",
+            "hi": "शलगम"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748065033/uploads/vegetables/413018758_04636e88-f181-43ac-9799-f16a93e369e2_fv8tf3.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg041",
+        "name": {
+            "en": "Arbi ghuiya",
+            "hi": "रुइया"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057352/uploads/vegetables/ruiya_y2aqvy.webp",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg024",
+        "name": {
+            "en": "Radish",
+            "hi": "मूली"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057350/uploads/vegetables/radish_dcraa3.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg025",
+        "name": {
+            "en": "Beetroot",
+            "hi": "चुकंदर"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057215/uploads/vegetables/beet_root_dqpmzj.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg026",
+        "name": {
+            "en": "Cucumber",
+            "hi": "खीरा"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057255/uploads/vegetables/cucumber_zmh80y.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg030",
+        "name": {
+            "en": "Broccoli",
+            "hi": "हरी गोभी"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057254/uploads/vegetables/cauliflower_cabbage_x8jpmm.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg031",
+        "name": {
+            "en": "Spring Onion",
+            "hi": "हरी प्याज़"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057362/uploads/vegetables/onion_greens_iidqgc.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg032",
+        "name": {
+            "en": "Long Beans",
+            "hi": "सेमी"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057291/uploads/vegetables/green_bean_p5vmro.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg033",
+        "name": {
+            "en": "Pointed Gaurd",
+            "hi": "परवल"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748071355/uploads/vegetables/pointed_guard_kdd3re.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg036",
+        "name": {
+            "en": "Mushroom",
+            "hi": "मशरूम"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057350/uploads/vegetables/mushroom_mzg19q.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg037",
+        "name": {
+            "en": "Curry Leaves",
+            "hi": "करी पत्ता"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748070163/uploads/vegetables/modern-kitchen-composition-with-healthy-ingredients_xt4edg.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg039",
+        "name": {
+            "en": "Raw Banana",
+            "hi": "कच्चा केला"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057360/uploads/vegetables/raw_banana_vnw4cr.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg040",
+        "name": {
+            "en": "Jackfruit",
+            "hi": "कटहल"
+        },
+        "category": "vegetables",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057317/uploads/vegetables/jackfruit_st8vk1.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit001",
+        "name": {
+            "en": "Apple",
+            "hi": "सेब"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058605/uploads/fruits/apple504.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit002",
+        "name": {
+            "en": "Banana",
+            "hi": "केला"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058448/uploads/fruits/banana-494b5.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit003",
+        "name": {
+            "en": "Mango",
+            "hi": "आम"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058518/uploads/fruits/mango-349r3k49.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit004",
+        "name": {
+            "en": "Orange",
+            "hi": "संतरा"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058500/uploads/fruits/lemon-orange-0769.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit005",
+        "name": {
+            "en": "Papaya",
+            "hi": "पपीता"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058603/uploads/fruits/green-papaya_n7xhvc.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit006",
+        "name": {
+            "en": "Pineapple",
+            "hi": "अनानास"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058559/uploads/fruits/pineapple-ef3483k.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit007",
+        "name": {
+            "en": "Guava",
+            "hi": "अमरूद"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058415/uploads/fruits/Guava_z03e82.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit008",
+        "name": {
+            "en": "Pomegranate",
+            "hi": "अनार"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058529/uploads/fruits/pomegranate-fruit-54kr458k.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit009",
+        "name": {
+            "en": "Watermelon",
+            "hi": "तरबूज"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058590/uploads/fruits/watermelon-rfkgi34k.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit010",
+        "name": {
+            "en": "Muskmelon",
+            "hi": "खरबूजा"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058474/uploads/fruits/maskmelan-33d34k.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit011",
+        "name": {
+            "en": "Grapes",
+            "hi": "अंगूर"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058365/uploads/fruits/grapes-483k39k.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit012",
+        "name": {
+            "en": "Lychee",
+            "hi": "लीची"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058380/uploads/fruits/lychee-a528.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit013",
+        "name": {
+            "en": "Chikoo",
+            "hi": "चीकू"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058333/uploads/fruits/chikoo_yxse74.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit014",
+        "name": {
+            "en": "Custard Apple",
+            "hi": "सीताफल"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058546/uploads/fruits/custard-apple-48f38g.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit015",
+        "name": {
+            "en": "Sugar Cane",
+            "hi": "गन्ना"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058539/uploads/fruits/sugarCane-493kr2483.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit016",
+        "name": {
+            "en": "Strawberry",
+            "hi": "स्ट्रॉबेरी"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058565/uploads/fruits/strawberryb-3rd3kf.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit017",
+        "name": {
+            "en": "Raspberry",
+            "hi": "रास्पबेरी"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058558/uploads/fruits/rusberry-3483rk35j.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit018",
+        "name": {
+            "en": "Blackberry",
+            "hi": "ब्लैकबेरी"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058324/uploads/fruits/blackberry_qkql54.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit019",
+        "name": {
+            "en": "Kiwi",
+            "hi": "कीवी"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748356920/uploads/fruits/kiwi_ghycjy.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit020",
+        "name": {
+            "en": "Dragon Fruit",
+            "hi": "ड्रैगन फ्रूट"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058485/uploads/fruits/klflmanp5qerh8e3tbl932dpb0_oigqrs.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit021",
+        "name": {
+            "en": "Pear",
+            "hi": "नाशपाती"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058485/uploads/fruits/klflmanp5qerh8e3tbl932dpb0_oigqrs.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit022",
+        "name": {
+            "en": "Plum",
+            "hi": "आलूबुखारा"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748361421/uploads/fruits/88332947_Plum_-23_xj8s5f.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit024",
+        "name": {
+            "en": "Apricot",
+            "hi": "खुबानी"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058350/uploads/fruits/apricot-apricots-4e199038217df85b257782b79c55982f_lculql.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit025",
+        "name": {
+            "en": "Fig",
+            "hi": "अंजीर"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058383/uploads/fruits/fruit-mission-fig-pitaya-balsamic-vinegar-others-c36d32099699c64f664ff0540d5f644b_xaayia.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit026",
+        "name": {
+            "en": "Tamarind",
+            "hi": "इमली"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058591/uploads/fruits/tamarind-rf335.pngg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit027",
+        "name": {
+            "en": "Coconut",
+            "hi": "नारियल"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748362493/uploads/fruits/coconut-3435ke333e_hrxbkd.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit028",
+        "name": {
+            "en": "Date",
+            "hi": "खजूर"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748362660/uploads/fruits/Dates-596t95h44_cg3i2e.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit029",
+        "name": {
+            "en": "Gooseberry",
+            "hi": "आंवला"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058409/uploads/fruits/fruit-indian-gooseberry-stock-photography-amla-91263558e0c7cdd691b769537cbc065d_adijly.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit038",
+        "name": {
+            "en": "Persimmon",
+            "hi": "तेंदू"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748363505/tedu-rt45_spykkr.jpgg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit040",
+        "name": {
+            "en": "Avocado",
+            "hi": "एवोकाडो"
+        },
+        "category": "fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748363669/uploads/fruits/tedu-rt45_xrnick.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "grain001",
+        "name": {
+            "en": "Wheat",
+            "hi": "गेहूं"
+        },
+        "category": "grains",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057980/uploads/cereals/wheat-germ-oil-atta-flour-cereal-germ-wheat-berry-wheat-133cb005582c3ef43f674f5ba41a7b0a_g6nqnf.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "grain002",
+        "name": {
+            "en": "Rice",
+            "hi": "चावल"
+        },
+        "category": "grains",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057984/uploads/cereals/rice-395k34k386o.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "grain012",
+        "name": {
+            "en": "Broken Wheat",
+            "hi": "दलिया"
+        },
+        "category": "grains",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748404822/uploads/cereals/daliya-4k39_ikw8ys.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "grain003",
+        "name": {
+            "en": "Maize",
+            "hi": "मक्का"
+        },
+        "category": "grains",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057978/uploads/cereals/makka-495k393kf39.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "grain004",
+        "name": {
+            "en": "Barley",
+            "hi": "जौ"
+        },
+        "category": "grains",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057976/uploads/cereals/jou-4k584fk39.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "grain005",
+        "name": {
+            "en": "Millet",
+            "hi": "बाजरा"
+        },
+        "category": "grains",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748057980/uploads/cereals/millet-343kd239k8.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "grain006",
+        "name": {
+            "en": "Sorghum",
+            "hi": "ज्वार"
+        },
+        "category": "grains",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748404822/uploads/cereals/daliya-4k39_ikw8ys.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "grain014",
+        "name": {
+            "en": "Puffed Rice",
+            "hi": "मुरमुरा"
+        },
+        "category": "grains",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748414830/uploads/cereals/puffed-rice-1000x1000_qqh5js.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "grain038",
+        "name": {
+            "en": "Rice Flakes",
+            "hi": "पोहा"
+        },
+        "category": "grains",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748415874/uploads/cereals/Rice-Flake-Thick-1kg-Meduim-Poha_x4otgp.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "grain040",
+        "name": {
+            "en": "Semolina",
+            "hi": "सूजी"
+        },
+        "category": "grains",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748416098/uploads/cereals/Stock-Iamges-11-1_l8d4ht.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "pulse001",
+        "name": {
+            "en": "Arhar Dal",
+            "hi": "अरहर दाल"
+        },
+        "category": "pulses",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748416867/uploads/pulses/toor-dal49k_jmafoh.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "pulse002",
+        "name": {
+            "en": "Chana Dal",
+            "hi": "चना दाल"
+        },
+        "category": "pulses",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748417034/uploads/pulses/split_bengal_gram_chana_dal_i_1920_kvtxm8.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "pulse003",
+        "name": {
+            "en": "Moong",
+            "hi": "मूंग "
+        },
+        "category": "pulses",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058934/uploads/pulses/h51ebv3o5n179io9o2d1mkm6bi_ex0dwl.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "pulse004",
+        "name": {
+            "en": "Urad Dal",
+            "hi": "उड़द दाल"
+        },
+        "category": "pulses",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058935/uploads/pulses/urad-daal-34k593o.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "pulse005",
+        "name": {
+            "en": "Masoor Dal",
+            "hi": "मसूर दाल"
+        },
+        "category": "pulses",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748422534/uploads/pulses/masoor_daal_ccacqk.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "pulse006",
+        "name": {
+            "en": "Rajma",
+            "hi": "राजमा"
+        },
+        "category": "pulses",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058956/uploads/pulses/rajma-red-56y98k.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "pulse007",
+        "name": {
+            "en": "Kabuli Chana",
+            "hi": "काबुली चना"
+        },
+        "category": "pulses",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058920/uploads/pulses/chickpea-soy-milk-vegetarian-cuisine-organic-food-peanut-samarkand-8cc2ee77d3625af987ccfe8b91e24af2_oujrh6.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "pulse012",
+        "name": {
+            "en": "Soybean",
+            "hi": "सोयाबीन"
+        },
+        "category": "pulses",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058930/uploads/pulses/2q4baga6hcoa4eahf3v76b8cu4_aogtfw.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "pulse013",
+        "name": {
+            "en": "Lobia (Black Eyed Peas)",
+            "hi": "लोबिया"
+        },
+        "category": "pulses",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748436959/uploads/pulses/seeds-removebg-preview_evgemj.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "pulse015",
+        "name": {
+            "en": "Chickpeas",
+            "hi": "छोला"
+        },
+        "category": "pulses",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058920/uploads/pulses/chickpea-soy-t567juk7.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "pulse037",
+        "name": {
+            "en": "Whole Masoor",
+            "hi": "मसूर साबुत"
+        },
+        "category": "pulses",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748441914/uploads/pulses/lentils-removebg-preview_w9tshi.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "dairy001",
+        "name": {
+            "en": "Cow Milk",
+            "hi": "गाय का दूध"
+        },
+        "category": "dairy",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058791/uploads/milk-products/milk-596f49k8.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "dairy005",
+        "name": {
+            "en": "Curd",
+            "hi": "दही"
+        },
+        "category": "dairy",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058795/uploads/milk-products/curd-39ki430pl3.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "dairy006",
+        "name": {
+            "en": "Paneer",
+            "hi": "पनीर"
+        },
+        "category": "dairy",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058791/uploads/milk-products/paneer-675k9pe479.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "dairy007",
+        "name": {
+            "en": "Ghee",
+            "hi": "घी"
+        },
+        "category": "dairy",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058858/uploads/milk-products/j5tbanaui8bvsf8nifu1migtin_ubqrvg.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "dairy008",
+        "name": {
+            "en": "Butter",
+            "hi": "मक्खन"
+        },
+        "category": "dairy",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058802/uploads/milk-products/butter-394l43067t6h7.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "dairy009",
+        "name": {
+            "en": "Cheese",
+            "hi": "चीज़"
+        },
+        "category": "dairy",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058765/uploads/milk-products/chees0758049rf93k93kd.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "dairy010",
+        "name": {
+            "en": "Lassi",
+            "hi": "लस्सी"
+        },
+        "category": "dairy",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748442760/uploads/milk-products/7ed581-lassi.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "dairy019",
+        "name": {
+            "en": "Khoya",
+            "hi": "खोया"
+        },
+        "category": "dairy",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748058798/uploads/milk-products/milk-khoya-598m343kd58.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "dairy020",
+        "name": {
+            "en": "Shrikhand",
+            "hi": "श्रीखंड"
+        },
+        "category": "dairy",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748444090/uploads/milk-products/shreekhand-786j098k.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "dryfruit001",
+        "name": {
+            "en": "Almonds",
+            "hi": "बादाम"
+        },
+        "category": "dry_fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748059188/uploads/dry-fruits/almonds-58k39j23.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "dryfruit002",
+        "name": {
+            "en": "Cashews",
+            "hi": "काजू"
+        },
+        "category": "dry_fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748059232/uploads/dry-fruits/cashew-53j0m0b2.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "dryfruit003",
+        "name": {
+            "en": "Walnuts",
+            "hi": "अखरोट"
+        },
+        "category": "dry_fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748059244/uploads/dry-fruits/akhrot-412k9gh980j.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "dryfruit004",
+        "name": {
+            "en": "Raisins",
+            "hi": "किशमिश"
+        },
+        "category": "dry_fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748059235/uploads/dry-fruits/raisin-459kl2n0qz09.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "dryfruit005",
+        "name": {
+            "en": "Pistachios",
+            "hi": "पिस्ता"
+        },
+        "category": "dry_fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748059228/uploads/dry-fruits/pista-98zx09vc.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "dryfruit006",
+        "name": {
+            "en": "Dates",
+            "hi": "खजूर"
+        },
+        "category": "dry_fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748059182/uploads/dry-fruits/date-palm5ba6768c7_i3dtj0.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "dryfruit008",
+        "name": {
+            "en": "Peanut",
+            "hi": "मूंगफली"
+        },
+        "category": "dry_fruits",
+        "image": "https://res.cloudinary.com/dvurobnaz/image/upload/v1748059176/uploads/dry-fruits/peanut-8_a54hbm.png",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "seed001",
+        "name": {
+            "en": "Wheat Seeds",
+            "hi": "गेहूं के बीज"
+        },
+        "category": "seeds",
+        "image": "https://example.com/images/wheat_seeds.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "seed002",
+        "name": {
+            "en": "Rice Seeds",
+            "hi": "चावल के बीज"
+        },
+        "category": "seeds",
+        "image": "https://example.com/images/rice_seeds.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "seed003",
+        "name": {
+            "en": "Maize Seeds",
+            "hi": "मक्का के बीज"
+        },
+        "category": "seeds",
+        "image": "https://example.com/images/maize_seeds.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "seed010",
+        "name": {
+            "en": "Chickpea Seeds",
+            "hi": "चने के बीज"
+        },
+        "category": "seeds",
+        "image": "https://example.com/images/chickpea_seeds.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "seed006",
+        "name": {
+            "en": "Soybean Seeds",
+            "hi": "सोयाबीन के बीज"
+        },
+        "category": "seeds",
+        "image": "https://example.com/images/soybean_seeds.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "seed005",
+        "name": {
+            "en": "Mustard Seeds",
+            "hi": "सरसों के बीज"
+        },
+        "category": "seeds",
+        "image": "https://example.com/images/mustard_seeds.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "seed015",
+        "name": {
+            "en": "Pearl Millet Seeds",
+            "hi": "बाजरा के बीज"
+        },
+        "category": "seeds",
+        "image": "https://example.com/images/pearl_millet_seeds.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "seed017",
+        "name": {
+            "en": "Sorghum Seeds",
+            "hi": "ज्वार के बीज"
+        },
+        "category": "seeds",
+        "image": "https://example.com/images/sorghum_seeds.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "seed018",
+        "name": {
+            "en": "Sesame Seeds",
+            "hi": "तिल के बीज"
+        },
+        "category": "seeds",
+        "image": "https://example.com/images/sesame_seeds.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "seed022",
+        "name": {
+            "en": "Cumin Seeds",
+            "hi": "जीरा के बीज"
+        },
+        "category": "seeds",
+        "image": "https://example.com/images/cumin_seeds.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "seed020",
+        "name": {
+            "en": "Fenugreek Seeds",
+            "hi": "मेथी के बीज"
+        },
+        "category": "seeds",
+        "image": "https://example.com/images/fenugreek_seeds.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "seed024",
+        "name": {
+            "en": "Carrot Seeds",
+            "hi": "गाजर के बीज"
+        },
+        "category": "seeds",
+        "image": "https://example.com/images/carrot_seeds.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "seed025",
+        "name": {
+            "en": "Tomato Seeds",
+            "hi": "टमाटर के बीज"
+        },
+        "category": "seeds",
+        "image": "https://example.com/images/tomato_seeds.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "seed027",
+        "name": {
+            "en": "Okra Seeds",
+            "hi": "भिंडी के बीज"
+        },
+        "category": "seeds",
+        "image": "https://example.com/images/okra_seeds.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "seed028",
+        "name": {
+            "en": "Cucumber Seeds",
+            "hi": "खीरा के बीज"
+        },
+        "category": "seeds",
+        "image": "https://example.com/images/cucumber_seeds.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fert001",
+        "name": {
+            "en": "Urea",
+            "hi": "यूरिया"
+        },
+        "category": "fertilizers",
+        "image": "https://example.com/images/urea.jpg",
+        "type": "Nitrogenous",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fert002",
+        "name": {
+            "en": "DAP (Diammonium Phosphate)",
+            "hi": "डीएपी (डायमोनियम फॉस्फेट)"
+        },
+        "category": "fertilizers",
+        "image": "https://example.com/images/dap.jpg",
+        "type": "Phosphatic",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fert003",
+        "name": {
+            "en": "MOP (Muriate of Potash)",
+            "hi": "एमओपी (पोटाश)"
+        },
+        "category": "fertilizers",
+        "image": "https://example.com/images/mop.jpg",
+        "type": "Potassic",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fert004",
+        "name": {
+            "en": "NPK (10:26:26)",
+            "hi": "एनपीके (10:26:26)"
+        },
+        "category": "fertilizers",
+        "image": "https://example.com/images/npk_10_26_26.jpg",
+        "type": "Complex",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fert005",
+        "name": {
+            "en": "NPK (12:32:16)",
+            "hi": "एनपीके (12:32:16)"
+        },
+        "category": "fertilizers",
+        "image": "https://example.com/images/npk_12_32_16.jpg",
+        "type": "Complex",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fert006",
+        "name": {
+            "en": "SSP (Single Super Phosphate)",
+            "hi": "एसएसपी (सिंगल सुपर फॉस्फेट)"
+        },
+        "category": "fertilizers",
+        "image": "https://example.com/images/ssp.jpg",
+        "type": "Phosphatic",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fert007",
+        "name": {
+            "en": "Ammonium Sulphate",
+            "hi": "अमोनियम सल्फेट"
+        },
+        "category": "fertilizers",
+        "image": "https://example.com/images/ammonium_sulphate.jpg",
+        "type": "Nitrogenous",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fert008",
+        "name": {
+            "en": "Calcium Ammonium Nitrate (CAN)",
+            "hi": "कैल्शियम अमोनियम नाइट्रेट"
+        },
+        "category": "fertilizers",
+        "image": "https://example.com/images/can.jpg",
+        "type": "Nitrogenous",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fert009",
+        "name": {
+            "en": "Zinc Sulphate",
+            "hi": "जिंक सल्फेट"
+        },
+        "category": "fertilizers",
+        "image": "https://example.com/images/zinc_sulphate.jpg",
+        "type": "Micronutrient",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fert010",
+        "name": {
+            "en": "Boron",
+            "hi": "बोरॉन"
+        },
+        "category": "fertilizers",
+        "image": "https://example.com/images/boron.jpg",
+        "type": "Micronutrient",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fert011",
+        "name": {
+            "en": "Farmyard Manure (FYM)",
+            "hi": "गोबर की खाद"
+        },
+        "category": "fertilizers",
+        "image": "https://example.com/images/fym.jpg",
+        "type": "Organic",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fert012",
+        "name": {
+            "en": "Vermicompost",
+            "hi": "वर्मीकम्पोस्ट"
+        },
+        "category": "fertilizers",
+        "image": "https://example.com/images/vermicompost.jpg",
+        "type": "Organic",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fert013",
+        "name": {
+            "en": "Neem Cake",
+            "hi": "नीम केक"
+        },
+        "category": "fertilizers",
+        "image": "https://example.com/images/neem_cake.jpg",
+        "type": "Organic",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fert014",
+        "name": {
+            "en": "Biofertilizer (Rhizobium)",
+            "hi": "जैव उर्वरक (राइजोबियम)"
+        },
+        "category": "fertilizers",
+        "image": "https://example.com/images/rhizobium.jpg",
+        "type": "Biofertilizer",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fert015",
+        "name": {
+            "en": "Biofertilizer (Azotobacter)",
+            "hi": "जैव उर्वरक (एजोटोबैक्टर)"
+        },
+        "category": "fertilizers",
+        "image": "https://example.com/images/azotobacter.jpg",
+        "type": "Biofertilizer",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fert016",
+        "name": {
+            "en": "Gypsum",
+            "hi": "जिप्सम"
+        },
+        "category": "fertilizers",
+        "image": "https://example.com/images/gypsum.jpg",
+        "type": "Soil Amendment",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fert017",
+        "name": {
+            "en": "Potassium Nitrate",
+            "hi": "पोटैशियम नाइट्रेट"
+        },
+        "category": "fertilizers",
+        "image": "https://example.com/images/potassium_nitrate.jpg",
+        "type": "Water Soluble",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fert018",
+        "name": {
+            "en": "Magnesium Sulphate",
+            "hi": "मैग्नीशियम सल्फेट"
+        },
+        "category": "fertilizers",
+        "image": "https://example.com/images/magnesium_sulphate.jpg",
+        "type": "Micronutrient",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fert019",
+        "name": {
+            "en": "Ferrous Sulphate",
+            "hi": "फेरस सल्फेट"
+        },
+        "category": "fertilizers",
+        "image": "https://example.com/images/ferrous_sulphate.jpg",
+        "type": "Micronutrient",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fert020",
+        "name": {
+            "en": "Rock Phosphate",
+            "hi": "रॉक फॉस्फेट"
+        },
+        "category": "fertilizers",
+        "image": "https://example.com/images/rock_phosphate.jpg",
+        "type": "Phosphatic",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fert021",
+        "name": {
+            "en": "Bone Meal",
+            "hi": "बोन मील"
+        },
+        "category": "fertilizers",
+        "image": "https://example.com/images/bone_meal.jpg",
+        "type": "Organic",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fert022",
+        "name": {
+            "en": "Seaweed Extract",
+            "hi": "समुद्री शैवाल उर्वरक"
+        },
+        "category": "fertilizers",
+        "image": "https://example.com/images/seaweed_extract.jpg",
+        "type": "Organic",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fert023",
+        "name": {
+            "en": "Humic Acid",
+            "hi": "ह्यूमिक एसिड"
+        },
+        "category": "fertilizers",
+        "image": "https://example.com/images/humic_acid.jpg",
+        "type": "Soil Conditioner",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fert024",
+        "name": {
+            "en": "Sulphur Bentonite",
+            "hi": "सल्फर बेंटोनाइट"
+        },
+        "category": "fertilizers",
+        "image": "https://example.com/images/sulphur_bentonite.jpg",
+        "type": "Secondary Nutrient",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fert025",
+        "name": {
+            "en": "Potassium Sulphate",
+            "hi": "पोटैशियम सल्फेट"
+        },
+        "category": "fertilizers",
+        "image": "https://example.com/images/potassium_sulphate.jpg",
+        "type": "Potassic",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit001",
+        "name": {
+            "en": "Mango",
+            "hi": "आम"
+        },
+        "category": "nursery-plants",
+        "type": "fruit",
+        "image": "https://example.com/images/mango.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit002",
+        "name": {
+            "en": "Banana",
+            "hi": "केला"
+        },
+        "category": "nursery-plants",
+        "type": "fruit",
+        "image": "https://example.com/images/banana.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit003",
+        "name": {
+            "en": "Guava",
+            "hi": "अमरूद"
+        },
+        "category": "nursery-plants",
+        "type": "fruit",
+        "image": "https://example.com/images/guava.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit004",
+        "name": {
+            "en": "Papaya",
+            "hi": "पपीता"
+        },
+        "category": "nursery-plants",
+        "type": "fruit",
+        "image": "https://example.com/images/papaya.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit005",
+        "name": {
+            "en": "Pomegranate",
+            "hi": "अनार"
+        },
+        "category": "nursery-plants",
+        "type": "fruit",
+        "image": "https://example.com/images/pomegranate.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit006",
+        "name": {
+            "en": "Lemon",
+            "hi": "नींबू"
+        },
+        "category": "nursery-plants",
+        "type": "fruit",
+        "image": "https://example.com/images/lemon.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit007",
+        "name": {
+            "en": "Coconut",
+            "hi": "नारियल"
+        },
+        "category": "nursery-plants",
+        "type": "fruit",
+        "image": "https://example.com/images/coconut.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit008",
+        "name": {
+            "en": "Apple",
+            "hi": "सेब"
+        },
+        "category": "nursery-plants",
+        "type": "fruit",
+        "image": "https://example.com/images/apple.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit009",
+        "name": {
+            "en": "Grapes",
+            "hi": "अंगूर"
+        },
+        "category": "nursery-plants",
+        "type": "fruit",
+        "image": "https://example.com/images/grapes.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "fruit010",
+        "name": {
+            "en": "Orange",
+            "hi": "संतरा"
+        },
+        "category": "nursery-plants",
+        "type": "fruit",
+        "image": "https://example.com/images/orange.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg001",
+        "name": {
+            "en": "Tomato",
+            "hi": "टमाटर"
+        },
+        "category": "nursery-plants",
+        "type": "vegetable",
+        "image": "https://example.com/images/tomato_plant.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg002",
+        "name": {
+            "en": "Brinjal (Eggplant)",
+            "hi": "बैंगन"
+        },
+        "category": "nursery-plants",
+        "type": "vegetable",
+        "image": "https://example.com/images/brinjal_plant.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg003",
+        "name": {
+            "en": "Chili",
+            "hi": "मिर्च"
+        },
+        "category": "nursery-plants",
+        "type": "vegetable",
+        "image": "https://example.com/images/chili_plant.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "veg009",
+        "name": {
+            "en": "Capsicum",
+            "hi": "शिमला मिर्च"
+        },
+        "category": "nursery-plants",
+        "type": "vegetable",
+        "image": "https://example.com/images/capsicum_plant.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "flower001",
+        "name": {
+            "en": "Rose",
+            "hi": "गुलाब"
+        },
+        "category": "nursery-plants",
+        "type": "flower",
+        "image": "https://example.com/images/rose.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "flower002",
+        "name": {
+            "en": "Marigold",
+            "hi": "गेंदा"
+        },
+        "category": "nursery-plants",
+        "type": "flower",
+        "image": "https://example.com/images/marigold.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "flower003",
+        "name": {
+            "en": "Jasmine",
+            "hi": "चमेली"
+        },
+        "category": "nursery-plants",
+        "type": "flower",
+        "image": "https://example.com/images/jasmine.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "flower004",
+        "name": {
+            "en": "Sunflower",
+            "hi": "सूरजमुखी"
+        },
+        "category": "nursery-plants",
+        "type": "flower",
+        "image": "https://example.com/images/sunflower.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "flower005",
+        "name": {
+            "en": "Hibiscus",
+            "hi": "गुड़हल"
+        },
+        "category": "nursery-plants",
+        "type": "flower",
+        "image": "https://example.com/images/hibiscus.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "flower006",
+        "name": {
+            "en": "Lotus",
+            "hi": "कमल"
+        },
+        "category": "nursery-plants",
+        "type": "flower",
+        "image": "https://example.com/images/lotus.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "flower007",
+        "name": {
+            "en": "Dahlia",
+            "hi": "डेहलिया"
+        },
+        "category": "nursery-plants",
+        "type": "flower",
+        "image": "https://example.com/images/dahlia.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "flower008",
+        "name": {
+            "en": "Chrysanthemum",
+            "hi": "गुलदाउदी"
+        },
+        "category": "nursery-plants",
+        "type": "flower",
+        "image": "https://example.com/images/chrysanthemum.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "flower009",
+        "name": {
+            "en": "Lavender",
+            "hi": "लैवेंडर"
+        },
+        "category": "nursery-plants",
+        "type": "flower",
+        "image": "https://example.com/images/lavender.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "flower010",
+        "name": {
+            "en": "Orchid",
+            "hi": "ऑर्किड"
+        },
+        "category": "nursery-plants",
+        "type": "flower",
+        "image": "https://example.com/images/orchid.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "herb001",
+        "name": {
+            "en": "Tulsi (Holy Basil)",
+            "hi": "तुलसी"
+        },
+        "category": "nursery-plants",
+        "type": "herb",
+        "image": "https://example.com/images/tulsi.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "herb002",
+        "name": {
+            "en": "Mint",
+            "hi": "पुदीना"
+        },
+        "category": "nursery-plants",
+        "type": "herb",
+        "image": "https://example.com/images/mint.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "herb004",
+        "name": {
+            "en": "Aloe Vera",
+            "hi": "एलोवेरा"
+        },
+        "category": "nursery-plants",
+        "type": "herb",
+        "image": "https://example.com/images/aloe_vera.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    },
+    {
+        "_id": "herb005",
+        "name": {
+            "en": "Lemongrass",
+            "hi": "लेमनग्रास"
+        },
+        "category": "nursery-plants",
+        "type": "herb",
+        "image": "https://example.com/images/lemongrass.jpg",
+        "createdAt": "2025-05-21T09:00:00Z"
+    }
+   
+]

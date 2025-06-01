@@ -1,0 +1,6365 @@
+[
+    {
+        "id": "ph_veg001_mandi1",
+        "product_id": "veg001",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 20,
+                "stock": 150
+            },
+            {
+                "date": "2025-05-28",
+                "price": 21,
+                "stock": 145
+            }
+        ]
+    },
+    {
+        "id": "ph_veg001_mandi2",
+        "product_id": "veg001",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 18,
+                "stock": 160
+            },
+            {
+                "date": "2025-05-28",
+                "price": 19,
+                "stock": 155
+            }
+        ]
+    },
+    {
+        "id": "ph_veg001_mandi3",
+        "product_id": "veg001",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 23,
+                "stock": 140
+            },
+            {
+                "date": "2025-05-28",
+                "price": 24,
+                "stock": 135
+            }
+        ]
+    },
+    {
+        "id": "ph_veg002_mandi1",
+        "product_id": "veg002",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 33,
+                "stock": 120
+            },
+            {
+                "date": "2025-05-28",
+                "price": 34,
+                "stock": 115
+            }
+        ]
+    },
+    {
+        "id": "ph_veg002_mandi2",
+        "product_id": "veg002",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 30,
+                "stock": 130
+            },
+            {
+                "date": "2025-05-28",
+                "price": 31,
+                "stock": 125
+            }
+        ]
+    },
+    {
+        "id": "ph_veg002_mandi3",
+        "product_id": "veg002",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 36,
+                "stock": 110
+            },
+            {
+                "date": "2025-05-28",
+                "price": 37,
+                "stock": 105
+            }
+        ]
+    },
+    {
+        "id": "ph_veg003_mandi1",
+        "product_id": "veg003",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 26,
+                "stock": 100
+            },
+            {
+                "date": "2025-05-28",
+                "price": 27,
+                "stock": 95
+            }
+        ]
+    },
+    {
+        "id": "ph_veg003_mandi2",
+        "product_id": "veg003",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 23,
+                "stock": 110
+            },
+            {
+                "date": "2025-05-28",
+                "price": 24,
+                "stock": 105
+            }
+        ]
+    },
+    {
+        "id": "ph_veg003_mandi3",
+        "product_id": "veg003",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 28,
+                "stock": 90
+            },
+            {
+                "date": "2025-05-28",
+                "price": 29,
+                "stock": 85
+            }
+        ]
+    },
+    {
+        "id": "ph_veg004_mandi1",
+        "product_id": "veg004",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 175,
+                "stock": 80
+            },
+            {
+                "date": "2025-05-28",
+                "price": 178,
+                "stock": 75
+            }
+        ]
+    },
+    {
+        "id": "ph_veg004_mandi2",
+        "product_id": "veg004",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 170,
+                "stock": 90
+            },
+            {
+                "date": "2025-05-28",
+                "price": 173,
+                "stock": 85
+            }
+        ]
+    },
+    {
+        "id": "ph_veg004_mandi3",
+        "product_id": "veg004",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 185,
+                "stock": 70
+            },
+            {
+                "date": "2025-05-28",
+                "price": 188,
+                "stock": 65
+            }
+        ]
+    },
+    {
+        "id": "ph_veg005_mandi1",
+        "product_id": "veg005",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 145,
+                "stock": 60
+            },
+            {
+                "date": "2025-05-28",
+                "price": 148,
+                "stock": 55
+            }
+        ]
+    },
+    {
+        "id": "ph_veg005_mandi2",
+        "product_id": "veg005",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 140,
+                "stock": 70
+            },
+            {
+                "date": "2025-05-28",
+                "price": 143,
+                "stock": 65
+            }
+        ]
+    },
+    {
+        "id": "ph_veg005_mandi3",
+        "product_id": "veg005",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 155,
+                "stock": 50
+            },
+            {
+                "date": "2025-05-28",
+                "price": 158,
+                "stock": 45
+            }
+        ]
+    },
+    {
+        "id": "ph_veg006_mandi1",
+        "product_id": "veg006",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 38,
+                "stock": 140
+            },
+            {
+                "date": "2025-05-28",
+                "price": 39,
+                "stock": 135
+            }
+        ]
+    },
+    {
+        "id": "ph_veg006_mandi2",
+        "product_id": "veg006",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 36,
+                "stock": 150
+            },
+            {
+                "date": "2025-05-28",
+                "price": 37,
+                "stock": 145
+            }
+        ]
+    },
+    {
+        "id": "ph_veg006_mandi3",
+        "product_id": "veg006",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 40,
+                "stock": 130
+            },
+            {
+                "date": "2025-05-28",
+                "price": 41,
+                "stock": 125
+            }
+        ]
+    },
+    {
+        "id": "ph_veg007_mandi1",
+        "product_id": "veg007",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 42,
+                "stock": 120
+            },
+            {
+                "date": "2025-05-28",
+                "price": 44,
+                "stock": 115
+            }
+        ]
+    },
+    {
+        "id": "ph_veg007_mandi2",
+        "product_id": "veg007",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 40,
+                "stock": 130
+            },
+            {
+                "date": "2025-05-28",
+                "price": 41,
+                "stock": 125
+            }
+        ]
+    },
+    {
+        "id": "ph_veg007_mandi3",
+        "product_id": "veg007",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 45,
+                "stock": 110
+            },
+            {
+                "date": "2025-05-28",
+                "price": 47,
+                "stock": 105
+            }
+        ]
+    },
+    {
+        "id": "ph_veg008_mandi1",
+        "product_id": "veg008",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 28,
+                "stock": 100
+            },
+            {
+                "date": "2025-05-28",
+                "price": 29,
+                "stock": 95
+            }
+        ]
+    },
+    {
+        "id": "ph_veg008_mandi2",
+        "product_id": "veg008",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 26,
+                "stock": 110
+            },
+            {
+                "date": "2025-05-28",
+                "price": 27,
+                "stock": 105
+            }
+        ]
+    },
+    {
+        "id": "ph_veg008_mandi3",
+        "product_id": "veg008",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 30,
+                "stock": 90
+            },
+            {
+                "date": "2025-05-28",
+                "price": 31,
+                "stock": 85
+            }
+        ]
+    },
+    {
+        "id": "ph_veg009_mandi1",
+        "product_id": "veg009",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 58,
+                "stock": 80
+            },
+            {
+                "date": "2025-05-28",
+                "price": 59,
+                "stock": 75
+            }
+        ]
+    },
+    {
+        "id": "ph_veg009_mandi2",
+        "product_id": "veg009",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 56,
+                "stock": 90
+            },
+            {
+                "date": "2025-05-28",
+                "price": 57,
+                "stock": 85
+            }
+        ]
+    },
+    {
+        "id": "ph_veg009_mandi3",
+        "product_id": "veg009",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 62,
+                "stock": 70
+            },
+            {
+                "date": "2025-05-28",
+                "price": 64,
+                "stock": 65
+            }
+        ]
+    },
+    {
+        "id": "ph_veg010_mandi1",
+        "product_id": "veg010",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 78,
+                "stock": 60
+            },
+            {
+                "date": "2025-05-28",
+                "price": 79,
+                "stock": 55
+            }
+        ]
+    },
+    {
+        "id": "ph_veg010_mandi2",
+        "product_id": "veg010",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 73,
+                "stock": 70
+            },
+            {
+                "date": "2025-05-28",
+                "price": 74,
+                "stock": 65
+            }
+        ]
+    },
+    {
+        "id": "ph_veg010_mandi3",
+        "product_id": "veg010",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 83,
+                "stock": 50
+            },
+            {
+                "date": "2025-05-28",
+                "price": 84,
+                "stock": 45
+            }
+        ]
+    },
+    {
+        "id": "ph_veg011_mandi1",
+        "product_id": "veg011",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 33,
+                "stock": 140
+            },
+            {
+                "date": "2025-05-28",
+                "price": 34,
+                "stock": 135
+            }
+        ]
+    },
+    {
+        "id": "ph_veg011_mandi2",
+        "product_id": "veg011",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 30,
+                "stock": 150
+            },
+            {
+                "date": "2025-05-28",
+                "price": 31,
+                "stock": 145
+            }
+        ]
+    },
+    {
+        "id": "ph_veg011_mandi3",
+        "product_id": "veg011",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 36,
+                "stock": 130
+            },
+            {
+                "date": "2025-05-28",
+                "price": 37,
+                "stock": 125
+            }
+        ]
+    },
+    {
+        "id": "ph_veg012_mandi1",
+        "product_id": "veg012",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 23,
+                "stock": 120
+            },
+            {
+                "date": "2025-05-28",
+                "price": 24,
+                "stock": 115
+            }
+        ]
+    },
+    {
+        "id": "ph_veg012_mandi2",
+        "product_id": "veg012",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 20,
+                "stock": 130
+            },
+            {
+                "date": "2025-05-28",
+                "price": 21,
+                "stock": 125
+            }
+        ]
+    },
+    {
+        "id": "ph_veg012_mandi3",
+        "product_id": "veg012",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 26,
+                "stock": 110
+            },
+            {
+                "date": "2025-05-28",
+                "price": 27,
+                "stock": 105
+            }
+        ]
+    },
+    {
+        "id": "ph_veg013_mandi1",
+        "product_id": "veg013",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 38,
+                "stock": 100
+            },
+            {
+                "date": "2025-05-28",
+                "price": 39,
+                "stock": 95
+            }
+        ]
+    },
+    {
+        "id": "ph_veg013_mandi2",
+        "product_id": "veg013",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 36,
+                "stock": 110
+            },
+            {
+                "date": "2025-05-28",
+                "price": 37,
+                "stock": 105
+            }
+        ]
+    },
+    {
+        "id": "ph_veg013_mandi3",
+        "product_id": "veg013",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 42,
+                "stock": 90
+            },
+            {
+                "date": "2025-05-28",
+                "price": 44,
+                "stock": 85
+            }
+        ]
+    },
+    {
+        "id": "ph_veg014_mandi1",
+        "product_id": "veg014",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 28,
+                "stock": 80
+            },
+            {
+                "date": "2025-05-28",
+                "price": 29,
+                "stock": 75
+            }
+        ]
+    },
+    {
+        "id": "ph_veg014_mandi2",
+        "product_id": "veg014",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 26,
+                "stock": 90
+            },
+            {
+                "date": "2025-05-28",
+                "price": 27,
+                "stock": 85
+            }
+        ]
+    },
+    {
+        "id": "ph_veg014_mandi3",
+        "product_id": "veg014",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 30,
+                "stock": 70
+            },
+            {
+                "date": "2025-05-28",
+                "price": 31,
+                "stock": 65
+            }
+        ]
+    },
+    {
+        "id": "ph_veg015_mandi1",
+        "product_id": "veg015",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 48,
+                "stock": 60
+            },
+            {
+                "date": "2025-05-28",
+                "price": 49,
+                "stock": 55
+            }
+        ]
+    },
+    {
+        "id": "ph_veg015_mandi2",
+        "product_id": "veg015",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 46,
+                "stock": 70
+            },
+            {
+                "date": "2025-05-28",
+                "price": 47,
+                "stock": 65
+            }
+        ]
+    },
+    {
+        "id": "ph_veg015_mandi3",
+        "product_id": "veg015",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 52,
+                "stock": 50
+            },
+            {
+                "date": "2025-05-28",
+                "price": 54,
+                "stock": 45
+            }
+        ]
+    },
+    {
+        "id": "ph_veg016_mandi1",
+        "product_id": "veg016",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 18,
+                "stock": 140
+            },
+            {
+                "date": "2025-05-28",
+                "price": 19,
+                "stock": 135
+            }
+        ]
+    },
+    {
+        "id": "ph_veg016_mandi2",
+        "product_id": "veg016",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 16,
+                "stock": 150
+            },
+            {
+                "date": "2025-05-28",
+                "price": 17,
+                "stock": 145
+            }
+        ]
+    },
+    {
+        "id": "ph_veg016_mandi3",
+        "product_id": "veg016",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 20,
+                "stock": 130
+            },
+            {
+                "date": "2025-05-28",
+                "price": 21,
+                "stock": 125
+            }
+        ]
+    },
+    {
+        "id": "ph_veg017_mandi1",
+        "product_id": "veg017",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 23,
+                "stock": 120
+            },
+            {
+                "date": "2025-05-28",
+                "price": 24,
+                "stock": 115
+            }
+        ]
+    },
+    {
+        "id": "ph_veg017_mandi2",
+        "product_id": "veg017",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 20,
+                "stock": 130
+            },
+            {
+                "date": "2025-05-28",
+                "price": 21,
+                "stock": 125
+            }
+        ]
+    },
+    {
+        "id": "ph_veg017_mandi3",
+        "product_id": "veg017",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 26,
+                "stock": 110
+            },
+            {
+                "date": "2025-05-28",
+                "price": 27,
+                "stock": 105
+            }
+        ]
+    },
+    {
+        "id": "ph_veg018_mandi1",
+        "product_id": "veg018",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 28,
+                "stock": 100
+            },
+            {
+                "date": "2025-05-28",
+                "price": 29,
+                "stock": 95
+            }
+        ]
+    },
+    {
+        "id": "ph_veg018_mandi2",
+        "product_id": "veg018",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 26,
+                "stock": 110
+            },
+            {
+                "date": "2025-05-28",
+                "price": 27,
+                "stock": 105
+            }
+        ]
+    },
+    {
+        "id": "ph_veg018_mandi3",
+        "product_id": "veg018",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 33,
+                "stock": 90
+            },
+            {
+                "date": "2025-05-28",
+                "price": 34,
+                "stock": 85
+            }
+        ]
+    },
+    {
+        "id": "ph_veg019_mandi1",
+        "product_id": "veg019",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 38,
+                "stock": 80
+            },
+            {
+                "date": "2025-05-28",
+                "price": 39,
+                "stock": 75
+            }
+        ]
+    },
+    {
+        "id": "ph_veg019_mandi2",
+        "product_id": "veg019",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 36,
+                "stock": 90
+            },
+            {
+                "date": "2025-05-28",
+                "price": 37,
+                "stock": 85
+            }
+        ]
+    },
+    {
+        "id": "ph_veg019_mandi3",
+        "product_id": "veg019",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 42,
+                "stock": 70
+            },
+            {
+                "date": "2025-05-28",
+                "price": 44,
+                "stock": 65
+            }
+        ]
+    },
+    {
+        "id": "ph_veg020_mandi1",
+        "product_id": "veg020",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 58,
+                "stock": 60
+            },
+            {
+                "date": "2025-05-28",
+                "price": 59,
+                "stock": 55
+            }
+        ]
+    },
+    {
+        "id": "ph_veg020_mandi2",
+        "product_id": "veg020",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 53,
+                "stock": 70
+            },
+            {
+                "date": "2025-05-28",
+                "price": 54,
+                "stock": 65
+            }
+        ]
+    },
+    {
+        "id": "ph_veg020_mandi3",
+        "product_id": "veg020",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 63,
+                "stock": 50
+            },
+            {
+                "date": "2025-05-28",
+                "price": 64,
+                "stock": 45
+            }
+        ]
+    },
+    {
+        "id": "ph_veg021_mandi1",
+        "product_id": "veg021",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 18,
+                "stock": 140
+            },
+            {
+                "date": "2025-05-28",
+                "price": 19,
+                "stock": 135
+            }
+        ]
+    },
+    {
+        "id": "ph_veg021_mandi2",
+        "product_id": "veg021",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 16,
+                "stock": 150
+            },
+            {
+                "date": "2025-05-28",
+                "price": 17,
+                "stock": 145
+            }
+        ]
+    },
+    {
+        "id": "ph_veg021_mandi3",
+        "product_id": "veg021",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 20,
+                "stock": 130
+            },
+            {
+                "date": "2025-05-28",
+                "price": 21,
+                "stock": 125
+            }
+        ]
+    },
+    {
+        "id": "ph_veg022_mandi1",
+        "product_id": "veg022",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 33,
+                "stock": 120
+            },
+            {
+                "date": "2025-05-28",
+                "price": 34,
+                "stock": 115
+            }
+        ]
+    },
+    {
+        "id": "ph_veg022_mandi2",
+        "product_id": "veg022",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 30,
+                "stock": 130
+            },
+            {
+                "date": "2025-05-28",
+                "price": 31,
+                "stock": 125
+            }
+        ]
+    },
+    {
+        "id": "ph_veg022_mandi3",
+        "product_id": "veg022",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 36,
+                "stock": 110
+            },
+            {
+                "date": "2025-05-28",
+                "price": 37,
+                "stock": 105
+            }
+        ]
+    },
+    {
+        "id": "ph_veg023_mandi1",
+        "product_id": "veg023",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 28,
+                "stock": 100
+            },
+            {
+                "date": "2025-05-28",
+                "price": 29,
+                "stock": 95
+            }
+        ]
+    },
+    {
+        "id": "ph_veg023_mandi2",
+        "product_id": "veg023",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 26,
+                "stock": 110
+            },
+            {
+                "date": "2025-05-28",
+                "price": 27,
+                "stock": 105
+            }
+        ]
+    },
+    {
+        "id": "ph_veg023_mandi3",
+        "product_id": "veg023",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 30,
+                "stock": 90
+            },
+            {
+                "date": "2025-05-28",
+                "price": 31,
+                "stock": 85
+            }
+        ]
+    },
+    {
+        "id": "ph_veg024_mandi1",
+        "product_id": "veg024",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 23,
+                "stock": 80
+            },
+            {
+                "date": "2025-05-28",
+                "price": 24,
+                "stock": 75
+            }
+        ]
+    },
+    {
+        "id": "ph_veg024_mandi2",
+        "product_id": "veg024",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 20,
+                "stock": 90
+            },
+            {
+                "date": "2025-05-28",
+                "price": 21,
+                "stock": 85
+            }
+        ]
+    },
+    {
+        "id": "ph_veg024_mandi3",
+        "product_id": "veg024",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 26,
+                "stock": 70
+            },
+            {
+                "date": "2025-05-28",
+                "price": 27,
+                "stock": 65
+            }
+        ]
+    },
+    {
+        "id": "ph_veg025_mandi1",
+        "product_id": "veg025",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 33,
+                "stock": 60
+            },
+            {
+                "date": "2025-05-28",
+                "price": 34,
+                "stock": 55
+            }
+        ]
+    },
+    {
+        "id": "ph_veg025_mandi2",
+        "product_id": "veg025",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 30,
+                "stock": 70
+            },
+            {
+                "date": "2025-05-28",
+                "price": 31,
+                "stock": 65
+            }
+        ]
+    },
+    {
+        "id": "ph_veg025_mandi3",
+        "product_id": "veg025",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 36,
+                "stock": 50
+            },
+            {
+                "date": "2025-05-28",
+                "price": 37,
+                "stock": 45
+            }
+        ]
+    },
+    {
+        "id": "ph_veg026_mandi1",
+        "product_id": "veg026",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 28,
+                "stock": 140
+            },
+            {
+                "date": "2025-05-28",
+                "price": 29,
+                "stock": 135
+            }
+        ]
+    },
+    {
+        "id": "ph_veg026_mandi2",
+        "product_id": "veg026",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 26,
+                "stock": 150
+            },
+            {
+                "date": "2025-05-28",
+                "price": 27,
+                "stock": 145
+            }
+        ]
+    },
+    {
+        "id": "ph_veg026_mandi3",
+        "product_id": "veg026",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 30,
+                "stock": 130
+            },
+            {
+                "date": "2025-05-28",
+                "price": 31,
+                "stock": 125
+            }
+        ]
+    },
+    {
+        "id": "ph_veg030_mandi1",
+        "product_id": "veg030",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 78,
+                "stock": 120
+            },
+            {
+                "date": "2025-05-28",
+                "price": 79,
+                "stock": 115
+            }
+        ]
+    },
+    {
+        "id": "ph_veg030_mandi2",
+        "product_id": "veg030",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 73,
+                "stock": 130
+            },
+            {
+                "date": "2025-05-28",
+                "price": 74,
+                "stock": 125
+            }
+        ]
+    },
+    {
+        "id": "ph_veg030_mandi3",
+        "product_id": "veg030",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 83,
+                "stock": 110
+            },
+            {
+                "date": "2025-05-28",
+                "price": 84,
+                "stock": 105
+            }
+        ]
+    },
+    {
+        "id": "ph_veg031_mandi1",
+        "product_id": "veg031",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 38,
+                "stock": 100
+            },
+            {
+                "date": "2025-05-28",
+                "price": 39,
+                "stock": 95
+            }
+        ]
+    },
+    {
+        "id": "ph_veg031_mandi2",
+        "product_id": "veg031",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 36,
+                "stock": 110
+            },
+            {
+                "date": "2025-05-28",
+                "price": 37,
+                "stock": 105
+            }
+        ]
+    },
+    {
+        "id": "ph_veg031_mandi3",
+        "product_id": "veg031",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 42,
+                "stock": 90
+            },
+            {
+                "date": "2025-05-28",
+                "price": 44,
+                "stock": 85
+            }
+        ]
+    },
+    {
+        "id": "ph_veg032_mandi1",
+        "product_id": "veg032",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 48,
+                "stock": 80
+            },
+            {
+                "date": "2025-05-28",
+                "price": 49,
+                "stock": 75
+            }
+        ]
+    },
+    {
+        "id": "ph_veg032_mandi2",
+        "product_id": "veg032",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 46,
+                "stock": 90
+            },
+            {
+                "date": "2025-05-28",
+                "price": 47,
+                "stock": 85
+            }
+        ]
+    },
+    {
+        "id": "ph_veg032_mandi3",
+        "product_id": "veg032",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 52,
+                "stock": 70
+            },
+            {
+                "date": "2025-05-28",
+                "price": 54,
+                "stock": 65
+            }
+        ]
+    },
+    {
+        "id": "ph_veg033_mandi1",
+        "product_id": "veg033",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 33,
+                "stock": 60
+            },
+            {
+                "date": "2025-05-28",
+                "price": 34,
+                "stock": 55
+            }
+        ]
+    },
+    {
+        "id": "ph_veg033_mandi2",
+        "product_id": "veg033",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 30,
+                "stock": 70
+            },
+            {
+                "date": "2025-05-28",
+                "price": 31,
+                "stock": 65
+            }
+        ]
+    },
+    {
+        "id": "ph_veg033_mandi3",
+        "product_id": "veg033",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 36,
+                "stock": 50
+            },
+            {
+                "date": "2025-05-28",
+                "price": 37,
+                "stock": 45
+            }
+        ]
+    },
+    {
+        "id": "ph_veg036_mandi1",
+        "product_id": "veg036",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 118,
+                "stock": 40
+            },
+            {
+                "date": "2025-05-28",
+                "price": 119,
+                "stock": 35
+            }
+        ]
+    },
+    {
+        "id": "ph_veg036_mandi2",
+        "product_id": "veg036",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 113,
+                "stock": 50
+            },
+            {
+                "date": "2025-05-28",
+                "price": 114,
+                "stock": 45
+            }
+        ]
+    },
+    {
+        "id": "ph_veg036_mandi3",
+        "product_id": "veg036",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 123,
+                "stock": 30
+            },
+            {
+                "date": "2025-05-28",
+                "price": 124,
+                "stock": 25
+            }
+        ]
+    },
+    {
+        "id": "ph_veg037_mandi1",
+        "product_id": "veg037",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 28,
+                "stock": 120
+            },
+            {
+                "date": "2025-05-28",
+                "price": 29,
+                "stock": 115
+            }
+        ]
+    },
+    {
+        "id": "ph_veg037_mandi2",
+        "product_id": "veg037",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 26,
+                "stock": 130
+            },
+            {
+                "date": "2025-05-28",
+                "price": 27,
+                "stock": 125
+            }
+        ]
+    },
+    {
+        "id": "ph_veg037_mandi3",
+        "product_id": "veg037",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 30,
+                "stock": 110
+            },
+            {
+                "date": "2025-05-28",
+                "price": 31,
+                "stock": 105
+            }
+        ]
+    },
+    {
+        "id": "ph_veg039_mandi1",
+        "product_id": "veg039",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 23,
+                "stock": 100
+            },
+            {
+                "date": "2025-05-28",
+                "price": 24,
+                "stock": 95
+            }
+        ]
+    },
+    {
+        "id": "ph_veg039_mandi2",
+        "product_id": "veg039",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 20,
+                "stock": 110
+            },
+            {
+                "date": "2025-05-28",
+                "price": 21,
+                "stock": 105
+            }
+        ]
+    },
+    {
+        "id": "ph_veg039_mandi3",
+        "product_id": "veg039",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 26,
+                "stock": 90
+            },
+            {
+                "date": "2025-05-28",
+                "price": 27,
+                "stock": 85
+            }
+        ]
+    },
+    {
+        "id": "ph_veg040_mandi1",
+        "product_id": "veg040",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 38,
+                "stock": 80
+            },
+            {
+                "date": "2025-05-28",
+                "price": 39,
+                "stock": 75
+            }
+        ]
+    },
+    {
+        "id": "ph_veg040_mandi2",
+        "product_id": "veg040",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 36,
+                "stock": 90
+            },
+            {
+                "date": "2025-05-28",
+                "price": 37,
+                "stock": 85
+            }
+        ]
+    },
+    {
+        "id": "ph_veg040_mandi3",
+        "product_id": "veg040",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 42,
+                "stock": 70
+            },
+            {
+                "date": "2025-05-28",
+                "price": 23,
+                "stock": 65
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit001_mandi1",
+        "product_id": "fruit001",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 78,
+                "stock": 130
+            },
+            {
+                "date": "2025-05-28",
+                "price": 79,
+                "stock": 125
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit001_mandi2",
+        "product_id": "fruit001",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 76,
+                "stock": 110
+            },
+            {
+                "date": "2025-05-28",
+                "price": 77,
+                "stock": 105
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit001_mandi3",
+        "product_id": "fruit001",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 81,
+                "stock": 100
+            },
+            {
+                "date": "2025-05-28",
+                "price": 82,
+                "stock": 95
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit002_mandi1",
+        "product_id": "fruit002",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 38,
+                "stock": 220
+            },
+            {
+                "date": "2025-05-28",
+                "price": 39,
+                "stock": 210
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit002_mandi2",
+        "product_id": "fruit002",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 36,
+                "stock": 190
+            },
+            {
+                "date": "2025-05-28",
+                "price": 37,
+                "stock": 185
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit002_mandi3",
+        "product_id": "fruit002",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 41,
+                "stock": 180
+            },
+            {
+                "date": "2025-05-28",
+                "price": 42,
+                "stock": 175
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit003_mandi1",
+        "product_id": "fruit003",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 58,
+                "stock": 160
+            },
+            {
+                "date": "2025-05-28",
+                "price": 59,
+                "stock": 155
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit003_mandi2",
+        "product_id": "fruit003",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 56,
+                "stock": 140
+            },
+            {
+                "date": "2025-05-28",
+                "price": 57,
+                "stock": 135
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit003_mandi3",
+        "product_id": "fruit003",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 61,
+                "stock": 130
+            },
+            {
+                "date": "2025-05-28",
+                "price": 62,
+                "stock": 125
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit004_mandi1",
+        "product_id": "fruit004",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 48,
+                "stock": 190
+            },
+            {
+                "date": "2025-05-28",
+                "price": 49,
+                "stock": 185
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit004_mandi2",
+        "product_id": "fruit004",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 46,
+                "stock": 170
+            },
+            {
+                "date": "2025-05-28",
+                "price": 47,
+                "stock": 165
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit004_mandi3",
+        "product_id": "fruit004",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 51,
+                "stock": 160
+            },
+            {
+                "date": "2025-05-28",
+                "price": 52,
+                "stock": 155
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit005_mandi1",
+        "product_id": "fruit005",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 28,
+                "stock": 100
+            },
+            {
+                "date": "2025-05-28",
+                "price": 29,
+                "stock": 95
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit005_mandi2",
+        "product_id": "fruit005",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 26,
+                "stock": 80
+            },
+            {
+                "date": "2025-05-28",
+                "price": 27,
+                "stock": 75
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit005_mandi3",
+        "product_id": "fruit005",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 31,
+                "stock": 70
+            },
+            {
+                "date": "2025-05-28",
+                "price": 32,
+                "stock": 65
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit006_mandi1",
+        "product_id": "fruit006",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 43,
+                "stock": 80
+            },
+            {
+                "date": "2025-05-28",
+                "price": 44,
+                "stock": 75
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit006_mandi2",
+        "product_id": "fruit006",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 41,
+                "stock": 60
+            },
+            {
+                "date": "2025-05-28",
+                "price": 42,
+                "stock": 55
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit006_mandi3",
+        "product_id": "fruit006",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 46,
+                "stock": 50
+            },
+            {
+                "date": "2025-05-28",
+                "price": 47,
+                "stock": 45
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit007_mandi1",
+        "product_id": "fruit007",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 33,
+                "stock": 120
+            },
+            {
+                "date": "2025-05-28",
+                "price": 34,
+                "stock": 115
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit007_mandi2",
+        "product_id": "fruit007",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 31,
+                "stock": 100
+            },
+            {
+                "date": "2025-05-28",
+                "price": 32,
+                "stock": 95
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit007_mandi3",
+        "product_id": "fruit007",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 36,
+                "stock": 90
+            },
+            {
+                "date": "2025-05-28",
+                "price": 37,
+                "stock": 85
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit008_mandi1",
+        "product_id": "fruit008",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 88,
+                "stock": 70
+            },
+            {
+                "date": "2025-05-28",
+                "price": 89,
+                "stock": 65
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit008_mandi2",
+        "product_id": "fruit008",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 86,
+                "stock": 50
+            },
+            {
+                "date": "2025-05-28",
+                "price": 87,
+                "stock": 45
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit008_mandi3",
+        "product_id": "fruit008",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 91,
+                "stock": 40
+            },
+            {
+                "date": "2025-05-28",
+                "price": 92,
+                "stock": 35
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit009_mandi1",
+        "product_id": "fruit009",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 23,
+                "stock": 210
+            },
+            {
+                "date": "2025-05-28",
+                "price": 24,
+                "stock": 205
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit009_mandi2",
+        "product_id": "fruit009",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 21,
+                "stock": 190
+            },
+            {
+                "date": "2025-05-28",
+                "price": 22,
+                "stock": 185
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit009_mandi3",
+        "product_id": "fruit009",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 26,
+                "stock": 180
+            },
+            {
+                "date": "2025-05-28",
+                "price": 27,
+                "stock": 175
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit010_mandi1",
+        "product_id": "fruit010",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 38,
+                "stock": 140
+            },
+            {
+                "date": "2025-05-28",
+                "price": 39,
+                "stock": 135
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit010_mandi2",
+        "product_id": "fruit010",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 36,
+                "stock": 120
+            },
+            {
+                "date": "2025-05-28",
+                "price": 37,
+                "stock": 115
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit010_mandi3",
+        "product_id": "fruit010",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 41,
+                "stock": 110
+            },
+            {
+                "date": "2025-05-28",
+                "price": 42,
+                "stock": 105
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit011_mandi1",
+        "product_id": "fruit011",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 68,
+                "stock": 95
+            },
+            {
+                "date": "2025-05-28",
+                "price": 69,
+                "stock": 90
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit011_mandi2",
+        "product_id": "fruit011",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 66,
+                "stock": 75
+            },
+            {
+                "date": "2025-05-28",
+                "price": 67,
+                "stock": 70
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit011_mandi3",
+        "product_id": "fruit011",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 71,
+                "stock": 65
+            },
+            {
+                "date": "2025-05-28",
+                "price": 72,
+                "stock": 60
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit012_mandi1",
+        "product_id": "fruit012",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 118,
+                "stock": 50
+            },
+            {
+                "date": "2025-05-28",
+                "price": 119,
+                "stock": 45
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit012_mandi2",
+        "product_id": "fruit012",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 116,
+                "stock": 30
+            },
+            {
+                "date": "2025-05-28",
+                "price": 117,
+                "stock": 25
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit012_mandi3",
+        "product_id": "fruit012",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 121,
+                "stock": 20
+            },
+            {
+                "date": "2025-05-28",
+                "price": 122,
+                "stock": 15
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit013_mandi1",
+        "product_id": "fruit013",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 53,
+                "stock": 85
+            },
+            {
+                "date": "2025-05-28",
+                "price": 54,
+                "stock": 80
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit013_mandi2",
+        "product_id": "fruit013",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 51,
+                "stock": 65
+            },
+            {
+                "date": "2025-05-28",
+                "price": 52,
+                "stock": 60
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit013_mandi3",
+        "product_id": "fruit013",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 56,
+                "stock": 55
+            },
+            {
+                "date": "2025-05-28",
+                "price": 57,
+                "stock": 50
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit014_mandi1",
+        "product_id": "fruit014",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 63,
+                "stock": 60
+            },
+            {
+                "date": "2025-05-28",
+                "price": 64,
+                "stock": 55
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit014_mandi2",
+        "product_id": "fruit014",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 61,
+                "stock": 40
+            },
+            {
+                "date": "2025-05-28",
+                "price": 62,
+                "stock": 35
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit014_mandi3",
+        "product_id": "fruit014",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 66,
+                "stock": 30
+            },
+            {
+                "date": "2025-05-28",
+                "price": 67,
+                "stock": 25
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit015_mandi1",
+        "product_id": "fruit015",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 18,
+                "stock": 320
+            },
+            {
+                "date": "2025-05-28",
+                "price": 19,
+                "stock": 310
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit015_mandi2",
+        "product_id": "fruit015",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 16,
+                "stock": 300
+            },
+            {
+                "date": "2025-05-28",
+                "price": 17,
+                "stock": 290
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit015_mandi3",
+        "product_id": "fruit015",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 21,
+                "stock": 280
+            },
+            {
+                "date": "2025-05-28",
+                "price": 22,
+                "stock": 270
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit016_mandi1",
+        "product_id": "fruit016",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 148,
+                "stock": 40
+            },
+            {
+                "date": "2025-05-28",
+                "price": 149,
+                "stock": 35
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit016_mandi2",
+        "product_id": "fruit016",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 146,
+                "stock": 20
+            },
+            {
+                "date": "2025-05-28",
+                "price": 147,
+                "stock": 15
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit016_mandi3",
+        "product_id": "fruit016",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 151,
+                "stock": 10
+            },
+            {
+                "date": "2025-05-28",
+                "price": 152,
+                "stock": 5
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit017_mandi1",
+        "product_id": "fruit017",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 178,
+                "stock": 35
+            },
+            {
+                "date": "2025-05-28",
+                "price": 179,
+                "stock": 30
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit017_mandi2",
+        "product_id": "fruit017",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 176,
+                "stock": 15
+            },
+            {
+                "date": "2025-05-28",
+                "price": 177,
+                "stock": 10
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit017_mandi3",
+        "product_id": "fruit017",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 181,
+                "stock": 5
+            },
+            {
+                "date": "2025-05-28",
+                "price": 182,
+                "stock": 0
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit018_mandi1",
+        "product_id": "fruit018",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 158,
+                "stock": 30
+            },
+            {
+                "date": "2025-05-28",
+                "price": 159,
+                "stock": 25
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit018_mandi2",
+        "product_id": "fruit018",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 156,
+                "stock": 10
+            },
+            {
+                "date": "2025-05-28",
+                "price": 157,
+                "stock": 5
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit018_mandi3",
+        "product_id": "fruit018",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 161,
+                "stock": 0
+            },
+            {
+                "date": "2025-05-28",
+                "price": 162,
+                "stock": 0
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit019_mandi1",
+        "product_id": "fruit019",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 23,
+                "stock": 160
+            },
+            {
+                "date": "2025-05-28",
+                "price": 24,
+                "stock": 155
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit019_mandi2",
+        "product_id": "fruit019",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 21,
+                "stock": 140
+            },
+            {
+                "date": "2025-05-28",
+                "price": 22,
+                "stock": 135
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit019_mandi3",
+        "product_id": "fruit019",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 26,
+                "stock": 130
+            },
+            {
+                "date": "2025-05-28",
+                "price": 27,
+                "stock": 125
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit020_mandi1",
+        "product_id": "fruit020",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 98,
+                "stock": 50
+            },
+            {
+                "date": "2025-05-28",
+                "price": 99,
+                "stock": 45
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit020_mandi2",
+        "product_id": "fruit020",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 96,
+                "stock": 30
+            },
+            {
+                "date": "2025-05-28",
+                "price": 97,
+                "stock": 25
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit020_mandi3",
+        "product_id": "fruit020",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 101,
+                "stock": 20
+            },
+            {
+                "date": "2025-05-28",
+                "price": 102,
+                "stock": 15
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit021_mandi1",
+        "product_id": "fruit021",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 73,
+                "stock": 70
+            },
+            {
+                "date": "2025-05-28",
+                "price": 74,
+                "stock": 65
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit021_mandi2",
+        "product_id": "fruit021",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 71,
+                "stock": 50
+            },
+            {
+                "date": "2025-05-28",
+                "price": 72,
+                "stock": 45
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit021_mandi3",
+        "product_id": "fruit021",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 76,
+                "stock": 40
+            },
+            {
+                "date": "2025-05-28",
+                "price": 77,
+                "stock": 35
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit022_mandi1",
+        "product_id": "fruit022",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 83,
+                "stock": 55
+            },
+            {
+                "date": "2025-05-28",
+                "price": 84,
+                "stock": 50
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit022_mandi2",
+        "product_id": "fruit022",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 81,
+                "stock": 35
+            },
+            {
+                "date": "2025-05-28",
+                "price": 82,
+                "stock": 30
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit022_mandi3",
+        "product_id": "fruit022",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 86,
+                "stock": 25
+            },
+            {
+                "date": "2025-05-28",
+                "price": 87,
+                "stock": 20
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit024_mandi1",
+        "product_id": "fruit024",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 93,
+                "stock": 45
+            },
+            {
+                "date": "2025-05-28",
+                "price": 94,
+                "stock": 40
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit024_mandi2",
+        "product_id": "fruit024",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 91,
+                "stock": 25
+            },
+            {
+                "date": "2025-05-28",
+                "price": 92,
+                "stock": 20
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit024_mandi3",
+        "product_id": "fruit024",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 96,
+                "stock": 15
+            },
+            {
+                "date": "2025-05-28",
+                "price": 97,
+                "stock": 10
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit025_mandi1",
+        "product_id": "fruit025",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 108,
+                "stock": 35
+            },
+            {
+                "date": "2025-05-28",
+                "price": 109,
+                "stock": 30
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit025_mandi2",
+        "product_id": "fruit025",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 106,
+                "stock": 15
+            },
+            {
+                "date": "2025-05-28",
+                "price": 107,
+                "stock": 10
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit025_mandi3",
+        "product_id": "fruit025",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 111,
+                "stock": 5
+            },
+            {
+                "date": "2025-05-28",
+                "price": 112,
+                "stock": 0
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit026_mandi1",
+        "product_id": "fruit026",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 38,
+                "stock": 90
+            },
+            {
+                "date": "2025-05-28",
+                "price": 39,
+                "stock": 85
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit026_mandi2",
+        "product_id": "fruit026",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 36,
+                "stock": 70
+            },
+            {
+                "date": "2025-05-28",
+                "price": 37,
+                "stock": 65
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit026_mandi3",
+        "product_id": "fruit026",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 41,
+                "stock": 60
+            },
+            {
+                "date": "2025-05-28",
+                "price": 42,
+                "stock": 55
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit027_mandi1",
+        "product_id": "fruit027",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 28,
+                "stock": 210
+            },
+            {
+                "date": "2025-05-28",
+                "price": 29,
+                "stock": 205
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit027_mandi2",
+        "product_id": "fruit027",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 26,
+                "stock": 190
+            },
+            {
+                "date": "2025-05-28",
+                "price": 27,
+                "stock": 185
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit027_mandi3",
+        "product_id": "fruit027",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 31,
+                "stock": 180
+            },
+            {
+                "date": "2025-05-28",
+                "price": 32,
+                "stock": 175
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit028_mandi1",
+        "product_id": "fruit028",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 198,
+                "stock": 40
+            },
+            {
+                "date": "2025-05-28",
+                "price": 199,
+                "stock": 35
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit028_mandi2",
+        "product_id": "fruit028",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 196,
+                "stock": 20
+            },
+            {
+                "date": "2025-05-28",
+                "price": 197,
+                "stock": 15
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit028_mandi3",
+        "product_id": "fruit028",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 201,
+                "stock": 10
+            },
+            {
+                "date": "2025-05-28",
+                "price": 202,
+                "stock": 5
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit029_mandi1",
+        "product_id": "fruit029",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 48,
+                "stock": 80
+            },
+            {
+                "date": "2025-05-28",
+                "price": 49,
+                "stock": 75
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit029_mandi2",
+        "product_id": "fruit029",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 46,
+                "stock": 60
+            },
+            {
+                "date": "2025-05-28",
+                "price": 47,
+                "stock": 55
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit029_mandi3",
+        "product_id": "fruit029",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 51,
+                "stock": 50
+            },
+            {
+                "date": "2025-05-28",
+                "price": 52,
+                "stock": 45
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit038_mandi1",
+        "product_id": "fruit038",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 128,
+                "stock": 30
+            },
+            {
+                "date": "2025-05-28",
+                "price": 129,
+                "stock": 25
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit038_mandi2",
+        "product_id": "fruit038",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 126,
+                "stock": 10
+            },
+            {
+                "date": "2025-05-28",
+                "price": 127,
+                "stock": 5
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit038_mandi3",
+        "product_id": "fruit038",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 131,
+                "stock": 0
+            },
+            {
+                "date": "2025-05-28",
+                "price": 132,
+                "stock": 0
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit040_mandi1",
+        "product_id": "fruit040",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 88,
+                "stock": 60
+            },
+            {
+                "date": "2025-05-28",
+                "price": 89,
+                "stock": 55
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit040_mandi2",
+        "product_id": "fruit040",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 86,
+                "stock": 40
+            },
+            {
+                "date": "2025-05-28",
+                "price": 87,
+                "stock": 35
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit040_mandi3",
+        "product_id": "fruit040",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 91,
+                "stock": 30
+            },
+            {
+                "date": "2025-05-28",
+                "price": 92,
+                "stock": 25
+            }
+        ]
+    },
+    {
+        "id": "ph_grain001_mandi1",
+        "product_id": "grain001",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 23,
+                "stock": 520
+            },
+            {
+                "date": "2025-05-28",
+                "price": 24,
+                "stock": 510
+            }
+        ]
+    },
+    {
+        "id": "ph_grain001_mandi2",
+        "product_id": "grain001",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 21,
+                "stock": 500
+            },
+            {
+                "date": "2025-05-28",
+                "price": 22,
+                "stock": 490
+            }
+        ]
+    },
+    {
+        "id": "ph_grain001_mandi3",
+        "product_id": "grain001",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 26,
+                "stock": 480
+            },
+            {
+                "date": "2025-05-28",
+                "price": 27,
+                "stock": 470
+            }
+        ]
+    },
+    {
+        "id": "ph_grain002_mandi1",
+        "product_id": "grain002",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 38,
+                "stock": 420
+            },
+            {
+                "date": "2025-05-28",
+                "price": 39,
+                "stock": 410
+            }
+        ]
+    },
+    {
+        "id": "ph_grain002_mandi2",
+        "product_id": "grain002",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 36,
+                "stock": 400
+            },
+            {
+                "date": "2025-05-28",
+                "price": 37,
+                "stock": 390
+            }
+        ]
+    },
+    {
+        "id": "ph_grain002_mandi3",
+        "product_id": "grain002",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 41,
+                "stock": 380
+            },
+            {
+                "date": "2025-05-28",
+                "price": 42,
+                "stock": 370
+            }
+        ]
+    },
+    {
+        "id": "ph_grain003_mandi1",
+        "product_id": "grain003",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 18,
+                "stock": 370
+            },
+            {
+                "date": "2025-05-28",
+                "price": 19,
+                "stock": 360
+            }
+        ]
+    },
+    {
+        "id": "ph_grain003_mandi2",
+        "product_id": "grain003",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 16,
+                "stock": 350
+            },
+            {
+                "date": "2025-05-28",
+                "price": 17,
+                "stock": 340
+            }
+        ]
+    },
+    {
+        "id": "ph_grain003_mandi3",
+        "product_id": "grain003",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 21,
+                "stock": 330
+            },
+            {
+                "date": "2025-05-28",
+                "price": 22,
+                "stock": 320
+            }
+        ]
+    },
+    {
+        "id": "ph_grain004_mandi1",
+        "product_id": "grain004",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 28,
+                "stock": 220
+            },
+            {
+                "date": "2025-05-28",
+                "price": 29,
+                "stock": 210
+            }
+        ]
+    },
+    {
+        "id": "ph_grain004_mandi2",
+        "product_id": "grain004",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 26,
+                "stock": 200
+            },
+            {
+                "date": "2025-05-28",
+                "price": 27,
+                "stock": 190
+            }
+        ]
+    },
+    {
+        "id": "ph_grain004_mandi3",
+        "product_id": "grain004",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 31,
+                "stock": 180
+            },
+            {
+                "date": "2025-05-28",
+                "price": 32,
+                "stock": 170
+            }
+        ]
+    },
+    {
+        "id": "ph_grain005_mandi1",
+        "product_id": "grain005",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 26,
+                "stock": 270
+            },
+            {
+                "date": "2025-05-28",
+                "price": 27,
+                "stock": 260
+            }
+        ]
+    },
+    {
+        "id": "ph_grain005_mandi2",
+        "product_id": "grain005",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 24,
+                "stock": 250
+            },
+            {
+                "date": "2025-05-28",
+                "price": 25,
+                "stock": 240
+            }
+        ]
+    },
+    {
+        "id": "ph_grain005_mandi3",
+        "product_id": "grain005",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 29,
+                "stock": 230
+            },
+            {
+                "date": "2025-05-28",
+                "price": 30,
+                "stock": 220
+            }
+        ]
+    },
+    {
+        "id": "ph_grain006_mandi1",
+        "product_id": "grain006",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 20,
+                "stock": 200
+            },
+            {
+                "date": "2025-05-28",
+                "price": 21,
+                "stock": 190
+            }
+        ]
+    },
+    {
+        "id": "ph_grain006_mandi2",
+        "product_id": "grain006",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 18,
+                "stock": 180
+            },
+            {
+                "date": "2025-05-28",
+                "price": 19,
+                "stock": 170
+            }
+        ]
+    },
+    {
+        "id": "ph_grain006_mandi3",
+        "product_id": "grain006",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 23,
+                "stock": 160
+            },
+            {
+                "date": "2025-05-28",
+                "price": 24,
+                "stock": 150
+            }
+        ]
+    },
+    {
+        "id": "ph_grain012_mandi1",
+        "product_id": "grain012",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 33,
+                "stock": 320
+            },
+            {
+                "date": "2025-05-28",
+                "price": 34,
+                "stock": 310
+            }
+        ]
+    },
+    {
+        "id": "ph_grain012_mandi2",
+        "product_id": "grain012",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 31,
+                "stock": 300
+            },
+            {
+                "date": "2025-05-28",
+                "price": 32,
+                "stock": 290
+            }
+        ]
+    },
+    {
+        "id": "ph_grain012_mandi3",
+        "product_id": "grain012",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 36,
+                "stock": 280
+            },
+            {
+                "date": "2025-05-28",
+                "price": 37,
+                "stock": 270
+            }
+        ]
+    },
+    {
+        "id": "ph_grain014_mandi1",
+        "product_id": "grain014",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 48,
+                "stock": 170
+            },
+            {
+                "date": "2025-05-28",
+                "price": 49,
+                "stock": 160
+            }
+        ]
+    },
+    {
+        "id": "ph_grain014_mandi2",
+        "product_id": "grain014",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 46,
+                "stock": 150
+            },
+            {
+                "date": "2025-05-28",
+                "price": 47,
+                "stock": 140
+            }
+        ]
+    },
+    {
+        "id": "ph_grain014_mandi3",
+        "product_id": "grain014",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 51,
+                "stock": 130
+            },
+            {
+                "date": "2025-05-28",
+                "price": 52,
+                "stock": 120
+            }
+        ]
+    },
+    {
+        "id": "ph_grain038_mandi1",
+        "product_id": "grain038",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 43,
+                "stock": 240
+            },
+            {
+                "date": "2025-05-28",
+                "price": 44,
+                "stock": 230
+            }
+        ]
+    },
+    {
+        "id": "ph_grain038_mandi2",
+        "product_id": "grain038",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 41,
+                "stock": 220
+            },
+            {
+                "date": "2025-05-28",
+                "price": 42,
+                "stock": 210
+            }
+        ]
+    },
+    {
+        "id": "ph_grain038_mandi3",
+        "product_id": "grain038",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 46,
+                "stock": 200
+            },
+            {
+                "date": "2025-05-28",
+                "price": 47,
+                "stock": 190
+            }
+        ]
+    },
+    {
+        "id": "ph_grain040_mandi1",
+        "product_id": "grain040",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 36,
+                "stock": 300
+            },
+            {
+                "date": "2025-05-28",
+                "price": 37,
+                "stock": 290
+            }
+        ]
+    },
+    {
+        "id": "ph_grain040_mandi2",
+        "product_id": "grain040",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 34,
+                "stock": 280
+            },
+            {
+                "date": "2025-05-28",
+                "price": 35,
+                "stock": 270
+            }
+        ]
+    },
+    {
+        "id": "ph_grain040_mandi3",
+        "product_id": "grain040",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 39,
+                "stock": 260
+            },
+            {
+                "date": "2025-05-28",
+                "price": 40,
+                "stock": 250
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse001_mandi1",
+        "product_id": "pulse001",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 118,
+                "stock": 160
+            },
+            {
+                "date": "2025-05-28",
+                "price": 119,
+                "stock": 155
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse001_mandi2",
+        "product_id": "pulse001",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 123,
+                "stock": 140
+            },
+            {
+                "date": "2025-05-28",
+                "price": 124,
+                "stock": 135
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse001_mandi3",
+        "product_id": "pulse001",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 116,
+                "stock": 150
+            },
+            {
+                "date": "2025-05-28",
+                "price": 117,
+                "stock": 145
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse002_mandi1",
+        "product_id": "pulse002",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 88,
+                "stock": 210
+            },
+            {
+                "date": "2025-05-28",
+                "price": 89,
+                "stock": 205
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse002_mandi2",
+        "product_id": "pulse002",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 86,
+                "stock": 190
+            },
+            {
+                "date": "2025-05-28",
+                "price": 87,
+                "stock": 185
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse002_mandi3",
+        "product_id": "pulse002",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 90,
+                "stock": 200
+            },
+            {
+                "date": "2025-05-28",
+                "price": 91,
+                "stock": 195
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse003_mandi1",
+        "product_id": "pulse003",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 108,
+                "stock": 190
+            },
+            {
+                "date": "2025-05-28",
+                "price": 109,
+                "stock": 185
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse003_mandi2",
+        "product_id": "pulse003",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 106,
+                "stock": 180
+            },
+            {
+                "date": "2025-05-28",
+                "price": 107,
+                "stock": 175
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse003_mandi3",
+        "product_id": "pulse003",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 110,
+                "stock": 185
+            },
+            {
+                "date": "2025-05-28",
+                "price": 111,
+                "stock": 180
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse004_mandi1",
+        "product_id": "pulse004",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 128,
+                "stock": 130
+            },
+            {
+                "date": "2025-05-28",
+                "price": 129,
+                "stock": 125
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse004_mandi2",
+        "product_id": "pulse004",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 126,
+                "stock": 120
+            },
+            {
+                "date": "2025-05-28",
+                "price": 127,
+                "stock": 115
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse004_mandi3",
+        "product_id": "pulse004",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 130,
+                "stock": 125
+            },
+            {
+                "date": "2025-05-28",
+                "price": 131,
+                "stock": 120
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse005_mandi1",
+        "product_id": "pulse005",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 83,
+                "stock": 170
+            },
+            {
+                "date": "2025-05-28",
+                "price": 84,
+                "stock": 165
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse005_mandi2",
+        "product_id": "pulse005",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 81,
+                "stock": 160
+            },
+            {
+                "date": "2025-05-28",
+                "price": 82,
+                "stock": 155
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse005_mandi3",
+        "product_id": "pulse005",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 85,
+                "stock": 165
+            },
+            {
+                "date": "2025-05-28",
+                "price": 86,
+                "stock": 160
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse006_mandi1",
+        "product_id": "pulse006",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 138,
+                "stock": 110
+            },
+            {
+                "date": "2025-05-28",
+                "price": 139,
+                "stock": 105
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse006_mandi2",
+        "product_id": "pulse006",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 136,
+                "stock": 100
+            },
+            {
+                "date": "2025-05-28",
+                "price": 137,
+                "stock": 95
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse006_mandi3",
+        "product_id": "pulse006",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 140,
+                "stock": 105
+            },
+            {
+                "date": "2025-05-28",
+                "price": 141,
+                "stock": 100
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse007_mandi1",
+        "product_id": "pulse007",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 93,
+                "stock": 150
+            },
+            {
+                "date": "2025-05-28",
+                "price": 94,
+                "stock": 145
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse007_mandi2",
+        "product_id": "pulse007",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 91,
+                "stock": 140
+            },
+            {
+                "date": "2025-05-28",
+                "price": 92,
+                "stock": 135
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse007_mandi3",
+        "product_id": "pulse007",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 95,
+                "stock": 145
+            },
+            {
+                "date": "2025-05-28",
+                "price": 96,
+                "stock": 140
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse012_mandi1",
+        "product_id": "pulse012",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 68,
+                "stock": 190
+            },
+            {
+                "date": "2025-05-28",
+                "price": 69,
+                "stock": 185
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse012_mandi2",
+        "product_id": "pulse012",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 66,
+                "stock": 180
+            },
+            {
+                "date": "2025-05-28",
+                "price": 67,
+                "stock": 175
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse012_mandi3",
+        "product_id": "pulse012",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 70,
+                "stock": 185
+            },
+            {
+                "date": "2025-05-28",
+                "price": 71,
+                "stock": 180
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse013_mandi1",
+        "product_id": "pulse013",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 98,
+                "stock": 140
+            },
+            {
+                "date": "2025-05-28",
+                "price": 99,
+                "stock": 135
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse013_mandi2",
+        "product_id": "pulse013",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 96,
+                "stock": 130
+            },
+            {
+                "date": "2025-05-28",
+                "price": 97,
+                "stock": 125
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse013_mandi3",
+        "product_id": "pulse013",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 100,
+                "stock": 135
+            },
+            {
+                "date": "2025-05-28",
+                "price": 101,
+                "stock": 130
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse015_mandi1",
+        "product_id": "pulse015",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 78,
+                "stock": 180
+            },
+            {
+                "date": "2025-05-28",
+                "price": 79,
+                "stock": 175
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse015_mandi2",
+        "product_id": "pulse015",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 76,
+                "stock": 170
+            },
+            {
+                "date": "2025-05-28",
+                "price": 77,
+                "stock": 165
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse015_mandi3",
+        "product_id": "pulse015",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 80,
+                "stock": 175
+            },
+            {
+                "date": "2025-05-28",
+                "price": 81,
+                "stock": 170
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse037_mandi1",
+        "product_id": "pulse037",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 73,
+                "stock": 160
+            },
+            {
+                "date": "2025-05-28",
+                "price": 74,
+                "stock": 155
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse037_mandi2",
+        "product_id": "pulse037",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 71,
+                "stock": 150
+            },
+            {
+                "date": "2025-05-28",
+                "price": 72,
+                "stock": 145
+            }
+        ]
+    },
+    {
+        "id": "ph_pulse037_mandi3",
+        "product_id": "pulse037",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 75,
+                "stock": 155
+            },
+            {
+                "date": "2025-05-28",
+                "price": 76,
+                "stock": 150
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy001_mandi1",
+        "product_id": "dairy001",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 48,
+                "stock": 210,
+                "unit": "liter"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 49,
+                "stock": 205,
+                "unit": "liter"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy001_mandi2",
+        "product_id": "dairy001",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 46,
+                "stock": 190,
+                "unit": "liter"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 47,
+                "stock": 185,
+                "unit": "liter"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy001_mandi3",
+        "product_id": "dairy001",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 50,
+                "stock": 170,
+                "unit": "liter"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 51,
+                "stock": 165,
+                "unit": "liter"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy005_mandi1",
+        "product_id": "dairy005",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 58,
+                "stock": 130,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 59,
+                "stock": 125,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy005_mandi2",
+        "product_id": "dairy005",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 56,
+                "stock": 110,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 57,
+                "stock": 105,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy005_mandi3",
+        "product_id": "dairy005",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 60,
+                "stock": 100,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 61,
+                "stock": 95,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy006_mandi1",
+        "product_id": "dairy006",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 218,
+                "stock": 90,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 219,
+                "stock": 85,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy006_mandi2",
+        "product_id": "dairy006",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 213,
+                "stock": 80,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 214,
+                "stock": 75,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy006_mandi3",
+        "product_id": "dairy006",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 223,
+                "stock": 70,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 224,
+                "stock": 65,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy007_mandi1",
+        "product_id": "dairy007",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 498,
+                "stock": 60,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 499,
+                "stock": 55,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy007_mandi2",
+        "product_id": "dairy007",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 488,
+                "stock": 55,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 489,
+                "stock": 50,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy007_mandi3",
+        "product_id": "dairy007",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 508,
+                "stock": 50,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 509,
+                "stock": 45,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy008_mandi1",
+        "product_id": "dairy008",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 348,
+                "stock": 70,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 349,
+                "stock": 65,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy008_mandi2",
+        "product_id": "dairy008",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 338,
+                "stock": 60,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 339,
+                "stock": 55,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy008_mandi3",
+        "product_id": "dairy008",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 358,
+                "stock": 55,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 359,
+                "stock": 50,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy009_mandi1",
+        "product_id": "dairy009",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 398,
+                "stock": 65,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 399,
+                "stock": 60,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy009_mandi2",
+        "product_id": "dairy009",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 388,
+                "stock": 55,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 389,
+                "stock": 50,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy009_mandi3",
+        "product_id": "dairy009",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 408,
+                "stock": 50,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 409,
+                "stock": 45,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy010_mandi1",
+        "product_id": "dairy010",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 68,
+                "stock": 100,
+                "unit": "liter"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 69,
+                "stock": 95,
+                "unit": "liter"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy010_mandi2",
+        "product_id": "dairy010",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 66,
+                "stock": 90,
+                "unit": "liter"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 67,
+                "stock": 85,
+                "unit": "liter"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy010_mandi3",
+        "product_id": "dairy010",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 70,
+                "stock": 80,
+                "unit": "liter"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 71,
+                "stock": 75,
+                "unit": "liter"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy019_mandi1",
+        "product_id": "dairy019",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 298,
+                "stock": 75,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 299,
+                "stock": 70,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy019_mandi2",
+        "product_id": "dairy019",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 288,
+                "stock": 65,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 289,
+                "stock": 60,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy019_mandi3",
+        "product_id": "dairy019",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 308,
+                "stock": 60,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 309,
+                "stock": 55,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy020_mandi1",
+        "product_id": "dairy020",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 278,
+                "stock": 80,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 279,
+                "stock": 75,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy020_mandi2",
+        "product_id": "dairy020",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 268,
+                "stock": 70,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 269,
+                "stock": 65,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_dairy020_mandi3",
+        "product_id": "dairy020",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 288,
+                "stock": 65,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 289,
+                "stock": 60,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed001_mandi1",
+        "product_id": "seed001",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 43,
+                "stock": 520,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 44,
+                "stock": 510,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed001_mandi2",
+        "product_id": "seed001",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 41,
+                "stock": 470,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 42,
+                "stock": 460,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed001_mandi3",
+        "product_id": "seed001",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 45,
+                "stock": 500,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 46,
+                "stock": 490,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed002_mandi1",
+        "product_id": "seed002",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 53,
+                "stock": 420,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 54,
+                "stock": 410,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed002_mandi2",
+        "product_id": "seed002",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 51,
+                "stock": 400,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 52,
+                "stock": 390,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed002_mandi3",
+        "product_id": "seed002",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 55,
+                "stock": 440,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 56,
+                "stock": 430,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed003_mandi1",
+        "product_id": "seed003",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 48,
+                "stock": 370,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 49,
+                "stock": 360,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed003_mandi2",
+        "product_id": "seed003",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 46,
+                "stock": 340,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 47,
+                "stock": 330,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed003_mandi3",
+        "product_id": "seed003",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 50,
+                "stock": 400,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 51,
+                "stock": 390,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed005_mandi1",
+        "product_id": "seed005",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 58,
+                "stock": 220,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 59,
+                "stock": 210,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed005_mandi2",
+        "product_id": "seed005",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 56,
+                "stock": 200,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 57,
+                "stock": 190,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed005_mandi3",
+        "product_id": "seed005",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 60,
+                "stock": 240,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 61,
+                "stock": 230,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed006_mandi1",
+        "product_id": "seed006",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 68,
+                "stock": 270,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 69,
+                "stock": 260,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed006_mandi2",
+        "product_id": "seed006",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 66,
+                "stock": 250,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 67,
+                "stock": 240,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed006_mandi3",
+        "product_id": "seed006",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 70,
+                "stock": 290,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 71,
+                "stock": 280,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed010_mandi1",
+        "product_id": "seed010",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 63,
+                "stock": 320,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 64,
+                "stock": 310,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed010_mandi2",
+        "product_id": "seed010",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 61,
+                "stock": 300,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 62,
+                "stock": 290,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed010_mandi3",
+        "product_id": "seed010",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 65,
+                "stock": 340,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 66,
+                "stock": 330,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed015_mandi1",
+        "product_id": "seed015",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 38,
+                "stock": 370,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 39,
+                "stock": 360,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed015_mandi2",
+        "product_id": "seed015",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 36,
+                "stock": 340,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 37,
+                "stock": 330,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed015_mandi3",
+        "product_id": "seed015",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 40,
+                "stock": 400,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 41,
+                "stock": 390,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed017_mandi1",
+        "product_id": "seed017",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 43,
+                "stock": 320,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 44,
+                "stock": 310,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed017_mandi2",
+        "product_id": "seed017",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 41,
+                "stock": 300,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 42,
+                "stock": 290,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed017_mandi3",
+        "product_id": "seed017",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 45,
+                "stock": 340,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 46,
+                "stock": 330,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed018_mandi1",
+        "product_id": "seed018",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 118,
+                "stock": 170,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 119,
+                "stock": 160,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed018_mandi2",
+        "product_id": "seed018",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 116,
+                "stock": 150,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 117,
+                "stock": 140,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed018_mandi3",
+        "product_id": "seed018",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 120,
+                "stock": 190,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 121,
+                "stock": 180,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed020_mandi1",
+        "product_id": "seed020",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 88,
+                "stock": 200,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 89,
+                "stock": 190,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed020_mandi2",
+        "product_id": "seed020",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 86,
+                "stock": 180,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 87,
+                "stock": 170,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed020_mandi3",
+        "product_id": "seed020",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 90,
+                "stock": 220,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 91,
+                "stock": 210,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed022_mandi1",
+        "product_id": "seed022",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 178,
+                "stock": 120,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 179,
+                "stock": 110,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed022_mandi2",
+        "product_id": "seed022",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 173,
+                "stock": 100,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 174,
+                "stock": 90,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed022_mandi3",
+        "product_id": "seed022",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 183,
+                "stock": 130,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 184,
+                "stock": 120,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed024_mandi1",
+        "product_id": "seed024",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 148,
+                "stock": 140,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 149,
+                "stock": 130,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed024_mandi2",
+        "product_id": "seed024",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 143,
+                "stock": 120,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 144,
+                "stock": 110,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed024_mandi3",
+        "product_id": "seed024",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 153,
+                "stock": 150,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 154,
+                "stock": 140,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed025_mandi1",
+        "product_id": "seed025",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 138,
+                "stock": 170,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 139,
+                "stock": 160,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed025_mandi2",
+        "product_id": "seed025",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 133,
+                "stock": 150,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 134,
+                "stock": 140,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed025_mandi3",
+        "product_id": "seed025",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 143,
+                "stock": 180,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 144,
+                "stock": 170,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed027_mandi1",
+        "product_id": "seed027",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 108,
+                "stock": 220,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 109,
+                "stock": 210,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed027_mandi2",
+        "product_id": "seed027",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 103,
+                "stock": 200,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 104,
+                "stock": 190,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed027_mandi3",
+        "product_id": "seed027",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 113,
+                "stock": 240,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 114,
+                "stock": 230,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed028_mandi1",
+        "product_id": "seed028",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 98,
+                "stock": 200,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 99,
+                "stock": 190,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed028_mandi2",
+        "product_id": "seed028",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 93,
+                "stock": 180,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 94,
+                "stock": 170,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_seed028_mandi3",
+        "product_id": "seed028",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 103,
+                "stock": 210,
+                "unit": "kg"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 104,
+                "stock": 200,
+                "unit": "kg"
+            }
+        ]
+    },
+    {
+        "id": "ph_fert001_mandi1",
+        "product_id": "fert001",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 295,
+                "stock": 160,
+                "unit": "50kg bag"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 298,
+                "stock": 155,
+                "unit": "50kg bag"
+            }
+        ]
+    },
+    {
+        "id": "ph_fert001_mandi2",
+        "product_id": "fert001",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 290,
+                "stock": 140,
+                "unit": "50kg bag"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 293,
+                "stock": 135,
+                "unit": "50kg bag"
+            }
+        ]
+    },
+    {
+        "id": "ph_fert001_mandi3",
+        "product_id": "fert001",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 300,
+                "stock": 150,
+                "unit": "50kg bag"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 303,
+                "stock": 145,
+                "unit": "50kg bag"
+            }
+        ]
+    },
+    {
+        "id": "ph_fert002_mandi1",
+        "product_id": "fert002",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 1345,
+                "stock": 90,
+                "unit": "50kg bag"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 1348,
+                "stock": 85,
+                "unit": "50kg bag"
+            }
+        ]
+    },
+    {
+        "id": "ph_fert002_mandi2",
+        "product_id": "fert002",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 1335,
+                "stock": 80,
+                "unit": "50kg bag"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 1338,
+                "stock": 75,
+                "unit": "50kg bag"
+            }
+        ]
+    },
+    {
+        "id": "ph_fert002_mandi3",
+        "product_id": "fert002",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 1355,
+                "stock": 85,
+                "unit": "50kg bag"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 1358,
+                "stock": 80,
+                "unit": "50kg bag"
+            }
+        ]
+    },
+    {
+        "id": "ph_fert003_mandi1",
+        "product_id": "fert003",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 1745,
+                "stock": 70,
+                "unit": "50kg bag"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 1748,
+                "stock": 65,
+                "unit": "50kg bag"
+            }
+        ]
+    },
+    {
+        "id": "ph_fert003_mandi2",
+        "product_id": "fert003",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 1735,
+                "stock": 60,
+                "unit": "50kg bag"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 1738,
+                "stock": 55,
+                "unit": "50kg bag"
+            }
+        ]
+    },
+    {
+        "id": "ph_fert003_mandi3",
+        "product_id": "fert003",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 1755,
+                "stock": 65,
+                "unit": "50kg bag"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 1758,
+                "stock": 60,
+                "unit": "50kg bag"
+            }
+        ]
+    },
+    {
+        "id": "ph_fert004_mandi1",
+        "product_id": "fert004",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 1395,
+                "stock": 80,
+                "unit": "50kg bag"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 1398,
+                "stock": 75,
+                "unit": "50kg bag"
+            }
+        ]
+    },
+    {
+        "id": "ph_fert004_mandi2",
+        "product_id": "fert004",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 1385,
+                "stock": 70,
+                "unit": "50kg bag"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 1388,
+                "stock": 65,
+                "unit": "50kg bag"
+            }
+        ]
+    },
+    {
+        "id": "ph_fert004_mandi3",
+        "product_id": "fert004",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 1405,
+                "stock": 75,
+                "unit": "50kg bag"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 1408,
+                "stock": 70,
+                "unit": "50kg bag"
+            }
+        ]
+    },
+    {
+        "id": "ph_fert005_mandi1",
+        "product_id": "fert005",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 1445,
+                "stock": 75,
+                "unit": "50kg bag"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 1448,
+                "stock": 70,
+                "unit": "50kg bag"
+            }
+        ]
+    },
+    {
+        "id": "ph_fert005_mandi2",
+        "product_id": "fert005",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 1435,
+                "stock": 65,
+                "unit": "50kg bag"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 1438,
+                "stock": 60,
+                "unit": "50kg bag"
+            }
+        ]
+    },
+    {
+        "id": "ph_fert005_mandi3",
+        "product_id": "fert005",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 1455,
+                "stock": 70,
+                "unit": "50kg bag"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 1458,
+                "stock": 65,
+                "unit": "50kg bag"
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit001_mandi1",
+        "product_id": "fruit001",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 118,
+                "stock": 55,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 119,
+                "stock": 52,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-29",
+                "price": 120,
+                "stock": 50,
+                "unit": "plant"
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit001_mandi2",
+        "product_id": "fruit001",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 113,
+                "stock": 50,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 114,
+                "stock": 48,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-29",
+                "price": 115,
+                "stock": 45,
+                "unit": "plant"
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit001_mandi3",
+        "product_id": "fruit001",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 123,
+                "stock": 60,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 124,
+                "stock": 58,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-29",
+                "price": 125,
+                "stock": 55,
+                "unit": "plant"
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit002_mandi1",
+        "product_id": "fruit002",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 78,
+                "stock": 75,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 79,
+                "stock": 72,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-29",
+                "price": 80,
+                "stock": 70,
+                "unit": "plant"
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit002_mandi2",
+        "product_id": "fruit002",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 73,
+                "stock": 70,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 74,
+                "stock": 68,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-29",
+                "price": 75,
+                "stock": 65,
+                "unit": "plant"
+            }
+        ]
+    },
+    {
+        "id": "ph_fruit002_mandi3",
+        "product_id": "fruit002",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 83,
+                "stock": 80,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 84,
+                "stock": 78,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-29",
+                "price": 85,
+                "stock": 75,
+                "unit": "plant"
+            }
+        ]
+    },
+    {
+        "id": "ph_flower001_mandi1",
+        "product_id": "flower001",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 78,
+                "stock": 65,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 79,
+                "stock": 62,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-29",
+                "price": 80,
+                "stock": 60,
+                "unit": "plant"
+            }
+        ]
+    },
+    {
+        "id": "ph_flower001_mandi2",
+        "product_id": "flower001",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 73,
+                "stock": 60,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 74,
+                "stock": 58,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-29",
+                "price": 75,
+                "stock": 55,
+                "unit": "plant"
+            }
+        ]
+    },
+    {
+        "id": "ph_flower001_mandi3",
+        "product_id": "flower001",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 83,
+                "stock": 70,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 84,
+                "stock": 68,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-29",
+                "price": 85,
+                "stock": 65,
+                "unit": "plant"
+            }
+        ]
+    },
+    {
+        "id": "ph_veg001_mandi1",
+        "product_id": "veg001",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 38,
+                "stock": 105,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 39,
+                "stock": 102,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-29",
+                "price": 40,
+                "stock": 100,
+                "unit": "plant"
+            }
+        ]
+    },
+    {
+        "id": "ph_veg001_mandi2",
+        "product_id": "veg001",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 33,
+                "stock": 100,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 34,
+                "stock": 98,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-29",
+                "price": 35,
+                "stock": 95,
+                "unit": "plant"
+            }
+        ]
+    },
+    {
+        "id": "ph_veg001_mandi3",
+        "product_id": "veg001",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 43,
+                "stock": 110,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 44,
+                "stock": 108,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-29",
+                "price": 45,
+                "stock": 105,
+                "unit": "plant"
+            }
+        ]
+    },
+    {
+        "id": "ph_herb001_mandi1",
+        "product_id": "herb001",
+        "market": "mandi1",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 38,
+                "stock": 105,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 39,
+                "stock": 102,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-29",
+                "price": 40,
+                "stock": 100,
+                "unit": "plant"
+            }
+        ]
+    },
+    {
+        "id": "ph_herb001_mandi2",
+        "product_id": "herb001",
+        "market": "mandi2",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 33,
+                "stock": 100,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 34,
+                "stock": 98,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-29",
+                "price": 35,
+                "stock": 95,
+                "unit": "plant"
+            }
+        ]
+    },
+    {
+        "id": "ph_herb001_mandi3",
+        "product_id": "herb001",
+        "market": "mandi3",
+        "history": [
+            {
+                "date": "2025-05-27",
+                "price": 43,
+                "stock": 110,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-28",
+                "price": 44,
+                "stock": 108,
+                "unit": "plant"
+            },
+            {
+                "date": "2025-05-29",
+                "price": 45,
+                "stock": 105,
+                "unit": "plant"
+            }
+        ]
+    }
+]

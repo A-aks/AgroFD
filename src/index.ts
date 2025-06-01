@@ -8,13 +8,13 @@ import userRoutes from "./routes/userroutes";
 import authRoutes from "./routes/authRoutes";
 import product_category from "./routes/productCategoryRoutes";
 import translationRoutes from "./routes/translationRoutes";
-
+import ProductRoutes from './routes/productRoutes'
 
 dotenv.config();
 
 const app: Application = express();
 const port = process.env.PORT || 5000;
-//console.log(process.env);
+console.log(process.env.MONGODB_URI);
 
 app.use(cors());
 app.use(express.json());
@@ -23,6 +23,7 @@ app.use("/api/users", userRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/category", product_category);
 app.use("/api/translations", translationRoutes);
+app.use("/api/products",ProductRoutes);
 app.use(errorHandler);
 
 // ✅ Ensure DB Connection Before Starting Server

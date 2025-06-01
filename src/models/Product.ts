@@ -1,35 +1,36 @@
-import mongoose, { Schema, model, Types, Document } from "mongoose";
-import { IProduct } from "../types/IProduct";
+const mongoose = require('mongoose');
+import { Schema,model} from "mongoose";
+import { IMultilingualText } from "../types/IMultilingualText";
+import {IProduct} from '../types/IProduct'
 
-const MultilingualTextSchema = new Schema(
-  {
-    en: { type: String, required: true },
-    hi: { type: String },
+type ProductDocument = IProduct & Document;
+
+ const productSchema = new Schema<ProductDocument>({
+  _id:{
+    type: String,
+    required:false
   },
-  { _id: false }
-);
-
-const MediaSchema = new Schema(
-  {
-    type: { type: String, enum: ["image", "video"], required: true },
-    url: { type: String, required: true },
+  name: {
+    type: Schema.Types.Mixed, // Allows any object structure, suitable for multilingual text
+    required: true
   },
-  { _id: false }
-);
-
-const ProductSchema = new Schema<IProduct & Document>(
-  {
-    name: { type: MultilingualTextSchema, required: true },
-    description: { type: MultilingualTextSchema },
-    category: { type: Schema.Types.ObjectId as unknown as typeof String, ref: "Category", required: true },
-    subcategory: { type: Schema.Types.ObjectId as unknown as typeof String, ref: "SubCategory" },
-    price: { type: Number, required: true },
-    unit: { type: String, enum: ["kg", "liter", "packet", "piece", "dozen", "quintal", "ton"], required: true },
-    stock: { type: Number, required: true, default: 0 },
-    media: [MediaSchema],
-    addedBy: { type: Schema.Types.ObjectId as unknown as typeof String, ref: "User" },
+  category: {
+    type: String, // e.g., "vegetables", "pulses", "nursery-plants"
+    required: true
   },
-  { timestamps: true }
-);
+  type: {
+    type: String, //Optional: e.g., "flower", "grain"
+    required: false 
+  },
+  image: {
+    type: String, //URL to image
+    required: true
+  },
+  createdAt: {
+    type: Date,
+    default: Date.now
+  }
+});
 
-export const Product = model<IProduct & Document>("Product", ProductSchema);
+const Product = model<ProductDocument>('Product', productSchema);
+export default Product;
