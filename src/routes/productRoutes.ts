@@ -1,7 +1,8 @@
 import express from "express";
 import {
   getAllProducts,
-  getProductsByCategory
+  getProductsByCategory,
+  getAllProductCategories
 } from "../controllers/ProductController";
 import authMiddleware from "../middleware/authMiddleware";
 import checkRole from '../middleware/roleMiddleware';
@@ -24,8 +25,7 @@ const asyncHandler = (fn: any) => (req: any, res: any, next: any) => {
 
 // 🔹 Admin Routes (Protected)
 router.get("/", authMiddleware, asyncHandler(getAllProducts));
-router.get("/category", authMiddleware, asyncHandler(getProductsByCategory));
-
-
+//router.get("/category", authMiddleware, asyncHandler(getProductsByCategory));
+router.get("/category", authMiddleware, asyncHandler(getAllProductCategories));
 
 export default router;

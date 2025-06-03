@@ -235,4 +235,39 @@ export const getProductsByCategory = async (req: Request, res: Response): Promis
 };
 
 
+/**
+ * @desc    Get all unique product categories
+ * @route   GET /api/products/categories
+ * @access  Public
+ */
+export const getAllProductCategories = async (req: Request, res: Response): Promise<Response> => {
+  try {
+    // Get distinct categories from all products
+    const categories = await Product.distinct('category');
+    
+    // Format the response
+    const response = {
+      success: true,
+      count: categories.length,
+      data: categories.map(category => ({
+        id: category.toLowerCase().replace(/\s+/g, '-'),
+        name: category,
+        // Add any additional category metadata here if needed
+      }))
+    };
+
+    return res.status(200).json(response);
+
+  } catch (error: unknown) {
+    const err = error instanceof Error ? error.message : 'Unknown error occurred';
+    return res.status(500).json({ 
+      success: false,
+      error: 'Failed to fetch product categories',
+      details: process.env.NODE_ENV === 'development' ? err : undefined
+    });
+  }
+};
+
+
+
 
