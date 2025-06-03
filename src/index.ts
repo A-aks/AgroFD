@@ -9,6 +9,8 @@ import authRoutes from "./routes/authRoutes";
 import product_category from "./routes/productCategoryRoutes";
 import translationRoutes from "./routes/translationRoutes";
 import ProductRoutes from './routes/productRoutes'
+import MarketRoute from './routes/marketRoute'
+
 
 dotenv.config();
 
@@ -24,6 +26,7 @@ app.use("/api/auth", authRoutes);
 app.use("/api/category", product_category);
 app.use("/api/translations", translationRoutes);
 app.use("/api/products",ProductRoutes);
+app.use("/api/market",MarketRoute);
 app.use(errorHandler);
 
 // ✅ Ensure DB Connection Before Starting Server

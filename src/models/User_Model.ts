@@ -83,6 +83,7 @@ export interface IUser extends Document {
   altPhone?: string;
   address?: string;
   city?: string;
+  state?:string;
   avatar?: string;
   isDisabled?: boolean;
   kyc?: IKYC;
@@ -112,6 +113,7 @@ const UserSchema: Schema<IUser> = new Schema(
     altPhone: { type: String },
     address: { type: String },
     city: { type: String },
+    state:{type:String},
     avatar: { type: String },
     isDisabled: { type: Boolean, default: false },
     createdBy: { type: Schema.Types.ObjectId, ref: "User" }, // ✅ Track Creator
