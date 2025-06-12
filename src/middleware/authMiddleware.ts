@@ -13,7 +13,7 @@ const authMiddleware = (req: CustomRequest, res: Response, next: NextFunction): 
   }
 
   try {
-    const decoded = jwt.verify(token, process.env.ACCESS_TOKEN_SECRET as string) as { id: string; role: string };
+    const decoded = jwt.verify(token, process.env.ACCESS_TOKEN_SECRET as string) as { id: string; role: string; city: string; userInfo?: any };
     req.user = decoded; // Attach user info to request
    // console.log(req.user);
     

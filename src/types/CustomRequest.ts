@@ -18,6 +18,7 @@ export interface CustomRequest<T = any> extends Request {
   user?: {
     id: string;
     role: string;
+    city:string;
     userInfo?: UserInfo;
   };
   body: T;

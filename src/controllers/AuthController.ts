@@ -68,6 +68,7 @@ export const login = asyncHandler(async (req: Request, res: Response) => {
           email: userInfo.email,
           address: userInfo.address,
           city: userInfo.city,
+          state:userInfo.state,
           phone: userInfo.phone,
           role: userInfo.role,
           avatar: userInfo.avatar,
