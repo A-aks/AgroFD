@@ -73,7 +73,8 @@ export const login = asyncHandler(async (req: Request, res: Response) => {
           role: userInfo.role,
           avatar: userInfo.avatar,
           altPhone: userInfo.altPhone, // It can be an empty string
-          id: userInfo.id,
+          id: userInfo.id, 
+          
         },
       },
       process.env.ACCESS_TOKEN_SECRET as string,
