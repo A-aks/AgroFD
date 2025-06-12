@@ -7,6 +7,7 @@ export interface UserInfo {
   email: string;
   address: string;
   city: string;
+  state:string;
   phone: string;
   altPhone?: string;
   role: string;
@@ -19,6 +20,7 @@ export interface CustomRequest<T = any> extends Request {
     id: string;
     role: string;
     city:string;
+    state:string;
     userInfo?: UserInfo;
   };
   body: T;

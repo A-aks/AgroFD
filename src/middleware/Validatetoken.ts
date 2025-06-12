@@ -11,6 +11,7 @@ interface AuthenticatedRequest extends Request {
     address: string;
     role: string;
     city: string;
+    state:string;
     phone: string;
     altPhone?: string;
     avatar?: string;

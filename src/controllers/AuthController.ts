@@ -74,7 +74,7 @@ export const login = asyncHandler(async (req: Request, res: Response) => {
           avatar: userInfo.avatar,
           altPhone: userInfo.altPhone, // It can be an empty string
           id: userInfo.id, 
-          
+
         },
       },
       process.env.ACCESS_TOKEN_SECRET as string,
@@ -100,7 +100,7 @@ export const GetCurrentInfo = asyncHandler(async (req: AuthenticatedRequest, res
     throw new Error("Unauthorized: Sorry User data not found");
   }
 
-  const { name, email, address, city, phone, role, altPhone, avatar, id } = customReq.userData;
+  const { name, email, address, city, state, phone, role, altPhone, avatar, id } = customReq.userData;
 
   res.status(200).json({
     status: "ok",
@@ -110,6 +110,7 @@ export const GetCurrentInfo = asyncHandler(async (req: AuthenticatedRequest, res
       email,
       address,
       city,
+      state,
       phone,
       role,
       altPhone: altPhone || "",
@@ -162,6 +163,7 @@ export const UpdateUserInfo = asyncHandler(async (req: AuthenticatedRequest, res
         email: updatedUser.email, // Email remains unchanged
         address: updatedUser.address,
         city: updatedUser.city,
+        state:updatedUser.state,
         phone: updatedUser.phone,
         altPhone: updatedUser.altPhone,
         avatar: updatedUser.avatar,
@@ -182,6 +184,7 @@ export const UpdateUserInfo = asyncHandler(async (req: AuthenticatedRequest, res
       email: updatedUser.email,
       address: updatedUser.address,
       city: updatedUser.city,
+      state:updatedUser.state,
       phone: updatedUser.phone,
       altPhone: updatedUser.altPhone,
       avatar: updatedUser.avatar,
