@@ -256,8 +256,8 @@ export const getAllProducts = async (req: Request, res: Response): Promise<Respo
       id: cat._id,
       name: getLocalizedText(cat.name, language),
       // Include both language versions if needed
-      // name_en: cat.name?.en,
-      // name_hi: cat.name?.hi,
+       name_en: cat.name?.en,
+       name_hi: cat.name?.hi,
       // description: getLocalizedText(cat.description, language), in future we have need this property we can get access easly from here 
       category_img: cat.category_img
     }));
