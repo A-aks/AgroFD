@@ -74,219 +74,181 @@ const DEFAULT_PAGE = 1;
 const DEFAULT_LIMIT = 20;
 const MAX_LIMIT = 100;
 
-export const getAllProducts = async (req: Request, res: Response): Promise<Response> => {
+export const getAllProducts = async (req: Request, res: Response) => {
   try {
-    const { state, city, market: marketId, category, lang = 'en', page = 1, limit = 20 } = req.query;
-    const pageNum = Math.max(1, parseInt(page as string) || 1);
-    const limitNum = Math.min(100, parseInt(limit as string) || 20);
+    // 1. Parse query params with defaults
+    const { 
+      state: stateParam, 
+      city: cityParam, 
+      market: marketId, 
+      category, 
+      lang , 
+      page = 1, 
+      limit = 20 
+    } = req.query;
+
+    const pageNum = Math.max(1, parseInt(page as string));
+    const limitNum = Math.min(100, parseInt(limit as string));
     const skip = (pageNum - 1) * limitNum;
     const language = lang === 'hi' ? 'hi' : 'en';
-    let availableMarkets: IMarket[] = [];
-    console.log('Incoming query parameters:', { state, city, marketId, lang });
 
-    // Market selection logic
-    let selectedMarket: IMarket | null = null;
+    // 2. Get user's location (from auth middleware)
+    const user = (req as any).user; // Assuming user is attached by auth middleware
+    const defaultState = user?.state || stateParam;
+    const defaultCity = user?.city || cityParam;
 
-    if (marketId) {
-      // If market ID is explicitly provided
-      const isObjectId = mongoose.Types.ObjectId.isValid(marketId as string);
-      const query = isObjectId
-        ? { $or: [{ _id: marketId }, { id: marketId }] }
-        : { id: marketId };
+    // 3. Get filterable locations
+    const [allStates, filteredCities] = await Promise.all([
+      // All states in system
+      Market.distinct(`state.${language}`),
+      // Cities filtered by selected state (or user's default state)
+      defaultState 
+        ? Market.distinct(`city.${language}`, { 
+            $or: [
+              { [`state.${language}`]: defaultState },
+              { 'state.en': { $regex: new RegExp(defaultState as string, 'i') } },
+              { 'state.hi': { $regex: new RegExp(defaultState as string, 'i') } }
+            ]
+          })
+        : Market.distinct(`city.${language}`)
+    ]);
 
-      selectedMarket = await Market.findOne(query).lean<IMarket>();
-
-      if (!selectedMarket) {
-        return res.status(400).json({
-          success: false,
-          error: 'Invalid market ID'
-        });
-      }
-      const marketQuery: any = {};
-
-      if (city) {
-        marketQuery.$or = [
-          { [`city.${language}`]: city },
-          { [`city.en`]: { $regex: new RegExp(city as string, 'i') } },
-          { [`city.hi`]: { $regex: new RegExp(city as string, 'i') } }
-        ];
-      }
-
-      if (state) {
-        marketQuery.$and = marketQuery.$and || [];
-        marketQuery.$and.push({
-          $or: [
-            { [`state.${language}`]: state },
-            { [`state.en`]: { $regex: new RegExp(state as string, 'i') } },
-            { [`state.hi`]: { $regex: new RegExp(state as string, 'i') } }
-          ]
-        });
-      }
-
-      console.log('Market query:', JSON.stringify(marketQuery, null, 2));
-
-      const matchingMarkets = await Market.find(marketQuery)
-        .lean<IMarket[]>();
-
-      console.log(`Found ${matchingMarkets.length} matching markets`);
-
-      if (matchingMarkets.length > 0) {
-        // Select first market by default when multiple exist
-        selectedMarket = matchingMarkets[0];
-        console.log(`Selected market: ${selectedMarket.id}`);
-      }
-
-      // Find all available markets for the response (without filtering)
-      availableMarkets = await Market.find(marketQuery)
-        .select('_id id name city state')
-        .lean<IMarket[]>();
-
-      console.log(`Total available markets: ${availableMarkets.length}`);
-
-    } else {
-      // When no market specified, get all markets matching city/state filters
-      const marketQuery: any = {};
-
-      if (city) {
-        marketQuery.$or = [
-          { [`city.${language}`]: city },
-          { [`city.en`]: { $regex: new RegExp(city as string, 'i') } },
-          { [`city.hi`]: { $regex: new RegExp(city as string, 'i') } }
-        ];
-      }
-
-      if (state) {
-        marketQuery.$and = marketQuery.$and || [];
-        marketQuery.$and.push({
-          $or: [
-            { [`state.${language}`]: state },
-            { [`state.en`]: { $regex: new RegExp(state as string, 'i') } },
-            { [`state.hi`]: { $regex: new RegExp(state as string, 'i') } }
-          ]
-        });
-      }
-
-      console.log('Market query:', JSON.stringify(marketQuery, null, 2));
-
-      const matchingMarkets = await Market.find(marketQuery)
-        .lean<IMarket[]>();
-
-      console.log(`Found ${matchingMarkets.length} matching markets`);
-
-      if (matchingMarkets.length > 0) {
-        // Select first market by default when multiple exist
-        selectedMarket = matchingMarkets[0];
-        console.log(`Selected market: ${selectedMarket.id}`);
-      }
-
-      // Find all available markets for the response (without filtering)
-      availableMarkets = await Market.find(marketQuery)
-        .select('_id id name city state')
-        .lean<IMarket[]>();
-
-      console.log(`Total available markets: ${availableMarkets.length}`);
-
+    // 4. Build market query
+    const marketQuery: any = {};
+    
+    // State filter (user's state or selected state)
+    if (defaultState) {
+      marketQuery.$or = [
+        { [`state.${language}`]: defaultState },
+        { 'state.en': { $regex: new RegExp(defaultState as string, 'i') } },
+        { 'state.hi': { $regex: new RegExp(defaultState as string, 'i') } }
+      ];
     }
-    // Product filtering
-    const productFilter: any = {};
-    if (category) productFilter.category = category;
 
+    // City filter (user's city or selected city)
+    if (defaultCity) {
+      marketQuery.$or = (marketQuery.$or || []).concat([
+        { [`city.${language}`]: defaultCity },
+        { 'city.en': { $regex: new RegExp(defaultCity as string, 'i') } },
+        { 'city.hi': { $regex: new RegExp(defaultCity as string, 'i') } }
+      ]);
+    }
+
+    // 5. Handle explicit market selection
+    let selectedMarket: IMarket | null = null;
+    if (marketId) {
+      const isObjectId = mongoose.Types.ObjectId.isValid(marketId as string);
+      const query = isObjectId 
+        ? { $or: [{ _id: marketId }, { id: marketId }] } 
+        : { id: marketId };
+      
+      selectedMarket = await Market.findOne(query).lean() as any as IMarket;
+      if (!selectedMarket) {
+        return res.status(400).json({ success: false, error: 'Market not found' });
+      }
+    }
+
+    // 6. Get available markets
+    const availableMarkets = await Market.find(marketQuery)
+      .select('_id id name city state')
+      .lean();
+
+    // Set default market if none selected
+    if (!selectedMarket && availableMarkets.length > 0) {
+      selectedMarket = availableMarkets[0] as unknown as IMarket;
+    }
+
+    // 7. Get products with prices
+    const productFilter = category ? { category } : {};
     const [products, total] = await Promise.all([
       Product.find(productFilter).skip(skip).limit(limitNum).lean(),
       Product.countDocuments(productFilter)
     ]);
 
-    // Price aggregation if market is selected
-    const priceMap = new Map<string, {
-      price: number;
-      available_stock: number;
-      unit: string;
-      date: Date;
-    }>();
-
+    // 8. Get latest prices for selected market
+    const priceMap = new Map();
     if (selectedMarket) {
-      const productIds = products.map(p => p._id.toString());
-      const marketIdentifier = selectedMarket.id || selectedMarket._id.toString();
-
+      const marketId = selectedMarket.id || selectedMarket._id.toString();
       const prices = await StockPrice.find({
-        product_id: { $in: productIds },
-        market: marketIdentifier
-      })
-        .sort({ date: -1 })
-        .lean();
-
-      console.log(`Found ${prices.length} price records for market ${marketIdentifier}`);
+        product_id: { $in: products.map(p => p._id) },
+        market: marketId
+      }).sort({ date: -1 }).lean();
 
       prices.forEach(price => {
-        const productId = price.product_id.toString();
-        if (!priceMap.has(productId)) {
-          priceMap.set(productId, {
+        if (!priceMap.has(price.product_id.toString())) {
+          priceMap.set(price.product_id.toString(), {
             price: price.price,
-            available_stock: price.available_stock,
+            stock: price.available_stock,
             unit: price.unit,
-            date: new Date(price.date)
+            updatedAt: price.date
           });
         }
       });
     }
 
-    // Process products
-    const productsWithPrices = products.map(product => {
-      const productId = product._id.toString();
-      const priceData = priceMap.get(productId);
+    // 9. Format products with prices
+    const formattedProducts = products.map(product => ({
+      _id: product._id,
+      name: getLocalizedText(product.name, language),
+      category: product.category,
+      image: product.image,
+      price: priceMap.get(product._id.toString())?.price || null,
+      stock: priceMap.get(product._id.toString())?.stock || null,
+      unit: priceMap.get(product._id.toString())?.unit || 'kg',
+      priceUpdated: priceMap.get(product._id.toString())?.updatedAt || null,
+      market: selectedMarket?.id || null
+    }));
 
-      return {
-        _id: productId,
-        name: getLocalizedText(product.name, language),
-        category: product.category || 'vegetables',
-        image: product.image || '',
-        createdAt: product.createdAt || new Date(0),
-        price: priceData?.price ?? null,
-        stock: priceData?.available_stock ?? null,
-        unit: priceData?.unit ?? 'kg',
-        priceUpdated: priceData?.date ?? null,
-        market: selectedMarket ? selectedMarket.id || selectedMarket._id.toString() : null
-      };
-    });
-
-    // Format response
-    const allCategories = await Category.find().lean();
-
-    const formattedCategories = allCategories.map(cat => ({
+    // 10. Get categories
+    const categories = await Category.find().lean();
+    const formattedCategories = categories.map(cat => ({
       id: cat._id,
       name: getLocalizedText(cat.name, language),
-      // Include both language versions if needed
-       name_en: cat.name?.en,
-       name_hi: cat.name?.hi,
-      // description: getLocalizedText(cat.description, language), in future we have need this property we can get access easly from here 
+      name_en: cat.name?.en,
+      name_hi: cat.name?.hi,
       category_img: cat.category_img
     }));
 
-    // Format response
-    const response = {
+    // 11. Final response
+    res.json({
       success: true,
       data: {
         page: pageNum,
         totalPages: Math.ceil(total / limitNum),
         totalItems: total,
-        items: productsWithPrices,
-        selectedMarket: selectedMarket ? formatMarket(selectedMarket, language) : null,
-        availableMarkets: availableMarkets.map((m: IMarket) => formatMarket(m, language)),
+        items: formattedProducts,
+        selectedMarket: selectedMarket ? {
+          id: selectedMarket.id || selectedMarket._id.toString(),
+          name: getLocalizedText(selectedMarket.name, language),
+          city: getLocalizedText(selectedMarket.city, language),
+          state: getLocalizedText(selectedMarket.state, language)
+        } : null,
+        availableMarkets: availableMarkets.map(market => ({
+          id: market.id || market._id.toString(),
+          name: getLocalizedText(market.name, language),
+          city: getLocalizedText(market.city, language),
+          state: getLocalizedText(market.state, language)
+        })),
         filters: {
-          appliedCategory: category || null,
-          availableCategories:formattedCategories
+          appliedState: defaultState || null,
+          appliedCity: defaultCity || null,
+          availableStates: allStates.filter(Boolean).map(s => ({
+            id: (typeof s === 'string' ? s : String(s)).toLowerCase().replace(/\s+/g, '-'),
+            name: typeof s === 'string' ? s : String(s)
+          })),
+          availableCities: filteredCities.filter(Boolean).map(c => ({
+            id: (c as string).toLowerCase().replace(/\s+/g, '-'),
+            name: c as string
+          })),
+          availableCategories: formattedCategories
         }
       }
-    };
-
-    return res.status(200).json(response);
-
-  } catch (error: unknown) {
-    console.error('Error in getAllProducts:', error);
-    const err = error instanceof Error ? error.message : 'Unknown error occurred';
-    return res.status(500).json({
+    });
+  } catch (error) {
+    console.error('Market controller error:', error);
+    res.status(500).json({
       success: false,
-      error: err
+      error: error instanceof Error ? error.message : 'Server error'
     });
   }
 };
