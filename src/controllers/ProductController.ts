@@ -240,6 +240,12 @@ export const getAllProducts = async (req: Request, res: Response) => {
             id: (c as string).toLowerCase().replace(/\s+/g, '-'),
             name: c as string
           })),
+          availableMarkets: availableMarkets.map(market => ({
+            id: market.id || market._id.toString(),
+            name: getLocalizedText(market.name, language),
+            city: getLocalizedText(market.city, language),
+            state: getLocalizedText(market.state, language)
+          })),
           availableCategories: formattedCategories
         }
       }
